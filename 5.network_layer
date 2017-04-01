@@ -20,3 +20,8 @@ Class D : 255.255.255.255
 
 5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
 Flooding 
+
+6. Why is User datagram protocol called connectionless?
+Because, all UDP packets are treated independently by transport layer. 
+
+
