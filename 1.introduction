@@ -6,8 +6,12 @@ Computer network help the user to share the resources and in communication. It u
 application sharing , lan gaming and many more.
 
 3. What are types of the computer network ?
-    Hint LAN, MAN, WAN
-    
+    There are three kinds of computer networks:
+    1.LAN : LAN (Local Area Networks) are privately-owned networks. They are widely used to connect computers and exchange 
+    informations. Ecample of LAN is connection between computers in a building or number of buildings
+    2.MAN : MAN (Metrapolitan Area Networks) covers a city. Example of MAN is a television network available in many cities.
+    3.WAN : WAN (Wide Area Networks) is a large area i.e country or continent. It contains connection of machines intended 
+    for running users program    
 4. What are the types of data flows in computer ?
      Simplex :- Communication is unidirectional
      Half Duplex :- Each station can both transmit and receive, but not at the same time
