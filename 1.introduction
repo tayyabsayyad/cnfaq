@@ -1,6 +1,24 @@
 1. What is Computer Network ? 
-Computer Network isn collection of computers connected together for exchanging information. 
+Computer Network is collection of computers connected together for exchanging information. 
 
 2. Why we need computer network?
 Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,
-application sharing , lan gaming and many more .
+application sharing , lan gaming and many more.
+
+3. What are types of the computer network ?
+    Hint LAN, MAN, WAN
+    
+4. What are the types of data flows in computer ?
+     Simplex :- Communication is unidirectional
+     Half Duplex :- Each station can both transmit and receive, but not at the same time
+     Full Duplex :- Both stations can transmit and receive simultaneously
+
+5. What are the various network topologies ? 
+
+
+6. Compare network topologies 
+
+
+7. What is internet ?
+
+
