@@ -14,11 +14,23 @@ application sharing , lan gaming and many more.
      Full Duplex :- Both stations can transmit and receive simultaneously
 
 5. What are the various network topologies ? 
-
+    Bus Toplogy
+    Ring Topology   
+    Star Topology
+    Mesh Topology
+    Tree Toplology
 
 6. Compare network topologies 
-
+    Bus Toplogy : It is the type of topology in which computer and network device in connected to single cable.
+    Ring Topology : It is called ring because each computer is connected to another computer and last computer is connected to first forming the ring.
+    Star Topology : This is called star because all the computers are connected to a single hub through a cable. Here hub is the central node and all nodes are connected to the central node.  
+    Mesh Topology : Mesh topology is a point-to-point connection to other nodes or devices. All the network nodes are connected to each other. 
+    Tree Toplology : Tree topology has a root network and other nodes are connected in well maintained hierarchy.
 
 7. What is internet ?
+    It is global computer network consisting of interconnected networks using standardized communication protocols which  provides the information communication facilities.
+    
+8. Compare internet and world wide web .
+    Internet is the not a single network but a network of networks and the web is a distributed system that runs on top of the internet. 
 
 
