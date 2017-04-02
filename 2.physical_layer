@@ -1,0 +1,9 @@
+1) What does Physical Layer mean?
+----> The physical layer is the first layer of the Open System Interconnection Model (OSI Model).The physical Layer deals with bit level
+      transmission.
+      
+2) List the services provided by the physical layer?
+    * Bit synchronization for synchronous serial communications.
+    * Bit interleaving to improve error correction.
+    * Auto-negotiation
+    * Transmission mode control.
