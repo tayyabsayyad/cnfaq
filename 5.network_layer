@@ -20,3 +20,20 @@ Class D : 255.255.255.255
 
 5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
 Flooding 
+
+6. Functions of a network layer
+Ans.  It translates logical network address into physical address. Concerned with circuit, message or packet switching.
+      Routers and gateways operate in the network layer. Mechanism is provided by Network Layer for routing the packets to 
+      final destination.
+      Connection services are provided including network layer flow control, network layer error control and packet 
+      sequence control.
+      Breaks larger packets into small packets.
+      
+7. What are the different types on network addresses
+Ans.  Unicast (destined to one host)
+      Multicast (destined to group) 
+      Broadcast (destined to all)
+      Anycast (destined to nearest one)
+      
+8. 
+
