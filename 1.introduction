@@ -13,12 +13,43 @@ application sharing , lan gaming and many more.
      Half Duplex :- Each station can both transmit and receive, but not at the same time
      Full Duplex :- Both stations can transmit and receive simultaneously
 
-5. What are the various network topologies ? 
+5.What is a protocol?
+It is a set of rules that governs data communication. 
 
 
-6. Compare network topologies 
 
 
-7. What is internet ?
+6.. What are the various network topologies ? 
 
 
+7. Compare network topologies 
+
+
+8. What is internet ?
+
+
+9. 	What is point to point connection?
+  It provides a dedicated link between two devices.
+  The entire capacity of the link is reserved for transmission between the two devices.
+  
+10. What is a topology?
+   Topology of a network is defined as the geometric representation of the relationship
+   of all the links and linking devices (node) to one another .  
+   
+11.What is mesh network?
+   A network in which there are multiple network links between computers to provide
+   multiple paths for data to travel.
+   
+12.What are major types of networks?
+  	Server-based network
+    Peer-to-peer network 
+
+13.What is URL ?
+  It is a standard for specifying any kind of information on the World Wide Web.
+  
+14.What is Hypertext Transfer Protocol(HTTP) ?
+  	It is the main protocol used to access data on the World Wide Web .
+    the protol transfers data in the form of plain text,hypertext,audio,video,and so on.
+    
+15.
+   
