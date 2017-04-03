@@ -14,11 +14,19 @@ application sharing , lan gaming and many more.
      Full Duplex :- Both stations can transmit and receive simultaneously
 
 5. What are the various network topologies ? 
-
+    bus network topology
+    star network topology
+    ring network topology
+    Token Ring topology
+    mesh network topology
+    tree network topology 
 
 6. Compare network topologies 
 
 
 7. What is internet ?
-
+The Internet is the global system of interconnected computer networks that use the Internet protocol suite (TCP/IP)
+to link devices worldwide. It is a network of networks that consists of private, public, academic, business, 
+and government networks of local to global scope, linked by a broad array of electronic, wireless, 
+and optical networking technologies.
 
