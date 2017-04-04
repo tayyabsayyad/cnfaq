@@ -14,6 +14,14 @@ application sharing , lan gaming and many more.
      Full Duplex :- Both stations can transmit and receive simultaneously
 
 5. What are the various network topologies ? 
+Network Topology is the schematic description of a network arrangement, connecting various nodes(sender and receiver) through lines of connection.
+various networks topology is as follows;
+1.star topology
+2.mesh topology
+3.ring topology
+4.bus topology
+5.tree topology 
+6.hybrid topology
 
 
 6. Compare network topologies 
