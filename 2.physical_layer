@@ -4,3 +4,67 @@
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
   
+3.Name the Layer Which is associated with transmission media?
+
+The first layer (physical layer) of Communication Networks the OSI Seven layer model 
+is dedicated to the transmission media.
+
+4.What are duties of physical layer?
+
+Physical Layer:
+    
+    Transforms a sequence of bits into signals for transmission.
+    
+    The signal will be different for different communication media.
+    E.g., dial-up phone, dial-up cellular phone, fiber optic LAN, Ethernet.
+    The details of communicating over the available communication channel (link) are transparent to higher layers.
+    This function is normally implemented in hardware. 
+
+
+5.Classification of transmission media?
+
+There are two types of transmission media: Guided and Unguided.
+
+Guided Media:
+    Unshielded Twisted Pair (UTP)
+    Shielded Twisted Pair
+    Coaxial Cable
+    Optical Fiber
+    hub
+    
+Unguided Media: Transmission media then looking at analysis of using them unguided 
+transmission media is data signals that flow through the air. They are not guided or
+bound to a channel to follow.
+Following are unguided media used for data communication:
+
+   Radio Transmission
+   Microwave
+
+6.Types of guided Media?
+
+    Unshielded Twisted Pair (UTP)
+    Shielded Twisted Pair
+    Coaxial Cable
+    Optical Fiber
+    hub
+
+7.Types of unguided Media?
+
+    Radio Transmission
+    Microwave
+
+8.Advantages of optical Fibre?
+
+   1.Bandwidth - Fibre optic cables have a much greater bandwidth than metal cables.
+   2.Low Power Loss - An optical fibre offers low power loss.  This allows for longer transmission distances.
+   3.Interference - Fibre optic cables are immune to electromagnetic interference.
+   4.Size - In comparison to copper, a fibre optic cable has nearly 4.5 times as much capacity as the wire cable has
+            and a cross sectional area that is 30 times less.
+   5. Weight - Fibre optic cables are much thinner and lighter than metal wires.
+   6.Safety - Since the fibre is a dielectric, it does not present a spark hazard. 
+
+   7. Security - Optical fibres are difficult to tap
+   8.Flexibility - An optical fibre has greater tensile strength than copper or steel fibres of the same diameter. 
+                   It is flexible, bends easily and resists most corrosive elements that attack copper cable.
+9.Ways of Wireless Transmission?
+
