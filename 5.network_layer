@@ -24,4 +24,17 @@ Flooding
 6. Why is User datagram protocol called connectionless?
 Because, all UDP packets are treated independently by transport layer. 
 
+7.What is routing?What are the types of routing?
+Routing is the process of selecting a path for traffic in a network, or between or across multiple networks. 
+Routing is performed for many types of networks, including circuit-switched networks,
+such as the public switched telephone network (PSTN) and computer networks, such as the Internet.
+The types of routing are:-
+1)Flooding
+2)Distance vector routing
+3)Link State Routing
+4)Hierarchical Routing
+5)Broadcast routing
+6)Multicast routing
+7)Anycast routing
+
 
