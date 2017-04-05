@@ -64,4 +64,16 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
-15.
+15.What are connection oriented and connectionless services?
+   Layers can offer two different types of service to the layers above them: connection-
+   oriented and connectionless. 
+   1)Connection-oriented service is modeled after the telephone system. To talk
+   to someone, you pick up the phone, dial the number, talk, and then hang up. Similarly,
+   to use a connection-oriented network service, the service user first establishes
+   a connection, uses the connection, and then releases the connection.
+   2)In contrast to connection-oriented service, connectionless service is modeled
+   after the postal system. Normally, when two messages are sent to
+   the same destination, the first one sent will be the first one to arrive. However, it
+   is possible that the first one sent can be delayed so that the second one arrives
+   first.
+   
