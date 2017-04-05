@@ -64,4 +64,29 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
-15.
+15. What is Packet switched networking?
+    This technology involves breaking down the data into packets that would be transferred from one computer to the other
+    until the final destination computer was reached. Also, if any data were lost, it would be resent.
+
+16. What is broadcasting?
+    Broadcast systems generally allow the possibility of addressing a packet to all destinations by using a special code
+    in the address field. When a packet with this code is transmitted, it is received and processed by every machine on the
+    network. This mode of operation is called as broadcasting.
+   
+17. Internet Vs WWW
+    Internet is an infrastructure that makes the WWW work. WWW is just one of many "Virtual networks" built on internet. i.e., WWW is
+    a medium through which we can access internet.
+   
+18. What are the key elements of a protocol?
+    a). Syntax: Structure or format of data. i.e., the order in which the data is presented or interpreted.
+    b). Semantics: It refers to the "meaning" of each section of bits. 
+    Syntax helps us to recognize the bit and semantics helps us to take action.
+    c). Timing: Refers to 2 characteristics- When the data should be sent and how fast they can be sent.
+
+19. What are the design issues for the layers?
+    a). Addressing
+    b). Data transfer
+    c). Error control
+    d). Sequencing
+    e). Flow Control
+    f). Segmentation
