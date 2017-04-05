@@ -18,3 +18,37 @@ What are the error control mechanism?
 1.error detection
 2.error correction
 
+Which one of the following task is not done by data link layer?
+a) framing 
+b) error control 
+c) flow control 
+d) channel coding
+Answer: channel coding.
+
+Header of a frame generally contains 
+a) synchronization bytes 
+b) addresses 
+c) frame identifier 
+d) all of the mentioned
+Answer: all of the mentioned
+
+Automatic repeat request error management mechanism is provided by 
+a) logical link control sublayer 
+b) media access control sublayer 
+c) network interface control sublayer 
+d) none of the mentioned
+Answer: logical link control sublayer
+
+CRC stands for 
+a) cyclic redundancy check 
+b) code repeat check 
+c) code redundancy check 
+d) cyclic repeat check
+Answer: cyclic redundancy check
+
+Which sublayer of the data link layer performs data link functions that depend upon the type of medium? 
+a) logical link control sublayer 
+b) media access control sublayer 
+c) network interface control sublayer 
+d) none of the mentioned
+Answer: media access control sublayer
