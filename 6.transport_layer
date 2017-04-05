@@ -1,0 +1,6 @@
+Services of transport layer
+As layer four of the OSI model, the transport layer is responsible for providing communication services between computers on a network. 
+For example, as the data packets transit between the originating or sending computer and the destination or receiving computer, the 
+transport layer performs error checking and data packet routing services. Additionally, while working with the three lower and three 
+upper layers, the transport layer continues to provide services, even though different application software processes are running 
+simultaneously on multiple computers.
