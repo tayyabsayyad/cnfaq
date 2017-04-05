@@ -64,4 +64,7 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
-15.
+ What is RIP?
+RIP, short for Routing Information Protocol is used by routers to send data from one network to another. 
+It efficiently manages routing data by broadcasting its routing table to all other routers within the network.
+It determines the network distance in units of hops.
