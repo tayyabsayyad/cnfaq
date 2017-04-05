@@ -20,3 +20,31 @@ Class D : 255.255.255.255
 
 5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
 Flooding 
+
+6. Header of datagram in IPv4 has
+->20 to 60 bytes
+
+7.What is the difference between routing and forwarding?
+->Forwarding  is  about  moving  a  packet  from  a  router’s  input  link  to  the 
+appropriate output link. Routing is about determiningthe end to routes between sources  and destination.
+
+8. What are routers?
+->Routers can connect two or more network segments. These are intelligent network devices that store information in its 
+routing table such as paths, hops and bottlenecks. With this info, they are able to determine the best path for data transfer. 
+Routers operate at the OSI Network Layer.
+
+9) What is subnet mask?
+-> A subnet mask is combined with an IP address in order to identify two parts: the extended network address and the host 
+address. Like an IP address, a subnet mask is made up of 32 bits.
+
+10) What is the maximum length allowed for a UTP cable?
+-> A single segment of UTP cable has an allowable length of 90 to 100 meters. This limitation can be overcome by using
+repeaters and switches.
+
+11)What are MAC addresses?
+-> MAC, or Media Access Control, uniquely identifies a device on the network.It is also known as physical address or 
+Ethernet address. A MAC address is made up of 6-byte parts.
+
+12) What are gateways?
+-> Gateways provide connectivity between two or more network segments. It is usually a computer that runs the gateway software and provides translation services. 
+This translation is a key in allowing different systems to communicate on the network.
