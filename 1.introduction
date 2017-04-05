@@ -21,4 +21,34 @@ application sharing , lan gaming and many more.
 
 7. What is internet ?
 
+8. Two devices are in network if
+    a) a process in one device is able to exchange information with a process in another device
+    b) a process is running on both devices
+    c) PIDs of the processes running of different devices are same
+    d) none of the mentioned
+Ans. a)
 
+9. In computer network nodes are
+    a) the computer that originates the data
+    b) the computer that routes the data
+    c) the computer that terminates the data
+    d) all of the mentioned
+Ans. d)
+
+10. A _____ is a device that forwards packets between networks by processing the routing information included in the packet.
+    a) bridge
+    b) firewall
+    c) router
+    d) all of the mentioned
+Ans. c)
+
+11. What is a node?
+Ans.    A node refers to a point or joint where a connection takes place. 
+        It can be computer or device that is part of a network. 
+        Two or more nodes are needed in order to form a network connection.
+        
+12.  What are routers?
+Ans.    Routers can connect two or more network segments. These are intelligent network devices that store information 
+        in its routing table such as paths, hops and bottlenecks. 
+        With this info, they are able to determine the best path for data transfer. Routers operate at the OSI Network Layer.
+13. 
