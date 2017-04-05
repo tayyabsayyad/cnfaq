@@ -18,3 +18,10 @@ What are the error control mechanism?
 1.error detection
 2.error correction
 
+5.What are the design issues in datalink layer?
+– Provide interface to the network layer services. 
+– Framing 
+– Flow Control 
+– Error Control 
+– Synchronization 
+– Link Configuration Control.
