@@ -64,4 +64,6 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
-15.
+15.What is the use of a default gateway?
+Default gateways provide means for the local networks to connect to the external network. 
+The default gateway for connecting to the external network is usually the address of the external router port.
