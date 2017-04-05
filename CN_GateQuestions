@@ -62,3 +62,95 @@ Ans. (b)
 
 9.Consider a token ring network with a length of 2 km having 10 stations including a monitoring station. The propagation speed of the signal is 2 × 108 m/s and the token transmission time is ignored. If each station is allowed to hold the token for 2 μsec, the minimum time for which the monitoring station should wait (in μsec)before assuming that the token is lost is _______.
 a)28 to 30           b)20 to 22            c)0 to 2            d)31 to 33
+Ans. (a)
+        Length = 2 km
+        Propagation Speed v = 2*10^8 m/s
+        Token Holding Time = 2 micro sec
+
+        Waiting time
+        = length/speed + (#stations - 1)*(token holding time) to 
+         length/speed + (#stations)*(token holding time)
+         = 28 to 30
+10. Consider a selective repeat sliding window protocol that uses a frame size of 1 KB to send data on a 1.5 Mbps link with a one-way latency of 50 msec. To achieve a link utilization of 60%, the minimum number of bits required to represent the sequence number field is ________.
+a)  3        b) 4         c) 5         d)  6
+Ans. (c)
+
+    Transmission delay = Frame Size/bandwidth
+                   = (1*8*10^3)/(1.5 * 10^6)=5.33ms
+    Propagation delay = 50ms
+    Efficiency = Window Size/(1+2a) = .6
+    a = Propagation delay/Transmission delay
+    So, window size = 11.856(approx)
+    min sequence number = 2*window size = 23.712
+    bits required in Min sequence number = log2(23.712)
+    Answer is 4.56
+    Ceil(4.56) = 5 
+
+11. A bit-stuffing based framing protocol uses an 8-bit delimiter pattern of 01111110. If the output bit-string after stuffing is 01111100101, then the input bit-string is
+a) 0111110100         b)0111110101          c)0111111101          d)0111111111
+Ans. (b)
+
+    8-bit delimiter pattern is 01111110. 
+
+    The output bit-string after stuffing is 01111100101.
+    The above highlighted bit is stuffed bit.  
+    So input bit-string must be 0111110101. 
+
+12.Station A uses 32 byte packets to transmit messages to Station B using a sliding window protocol. The round trip delay between A and B is 80 milliseconds and the bottleneck bandwidth on the path between A and B is 128 kbps. What is the optimal window size that A should use?
+a)20          b)40          c)160          d)320
+Ans. (b)
+                                    Round Trip propagation delay = 80ms 
+                                    Frame size = 32*8 bits
+                                    Bandwidth = 128kbps
+                                    Transmission Time = 32*8/(128) ms = 2 ms
+
+                                    Let n be the window size.
+
+                                    UtiliZation = n/(1+2a) where a 
+                                                = Propagation time / 
+                                                    transmission time
+                                                = n/(1+80/2)
+
+                                    For maximum utilization: n = 41 
+                                    which is close to option (B)
+
+
+
+
+13. Suppose the round trip propagation delay for a 10 Mbps Ethernet having 48-bit jamming signal is 46.4 ms. The minimum frame size is
+A
+a)94        b)416        c)464          d)512
+Ans. (c)
+
+14. How many 8-bit characters can be transmitted per second over a 9600 baud serial communication link using asynchronous mode of transmission with one start bit, eight data bits, two stop bits, and one parity bit ?
+a) 600         b)800          c)876          d)1200
+Ans (b)
+
+            "9600 baud" means that the serial port is capable of transferring a 
+            maximum of 9600 bits per second.
+
+            Total Data To send = 1 bit(start) + 8 bits(char size) + 1 bit(Parity) + 2 bits(Stop) 
+
+            = 12 bits.
+
+            Number of 8-bit characters that can be transmitted per second  = 9600/12 = 800.
+
+
+15.A and B are the only two stations on an Ethernet. Each has a steady queue of frames to send. Both A and B attempt to transmit a frame, collide, and A wins the first backoff race. At the end of this successful transmission by A, both A and B attempt to transmit and collide. The probability that A wins the second backoff race is:
+a)0.5          b)0.625          c)0.75          d)1.0
+Ans (b)
+
+               This is basically the question related to unfairness of exponential back-off algorithm called 'capture effect'.
+               The solution to the above problem goes like this: At every attempt to transit a frame, both A and B chooses value of 'k' randomly.
+               Based on the value of 'k', back-off time is calculated as a multiple of 'k'.
+               The station or node having the smaller back-off time gets to send the frames eariler.
+               1st attempt: Value of 'k' would be k=0 or k=1 (0 <= k <= 2^n-1; where n=nth attempt).
+               Since A won the first race, A must have chosen k=0 and B must have chosen k=1 (A wins here with probability 0.25).
+               As A won, A will again choose k=0 or k=1 for its 2nd frame, but B will choose k=0,1,2 or 3 as B failed to send its first frame in the first attempt.
+               2nd attempt: Let kA= value of k chosen by A and kB = value of k chosen by B. We will use notation (kA,kB) to show the possible values.
+               Now the sample space for the 2nd attempt is (kA,kB) = (0,0),(0,1),(0,2),(0,3),(1,0),(1,1),(1,2) or (1,3) i.e. 8 possible outcomes.
+               For A to win, kA should be less than kB (kA < kB).
+               Thus, our event space is (kA, kB) = (0,1),(0,2),(0,3),(1,2),(1,3) i.e. 5 possible outcomes.
+               Thus the probability that A wins the 2nd back-off race = 5/8 = 0.625
+
+
