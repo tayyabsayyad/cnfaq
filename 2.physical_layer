@@ -4,3 +4,40 @@
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
   
+3. physical layer provides:
+A. mechanical specifications of electrical connectors and cables 
+B. electrical specification of transmission line signal level 
+C. specification for IR over optical fiber
+ D. all of the mentioned
+ANSWER:   D
+
+4. The physical layer translates logical communication requests from the ______ into hardware specific operations.
+A. data link layer 
+B. network layer
+ C. trasnport layer 
+D. application layer
+ANSWER: A
+
+5. ........... is used to optimize the use of the channel capacity available in a network, to minimize the transmission latency and to increase robustness of communication.
+
+A. Message switching
+B. Linear switching
+C. circuit switching
+D. packet switching 
+ANSWER: D
+
+6. Which of the following is not the sources of noise?
+
+A. Thermal
+B. Magnetic
+C. Inter-modulation
+D. Cross talk
+ANSWER: B
+
+7. Data rate in data communication depends on which of the following factors.
+
+A. The bandwidth available
+B. The level of the signals we use
+C. The quality of the channel
+D. All of the above
+ANSWER: D 
