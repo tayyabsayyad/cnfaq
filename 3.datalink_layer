@@ -18,3 +18,5 @@ What are the error control mechanism?
 1.error detection
 2.error correction
 
+What is HDLC (High-level Data Link Control)?
+HDLC (High-level Data Link Control) is a group of protocols or rules for transmitting data between network points (sometimes called nodes).
