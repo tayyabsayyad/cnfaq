@@ -51,4 +51,4 @@ Ans.    A node refers to a point or joint where a connection takes place.
 Ans.    Routers can connect two or more network segments. These are intelligent network devices that store information 
         in its routing table such as paths, hops and bottlenecks. 
         With this info, they are able to determine the best path for data transfer. Routers operate at the OSI Network Layer.
-13. 
+
