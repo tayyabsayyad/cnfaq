@@ -1,0 +1,9 @@
+1.What is Medium Access Control?
+
+The Media Access Control Layer is one of two sublayers that make up the Data Link Layer of the OSI model.
+The MAC layer is responsible for moving data packets to and from one Network Interface Card (NIC) to another
+across a shared channel.
+
+2.What is Channel Allocation in MAC layer?
+
+3.What are problems associated with channel allocation?
