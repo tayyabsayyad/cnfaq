@@ -14,12 +14,19 @@ application sharing , lan gaming and many more.
      Full Duplex :- Both stations can transmit and receive simultaneously
 
 5. What are the various network topologies ? 
-
+    a) Bus Topology
+    b) Ring Topology
+    c) Mesh Topology
+    d) Star Topology
+    e) Tree Topology
+    f) Hybrid Topology
 
 6. Compare network topologies 
 
 
 7. What is internet ?
+    => Internet is a global computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.
+    => The Internet carries an extensive range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and peer-to-peer networks for file sharing.
 
 8. Two devices are in network if
     a) a process in one device is able to exchange information with a process in another device
