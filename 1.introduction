@@ -7,6 +7,13 @@ application sharing , lan gaming and many more.
 
 3. What are types of the computer network ?
     Hint LAN, MAN, WAN
+    Personal area network, or PAN
+    Local area network, or LAN  
+    Metropolitan area network, or MAN
+    Wide area network, or WAN
+    Storage area network, or SAN
+    Enterprise private network, or EPN
+    Virtual private network, or VPN
     
 4. What are the types of data flows in computer ?
      Simplex :- Communication is unidirectional
@@ -64,4 +71,27 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
-15.
+15.Mention different categories of computer networks (on the basis of scale) and distinguish
+    one from the other.
+Ans:   Local Area Network (LAN): It is privately owned communication systems that cover a small
+       area, say a building or a complex of buildings. Length is about 10 meters to few kilometers and
+       operates at a high speed like 10 MBPS to 1000 MBPS. It has very low error rate.
+
+        Metropolitan Area Network (MAN): It is public or privately owned communication system that
+        typically covers a complete city. Speed is about 10 MBPS and follows DQDB (Distributed Queue
+        Double Bus) standard. Its reliability is moderate.
+        
+        Wide Area Network (WAN): It covers a large geographical area and usually owned by a state. Data
+        transfer rate is low (few KBPS to 10 MBPS) and error rate is much higher.
+        
+16.What are the two types of Transmission technologies, basis on which computer networks
+can be categorized?
+Ans:    Broadly there are two types of transmission technology:
+        1. Broadcast networks: a single communication channel that is shared by all the machines on the
+        network
+
+        2. Point-to-point networks: This network consists of many connections between individual pairs of
+        machines. To go from the source to destination a message (or packet) may have to visit one or more
+        intermediate machines
+
+
