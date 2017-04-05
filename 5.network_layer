@@ -24,4 +24,28 @@ Flooding
 6. Why is User datagram protocol called connectionless?
 Because, all UDP packets are treated independently by transport layer. 
 
+7.Explain Connection oriented and connectionless services?
 
+Connection-oriented :
+  Requires a session connection be established before any data can be sent.
+  This method is often called a "reliable" network service. It can guarantee
+  that data will arrive in the same order. Connection-oriented services set up
+  virtual links between end systems through a network
+  
+Connectionless  :
+  Does not require a session connection between sender and receiver.
+  The sender simply starts sending packets (called datagrams) to the destination.
+  This service does not have the reliability of the connection-oriented method,
+  but it is useful for periodic burst transfers. Neither system must maintain
+  state information for the systems that they send transmission to or receive transmission from.
+  A connectionless network provides minimal services.
+
+8.What is Firewall?
+
+  A firewall is a system designed to prevent unauthorized access to or from a private network.
+  You can implement a firewall in either hardware or software form, or a combination of both.
+  Firewalls prevent unauthorized Internet users from accessing private networks connected to the Internet,
+  especially intranets. All messages entering or leaving the intranet (i.e., the local network to which you are connected)
+  must pass through the firewall, which examines each message and blocks those that do not meet the specified security criteria.
+  
+ 9.What is Fragmentation?
