@@ -1,0 +1,59 @@
+
+
+-->Data Link Layer questions
+
+1. Determine the maximum length of the cable (in km) for transmitting data at a rate of 500 Mbps in an Ethernet LAN with frames of size 10,000 bits. Assume the signal speed in the cable to be 2,00,000 km/s.
+a) 1       b) 2           c) 2.5         d) 5
+    Data should be transmitted at the rate of 500 Mbps.
+    Transmission Time >= 2*Propagation Time
+    => 10000/(500*1000000) <= 2*length/200000
+    => lenght = 2km (max)
+so, answer will be: (B) 2km 
+
+2.Let G(x) be the generator polynomial used for CRC checking. What is the condition that should be satisfied by G(x) to detect odd number of bits in error?
+a) G(x) contains more than two terms        b) G(x) does not divide 1+x^k, for any k not exceeding the frame length               c) 1+x is a factor of G(x)          d) G(x) has an odd number of terms.   
+    Odd number of bit errors can be detected if G(x) contains (x+1) as a factor. See this for proof.
+Ans. (c)
+
+3. Frames of 1000 bits are sent over a 10^6 bps duplex link between two hosts. The propagation time is 25ms. Frames are to be transmitted into this link to maximally pack them in transit (within the link). What is the minimum number of bits (i) that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames.
+a)i=2        b)i=3                c)i=4          d)i=5
+    Transmission delay for 1 frame = 1000/(10^6) = 1 ms Propagation time = 25 ms The sender can atmost transfer 25 frames before the first frame reaches the destination. The number of bits needed for representing 25 different frames = 5
+Ans. (d)    
+
+
+4.Consider the data of previous question. Suppose that the sliding window protocol is used with the sender window size of 2^i where is the number of bits identified in the previous question and acknowledgments are always piggybacked. After sending 2^i frames, what is the minimum time the sender will have to wait before starting transmission of the next frame? (Identify the closest choice ignoring the frame processing time.)
+a)16ms        b)18ms              c)20ms          d)22ms
+    Size of sliding window = 2^5 = 32 Transmission time for a frame = 1ms Total time taken for 32 frames = 32ms The sender cannot receive acknoledgement before round trip time which is 50ms After sending 32 frames, the minimum time the sender will have to wait before starting transmission of the next frame = 50 – 32 = 18
+Ans. (b)
+
+
+
+5.In Ethernet when Manchester encoding is used, the bit rate is:
+a)Half the baud rate        b)Twice the baud rate         c)Same as the baud rate          d)None of the above
+Ans (a)
+
+
+
+
+6.There are n stations in a slotted LAN. Each station attempts to transmit with a probability p in each time slot. What is the probability that ONLY one station transmits in a given time slot?
+a)(1-p)^(n-1)        b)np(1-p)^(n-1)          c)p(1-p)^(n-1)          d)1-(1-p)^(n-1)
+     P(X) = Probability that station X attempts to transmit = P P (-X) = Probability that station X does not transmit = 1-P Required is: Probability that only one station transmits = y
+    Y = (A1, -A2, -A3... -An) + (-A1, A2, A3....-An) + (-A1, -A2, A3...-An) + ... + (-A1, -A2, -A3...An) = (p*(1-p)*(1-p)*... (1-p) + (1-p)*p*(1-p)...(1-p) + ... = p*(1-p)^(n-1) + p*(1-p)^n-1 + .... + p*(1-p)^(n-1) = n*p*(1-p)^(n-1)
+Ans (b)
+
+
+
+
+
+
+7.In a token ring network the transmission speed is 10^7 bps and the propagation speed is 200 metres/micro second. The 1-bit delay in this network is equivalent to:
+a)500 metres of cable.        b)200 metres of cable.       c)20 metres of cable          d)50 metres of cable
+Ans (c)
+
+
+
+
+
+
+8. The message 11001001 is to be transmitted using the CRC polynomial x^3 + 1 to protect it from errors. The message that should be transmitted is:
+a)11001001000        b)11001001011         c)11001010          d)110010010011
