@@ -1,0 +1,54 @@
+1.Medium Access Control Layer?
+The Media Access Control Layer is one of two sublayers that make up the Data Link Layer of the OSI model. The MAC layer is responsible for moving data packets to and from one Network Interface Card (NIC) to another across a shared channel.
+
+2.Multiple Access Protocols
+ALOHA:
+    In the 1970s, Norman Abramson and his colleagues at the
+University of Hawaii devised a new and elegant method to
+solve the channel allocation problem. ALOHA in Hawaiian
+ means “hello”.
+    Two versions of ALOHA : pure and slotted.
+    They differ with respect to whether time is divided into
+discrete slots into which all frames must fit.
+    Pure ALOHA does not require global time synchronization;
+slotted ALOHA does.
+
+Pure ALOHA
+    Each station sends a frame whenever it has
+a frame to send.
+    However, since there is only one channel to
+share, there is the possibility of collision
+between frames from different stations.
+
+3.Carrier Sense Multiple access protocol
+Protocol in which station listen for carrier and act accordingly are called carrier sense protocols
+ 1-persistent method
+         The station finds the line idle, it sends its
+         frame immediately (with probability 1).
+         This method has the highest chance of collision
+         because two or more stations may find the line
+         idle and send their frames immediately.
+ nonpersistent method
+          If a station that has a frame to send it senses the line.
+           If the line is idle, it sends immediately.
+           If the line is not idle, it waits a random amount of time and then
+          senses the line again.
+           The nonpersistent approach reduces the chance of collision
+          because it is unlikely that two or more stations will wait the
+          same amount of time and retry to send simultaneously.
+           However, this method reduces the efficiency of the network
+          because the medium remains idle when there may be stations
+          with frames to send.
+ p-persistent method
+          The p-persistent method is used if the channel
+          has time slots with a slot duration equal to or
+          greater than the maximum propagation time
+          In this method, after the station finds the line idle
+          it follows these steps:
+          1. With probability p, the station sends its frame.
+          2. With probability q = 1 - p, the station waits for the
+             beginning of the next time slot and checks the line
+             again.
+             a. If the line is idle, it goes to step 1.
+             b. If the line is busy, it acts as though a collision
+                  has occurred and uses the back-off procedure
