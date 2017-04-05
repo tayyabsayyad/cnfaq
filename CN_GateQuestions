@@ -57,3 +57,4 @@ Ans (c)
 
 8. The message 11001001 is to be transmitted using the CRC polynomial x^3 + 1 to protect it from errors. The message that should be transmitted is:
 a)11001001000        b)11001001011         c)11001010          d)110010010011
+Ans. (b)
