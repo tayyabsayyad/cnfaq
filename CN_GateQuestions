@@ -58,3 +58,7 @@ Ans (c)
 8. The message 11001001 is to be transmitted using the CRC polynomial x^3 + 1 to protect it from errors. The message that should be transmitted is:
 a)11001001000        b)11001001011         c)11001010          d)110010010011
 Ans. (b)
+
+
+9.Consider a token ring network with a length of 2 km having 10 stations including a monitoring station. The propagation speed of the signal is 2 × 108 m/s and the token transmission time is ignored. If each station is allowed to hold the token for 2 μsec, the minimum time for which the monitoring station should wait (in μsec)before assuming that the token is lost is _______.
+a)28 to 30           b)20 to 22            c)0 to 2            d)31 to 33
