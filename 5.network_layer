@@ -1,0 +1,13 @@
+7. What is fragmentation?
+Ans:Fragmentation is when a datagram has to be broken up into smaller datagrams to fit the frame
+size of a certain network. Different networks have different MTUs (maximum transfer unit), when a
+datagram enters a network with a smaller MTU the gateway/router needs to fragment this packet
+into smaller packets that fit the new MTU.
+
+8.What is tunneling in network layer?
+Ans:Tunneling is a protocol that allows for the secure movement of data from one network to another. Tunneling involves allowing private
+network communications to be sent across a public network, such as the Internet, through a process called encapsulation. The encapsulation
+process allows for data packets to appear as though they are of a public nature to a public network when they are actually private data
+packets, allowing them to pass through unnoticed.Tunneling is also known as port forwarding.
+
+
