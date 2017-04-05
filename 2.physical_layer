@@ -4,3 +4,13 @@
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
   
+3. Bits can be send over guided and unguided media as analog signal by?
+-> digital modulation
+
+4.What does physical layer provides?
+->(a)mechanical specifications of electrical connectors and cables
+  (b)electrical specification of transmission line signal level
+  (c) specification for IR over optical fiber
+  
+5.The physical layer translates logical communication requests from the ______ into hardware specific operations. 
+->data link layer
