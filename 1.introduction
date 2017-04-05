@@ -51,4 +51,16 @@ Ans.    A node refers to a point or joint where a connection takes place.
 Ans.    Routers can connect two or more network segments. These are intelligent network devices that store information 
         in its routing table such as paths, hops and bottlenecks. 
         With this info, they are able to determine the best path for data transfer. Routers operate at the OSI Network Layer.
-13. 
+13. What are the key design issues of a computer Network?
+Ans
+a. Connectivity
+b. Cost-effective Resource Sharing
+c. Support for common Services
+d. Performance
+
+14Name the factors that affect the performance of the network?
+Ans
+a. Number of Users
+b. Type of transmission medium
+c. Hardware
+d. Software
