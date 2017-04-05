@@ -14,13 +14,17 @@ application sharing , lan gaming and many more.
      Full Duplex :- Both stations can transmit and receive simultaneously
 
 5. What are the various network topologies ? 
-
+    a)Bus topology consists of one main cable to which all nodes are connected.
+    b)Star topology is where all nodes are connected to a central hub using point-to-point connection.
+    c)In Ring topology, the computers in the network are connected in a circular fashion, and the data travels in one direction.
+    d)Mesh topology is where every node has a direct point-to-point connection to every other node.
 
 6. Compare network topologies 
 
 
 7. What is internet ?
-
+    A collection of interconnected networks is internet. Also known as a network of networks.
+    
 8. Two devices are in network if
     a) a process in one device is able to exchange information with a process in another device
     b) a process is running on both devices
@@ -51,4 +55,13 @@ Ans.    A node refers to a point or joint where a connection takes place.
 Ans.    Routers can connect two or more network segments. These are intelligent network devices that store information 
         in its routing table such as paths, hops and bottlenecks. 
         With this info, they are able to determine the best path for data transfer. Routers operate at the OSI Network Layer.
-13. 
+        
+13. Name the types of reference models.
+    a)OSI Reference model (Open Systems interconnection).
+    b)TCP/IP Reference model.
+    
+14. What are protocols?
+    Protocol is a standard used to define a method of exchanging data over a computer network.
+    For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
+
+15.
