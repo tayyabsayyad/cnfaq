@@ -20,3 +20,11 @@ PURE ALOHA:
 • There are four stations that .contended with one another for access to shared channel. All these stations are transmitting frames. Some of these frames collide because multiple frames are in contention for the shared channel. Only two frames survive. All other frames are destroyed.
 
 • Whenever two frames try to occupy the channel at the same time, there will be a collision and both will be damaged. If first bit of a new frame overlaps with just the last bit of a frame almost finished, both frames will be totally destroyed and both will have to be retransmitted.
+
+
+Q] Carrier Sense Multiple Access with Collision Detection
+Ans->
+    CSMA protocols are improvement over ALOHA since they ensure that station does not transmit while the channel is busy.
+    But if two station find the channel idle and start transmitting simultaneoulsy, their signals would collide.
+    This can be Prevented if the stations quickly detect the collison befeore it happens thus abruptly stoping the transmission saving the time and bandwidth.
+    This protocol is known as CSMA with Collison Detection(CSMA/CD)
