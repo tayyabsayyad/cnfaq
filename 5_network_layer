@@ -1,0 +1,22 @@
+1. Why do we need network layer ?
+This layer is responsible for the addresing the nodes in logial manner . It helps in making the decisions on routing the packets from 
+one network to another.
+
+2. How many hosts are possible for Class A,B and C .
+Class A: (2^24)-2
+Class B: (2^16)-2
+Class C: (2^8)-2
+
+3. How many networks are possible for Class A,B and C .
+Class A: (2^7)-2    
+Class B: (2^14)-2
+Class C: (2^21)-2
+
+4. Default subnet mask in Class A,B,C,D.
+Class A : 255.0.0.0
+Class B : 255.255.0.0
+Class C : 255.255.255.0
+Class D : 255.255.255.255
+
+5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
+Flooding 
