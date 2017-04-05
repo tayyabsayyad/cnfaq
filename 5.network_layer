@@ -20,3 +20,21 @@ Class D : 255.255.255.255
 
 5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
 Flooding 
+
+6.What are the responsibilities of Network Layer?
+Routing, IP Addressing and Path determination are the main responsibilities of Network Layer.
+
+7.Which layer provides logical addressing that routers will use for path determination ?
+Network Layer
+
+8.Which Layer manages device addressing, tracks the location of devices on the network, and determine the best way to move data ?
+Network layer
+
+9.At which layer is routing implemented, enabling connections and path selection between two end systems. ?
+Network Layer
+
+10.What is the number of network IDs in a Class C network?
+A.
+For a Class C network, the number of usable Network ID bits is 21.
+The number of possible network IDs is 2 raised to 21 or 2,097,152. 
+The number of host IDs per network ID is 2 raised to 8 minus 2, or 254.
