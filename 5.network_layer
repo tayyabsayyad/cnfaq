@@ -18,7 +18,7 @@ Class B : 255.255.0.0
 Class C : 255.255.255.0
 Class D : 255.255.255.255
 
-5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
+5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives
 Ans. Flooding
 
 6. What is the protocol data unit of the Network Layer ?
@@ -27,4 +27,7 @@ Ans. Flooding
 
 8. What are the devices that operate on the Network Layer ?
 
-9. What is the difference between a layer 2 switch and a layer 3 switch ?
+9. What is the difference between a layer 2 switch and a layer 3 switch
+
+6. Why is User datagram protocol called connectionless?
+Because, all UDP packets are treated independently 
