@@ -3,4 +3,9 @@
 
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
-  
+
+3. What is multiplexing?
+   It is set of techniques that allows the simultaneous transmission of multiple signal across a single data link.
+
+4.Types of Multiplexing?
+   frequency division multiplexing(analog),wavelength division multiplexing(analog) ,time division multiplexing(digital)
