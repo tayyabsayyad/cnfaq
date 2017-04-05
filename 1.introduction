@@ -1,9 +1,9 @@
+
 1. What is Computer Network ? 
 Computer Network is collection of computers connected together for exchanging information. 
 
 2. Why we need computer network?
-Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,
-application sharing , lan gaming and many more.
+Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,application sharing , lan gaming and many more.
 
 3. What are types of the computer network ?
     Hint LAN, MAN, WAN
@@ -13,8 +13,7 @@ application sharing , lan gaming and many more.
      Half Duplex :- Each station can both transmit and receive, but not at the same time
      Full Duplex :- Both stations can transmit and receive simultaneously
 
-5. What are the various network topologies ? 
-    a)Bus topology consists of one main cable to which all nodes are connected.
+5. What are the various network topologies ?     a)Bus topology consists of one main cable to which all nodes are connected.
     b)Star topology is where all nodes are connected to a central hub using point-to-point connection.
     c)In Ring topology, the computers in the network are connected in a circular fashion, and the data travels in one direction.
     d)Mesh topology is where every node has a direct point-to-point connection to every other node.
@@ -64,4 +63,14 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
-15.
+15.Name the factors that affect the performance of the network?
+    a. Number of Users
+    b. Type of transmission medium
+    c. Hardware
+    d. Software
+    
+ 16. Name the factors that affect the reliability of the network?
+    a. Frequency of failure
+    b. Recovery time of a network after a failure
+ 
+
