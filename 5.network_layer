@@ -24,4 +24,11 @@ Flooding
 6. Why is User datagram protocol called connectionless?
 Because, all UDP packets are treated independently by transport layer. 
 
+7.What are network layer design issues?
+-Store-and-Forward Packet Switching
+-Services Provided to the Transport Layer
+-Implementation of Connectionless Service
+-Implementation of Connection-Oriented Service
+-Comparison of Virtual-Circuit and Datagram Subnets
+
 
