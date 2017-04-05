@@ -1,0 +1,2 @@
+Q. In which layer does socket programming takes place?
+A. Socket programming takes place in Transport layer mostly but you can use the socket API to access layer 2 and 3 if you're privileged, but that's not done outside of research.
