@@ -18,3 +18,12 @@ What are the error control mechanism?
 1.error detection
 2.error correction
 
+What is Framing?
+The usual approach for the data link layer is to break up the bit stream into
+discrete frames, compute a short token called a checksum for each frame, and include
+the checksum in the frame when it is transmitted. When a frame arrives at the destination,
+the checksum is recomputed. If the newly computed checksum is different from
+the one contained in the frame, the data link layer knows that an error has occurred
+and takes steps to deal with it (e.g., discarding the bad frame and possibly
+also sending back an error report).
+This is known as framing.
