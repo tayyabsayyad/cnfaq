@@ -20,6 +20,10 @@ application sharing , lan gaming and many more.
     d)Mesh topology is where every node has a direct point-to-point connection to every other node.
 
 6. Compare network topologies 
+   BUS TOPOLOGY: The most widely used of these is bus, because it is employed by Ethernet, which is the dominant LAN architecture. In a bus topology all devices are connected to a central cable, called the bus or backbone. This topology is relatively inexpensive and easy to install for small networks. 
+   RING TOPOLOGY:In a ring topology each device is connected directly to two other devices, one on either side of it, to form a closed loop. This topology is relatively expensive and difficult to install, but it offers high bandwidth and can span large distances. A variation is the token ring, in which signals travel in only one direction around the loop, carried by a so-called token from node to node. 
+   STAR TOPOLOGY:In a star topology all devices are connected directly to a central computer or server. Such networks are relatively easy to install and manage, but bottlenecks can occur because all data must pass through the central device. 
+   MESH TOPOLOGY:The mesh topology can be either a full mesh or a partial mesh. In the former, each computer is connected directly to each of the others. In the latter, some computers are connected to most of the others, and some are connected only to those other nodes with which they exchange the most data. 
 
 
 7. What is internet ?
@@ -64,4 +68,13 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
-15.
+15.What is Network Topology?
+Ans.   A Network Topology is the pattern in which nodes(i.e. computers,routers etc..devices) are connected to a local area network(LAN) or other network via links(e.g. optical fibre,copper wire cabel etc...).
+16.What is Hybrid Network Topology?
+Ans.A hybrid topology is a type of network topology that uses two or more other network topologies, including bus topology, mesh topology, ring topology, star topology, and tree topology.
+17.What is Tree Topology?
+Ans. A tree topology combines characteristics of linear bus and star topologies. It consists of groups of star-configured workstations connected to a linear bus backbone cable
+18.What is Star topology?
+Ans.In Star topology, all the components of network are connected to the central device called “hub” which may be a hub, a router or a switch. Unlike Bus topology (discussed earlier), where nodes were connected to central cable, here all the workstations are connected to central device with a point-to-point connection. So it can be said that every computer is indirectly connected to every other node by the help of “hub”. 
+19.What is point to point topology?
+
