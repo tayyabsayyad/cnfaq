@@ -24,10 +24,15 @@ Flooding
 6. Why is User datagram protocol called connectionless?
 Because, all UDP packets are treated independently by transport layer. 
 
+
 7. The 4 byte IP address consists of?
 network address and host address
 
 8. In virtual circuit network each packet contains?
-A short VC number
+  A short VC number
 
 
+7. Which device works at network layer?
+   router
+8. how many routing protocols are present in Network layer?
+    
