@@ -1,0 +1,20 @@
+ 1. Field of Media Access Control frame that is used to alternate 1s and 0s is called
+    preamble
+
+2. Media access control is sub layer of
+   IEEE
+
+3. Media Access Control layer frame has
+   9 Fields
+
+4. Value of frame body field of Media Access Control frame is in between
+   0 to 2312 bytes
+
+5. Duration field D of Media Access Control layer frame contains
+   2bytes
+
+
+
+
+
+
