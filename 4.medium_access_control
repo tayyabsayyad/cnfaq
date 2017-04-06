@@ -15,4 +15,14 @@
 5. Duration field D of Media Access Control layer frame contains
    2bytes
 
+6.what is mac address?
+  
+A media access control address (MAC address) of a computer is a unique identifier assigned to network interfaces for
+communications at the data link layer of a network segment. 
+MAC addresses are used in the media access control protocol sublayer of the OSI reference model.
+
+7.What is my IP address and MAC address?
+A MAC address is given to a network adapter when it is manufactured.
+It is hardwired or hard-coded onto your computer's network interface card (NIC) and is unique to it.
+Something called the ARP (Address Resolution Protocol) translates an IP address into a MAC address.
 
