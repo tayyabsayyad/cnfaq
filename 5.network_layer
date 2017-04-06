@@ -44,4 +44,8 @@ network address and host address
 7. Which device works at network layer?
    router
 8. how many routing protocols are present in Network layer?
-    
+
+Properties of network ?
+The network layer is responsible for routing which entails
+learning the paths, selecting the best path and forwarding the packet.
+Because it services multiple layer 4 protocols it multiplexes.
