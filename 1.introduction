@@ -14,6 +14,7 @@ application sharing , lan gaming and many more.
      Full Duplex :- Both stations can transmit and receive simultaneously
 
 5. What are the various network topologies ? 
+
     1) Bus Network topology: In the bus network topology, every workstation is connected to a main cable called the bus.
     2) Mesh Network topology: -> The mesh network topology employs either of two schemes, called full mesh and partial mesh. 
                               ->In the full mesh topology, each workstation is connected directly to each of the others. 
@@ -46,7 +47,101 @@ application sharing , lan gaming and many more.
                          
 
 7 What is internet ?
----->  The Internet, sometimes called simply "the Net," is a worldwide system of computer networks.a network of networks in which users 
+  The Internet, sometimes called simply "the Net," is a worldwide system of computer networks.a network of networks in which users 
        at any one computer can, if they have permission, get information from any other computer.
 
+    a)Bus topology consists of one main cable to which all nodes are connected.
+    b)Star topology is where all nodes are connected to a central hub using point-to-point connection.
+    c)In Ring topology, the computers in the network are connected in a circular fashion, and the data travels in one direction.
+    d)Mesh topology is where every node has a direct point-to-point connection to every other node.
+
+6. Compare network topologies 
+
+
+7. What is internet ?
+    A collection of interconnected networks is internet. Also known as a network of networks.
+    
+8. Two devices are in network if
+    a) a process in one device is able to exchange information with a process in another device
+    b) a process is running on both devices
+    c) PIDs of the processes running of different devices are same
+    d) none of the mentioned
+Ans. a)
+
+9. In computer network nodes are
+    a) the computer that originates the data
+    b) the computer that routes the data
+    c) the computer that terminates the data
+    d) all of the mentioned
+Ans. d)
+
+10. A _____ is a device that forwards packets between networks by processing the routing information included in the packet.
+    a) bridge
+    b) firewall
+    c) router
+    d) all of the mentioned
+Ans. c)
+
+11. What is a node?
+Ans.    A node refers to a point or joint where a connection takes place. 
+        It can be computer or device that is part of a network. 
+        Two or more nodes are needed in order to form a network connection.
+        
+12.  What are routers?
+Ans.    Routers can connect two or more network segments. These are intelligent network devices that store information 
+        in its routing table such as paths, hops and bottlenecks. 
+        With this info, they are able to determine the best path for data transfer. Routers operate at the OSI Network Layer.
+        
+13. Name the types of reference models.
+    a)OSI Reference model (Open Systems interconnection).
+    b)TCP/IP Reference model.
+    
+14. What are protocols?
+    Protocol is a standard used to define a method of exchanging data over a computer network.
+    For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
+
+
+15. Function of OSI Model?
+
+    Layer 7: The application layer. This is the layer at which communication partners are identified (Is there someone 
+        to talk to?), network capacity is assessed (Will the network let me talk to them right now?), and that creates a 
+        thing to send or opens the thing received.  (This layer is not the application itself, it is the set of services 
+        an application should be able to make use of directly, although some applications may perform application layer 
+        functions.)
+    
+    Layer 6: The presentation layer. This layer is usually part of an operating system (OS) and converts incoming and 
+        outgoing data from one presentation format to another (for example, from clear text to encrypted text at one 
+        end and back to clear text at the other).
+
+    Layer 5: The session layer. This layer sets up, coordinates and terminates conversations. Services include 
+        authentication and reconnection after an interruption. On the Internet, Transmission Control Protocol (TCP) and 
+        User Datagram Protocol (UDP) provide these services for most applications.
+
+    Layer 4: The transport layer. This layer manages packetization of data, then the delivery of the packets, including 
+        checking for errors in the data once it arrives. On the Internet, TCP and UDP provide these services for most 
+        applications as well.
+
+    Layer 3: The network layer. This layer handles the addressing and routing of the data (sending it in the right direction 
+        to the right destination on outgoing transmissions and receiving incoming transmissions at the packet level). IP is the 
+        network layer for the Internet.
+
+    Layer 2: The data-link layer. This layer sets up links across the physical network, putting packets into network frames. 
+        This layer has two sub-layers, the Logical Link Control Layer and the Media Access Control Layer. Ethernet is the main 
+        data link layer in use.
+
+    Layer 1: The physical layer. This layer conveys the bit stream through the network at the electrical, optical or 
+        radio level. It provides the hardware means of sending and receiving data on a carrier networ
+        
+15. Expand the acronym NIC.
+Ans. Network Interface Card
+
+16. Expand the acronym MAC.
+Ans. Media Access Control
+
+17. Expand the acronym LAN.
+Ans. Local Area Network
+
+
+18. Expand the acronym WAN.
+Ans. Wide Area Network
 
