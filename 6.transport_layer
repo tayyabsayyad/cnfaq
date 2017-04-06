@@ -55,3 +55,11 @@ Process to process communication.
     OSI Model, Layer 4, provides transparent transfer of data between end systems, or hosts, and is responsible for 
     end-to-end error recovery and flow control. It ensures complete data transfer.
     Transport examples include SPX, TCP, UDP.
+    
+13.Which protocols operate at the transport layer?
+   There are five basic protocols for the Transport Layer
+    Transmission Control Protocol (TCP)
+    User Datagram Protocol (UDP)
+    Datagram Congestion Control Protocol (DCCP)
+    Stream Control Transmission Protocol (SCTP)
+    Resource Reservation Protocol (RSVP)
