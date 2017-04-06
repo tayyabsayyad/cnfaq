@@ -1,0 +1,12 @@
+1. What are the functions of the transport layer?
+Ans. The transport layer is responsible for delivering data to the appropriate application process on the host computers. This involves statistical multiplexing of data from different application processes, i.e. forming data packets, and adding source and destination port numbers in the header of each transport layer data packet.
+
+2. What are the protocols that work on transport layer ?
+Ans.  Transmission Control Protocol (TCP)
+User Datagram Protocol (UDP)
+Datagram Congestion Control Protocol (DCCP)
+Stream Control Transmission Protocol (SCTP)
+Resource Reservation Protocol (RSVP)
+
+
+
