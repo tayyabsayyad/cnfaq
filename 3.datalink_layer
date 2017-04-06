@@ -18,3 +18,9 @@ What are the error control mechanism?
 1.error detection
 2.error correction
 
+Which sublayer of the data link layer performs data link functions that depend upon the type of medium? 
+media access control sublayer
+
+Header of a frame generally contains?
+synchronization bytes, addresses, frame identifier.
+
