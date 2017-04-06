@@ -1,3 +1,5 @@
+
+
  1. Field of Media Access Control frame that is used to alternate 1s and 0s is called
     preamble
 
@@ -12,9 +14,5 @@
 
 5. Duration field D of Media Access Control layer frame contains
    2bytes
-
-
-
-
 
 
