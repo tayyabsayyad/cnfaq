@@ -1,0 +1,23 @@
+1.The transport layer protocols used for real time multimedia, file transfer, DNS and email, respectively are:
+UDP, TCP, UDP and TCP
+
+2.Which of the following transport layer protocols is used to support electronic mail?
+TCP
+
+3.Which one of the following uses UDP as the transport protocol? 
+DNS
+
+4. Transport layer aggregates data from different applications into a single stream before passing it to
+Network layer
+
+5.Which one of the following is a transport layer protocol used in internet?
+TCP and UDP
+
+6.A _____ is a TCP name for a transport service access point. 
+Port
+
+7.Transport layer protocols deals with: 
+process to process communication
+
+8.Which one of the following is a transport layer protocol? 
+stream control transmission protocol
