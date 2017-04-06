@@ -18,3 +18,6 @@ What are the error control mechanism?
 1.error detection
 2.error correction
 
+Which among the following represents the objectives/requirements of Data Link Layer?
+Frame Synchronization
+Error & Flow Control
