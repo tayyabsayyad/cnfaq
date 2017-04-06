@@ -1,20 +1,18 @@
-1.What is data link layer?
-Data Link Layer is second layer of OSI Layered Model. Data link layer is responsible for converting data stream to signals bit by bit and to send that over the underlying hardware.
+1.The data link layer takes the packets from _____ and encapsulates them into frames for transmission.
+   network layer
 
-2.Functions of data link layer
-1.framing
-2.addressing
-3.synchronization
-4.error control
-5.flow control 
-6.multi-access
+2. Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+   media access control sublayer
 
-Tyes of errors
-single bit error:In a frame, there is only one bit, anywhere though, which is corrupt.
-Multiple bits error:Frame is received with more than one bits in corrupted state.
-Burst error:Frame contains more than1 consecutive bits corrupted.
+3. Automatic repeat request error management mechanism is provided by?
+   logical link control sublayer 
 
-What are the error control mechanism?
-1.error detection
-2.error correction
+
+
+
+
+
+
+
+
 
