@@ -18,3 +18,8 @@ What are the error control mechanism?
 1.error detection
 2.error correction
 
+Q. Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+A. medium access control sublayer
+
+Q. The data link layer takes the packets from _____ and encapsulates them into frames for transmission.
+A. network layer
