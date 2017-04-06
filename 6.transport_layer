@@ -1,0 +1,4 @@
+What is DNS in application layer?
+Domain Name System (DNS) is one of the industry-standard suite of protocols that comprise TCP/IP. Microsoft Windows Server 2003. DNS is implemented using two software components: the DNS server and the DNS client (or resolver). Both components are run as background service applications.
+
+Network resources are identified by numeric IP addresses, but these IP addresses are difficult for network users to remember. The DNS database contains records that map user-friendly alphanumeric names for network resources to the IP address used by those resources for communication.
