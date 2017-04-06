@@ -18,3 +18,8 @@ Which among the following represents the objectives/requirements of Data Link La
 Frame Synchronization
 Error & Flow Control
 
+5.What is one of the functions of the data link layer?
+The three main functions of the data link layer are to deal with transmission errors,
+regulate the flow of data, and provide a well-defined interface to the network layer.
+
+
