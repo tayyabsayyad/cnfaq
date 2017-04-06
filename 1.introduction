@@ -64,4 +64,32 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
-15.
+15. Function of OSI Model?
+    Layer 7: The application layer. This is the layer at which communication partners are identified (Is there someone 
+        to talk to?), network capacity is assessed (Will the network let me talk to them right now?), and that creates a 
+        thing to send or opens the thing received.  (This layer is not the application itself, it is the set of services 
+        an application should be able to make use of directly, although some applications may perform application layer 
+        functions.)
+    
+    Layer 6: The presentation layer. This layer is usually part of an operating system (OS) and converts incoming and 
+        outgoing data from one presentation format to another (for example, from clear text to encrypted text at one 
+        end and back to clear text at the other).
+
+    Layer 5: The session layer. This layer sets up, coordinates and terminates conversations. Services include 
+        authentication and reconnection after an interruption. On the Internet, Transmission Control Protocol (TCP) and 
+        User Datagram Protocol (UDP) provide these services for most applications.
+
+    Layer 4: The transport layer. This layer manages packetization of data, then the delivery of the packets, including 
+        checking for errors in the data once it arrives. On the Internet, TCP and UDP provide these services for most 
+        applications as well.
+
+    Layer 3: The network layer. This layer handles the addressing and routing of the data (sending it in the right direction 
+        to the right destination on outgoing transmissions and receiving incoming transmissions at the packet level). IP is the 
+        network layer for the Internet.
+
+    Layer 2: The data-link layer. This layer sets up links across the physical network, putting packets into network frames. 
+        This layer has two sub-layers, the Logical Link Control Layer and the Media Access Control Layer. Ethernet is the main 
+        data link layer in use.
+
+    Layer 1: The physical layer. This layer conveys the bit stream through the network at the electrical, optical or 
+        radio level. It provides the hardware means of sending and receiving data on a carrier network.
