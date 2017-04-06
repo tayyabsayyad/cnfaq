@@ -1,3 +1,4 @@
+
 1.The transport layer protocols used for real time multimedia, file transfer, DNS and email, respectively are:
 UDP, TCP, UDP and TCP
 
@@ -21,3 +22,15 @@ process to process communication
 
 8.Which one of the following is a transport layer protocol? 
 stream control transmission protocol
+
+9. What is trasnport layer?
+In the Open Systems Interconnection (OSI) communications model, the Transport layer ensures
+the reliable arrival of messages and provides error checking mechanisms and data flow controls.
+The Transport layer provides services for both "connection-mode" transmissions and for
+"connectionless-mode" transmissions. For connection-mode transmissions, a transmission
+may be sent or arrive in the form of packets that need to be reconstructed into a complete
+message at the other end.
+
+10.Transport layer protocols deals with?
+Process to process communication.
+
