@@ -1,0 +1,13 @@
+1.  Which protocol does DHCP use at the Transport layer?
+    a. 	IP
+    b. 	TCP
+    c. 	UDP
+    d. 	ARP
+Ans. c.
+
+2.  Two types of Connection Control?
+Ans.Connectionless Transport Layer : Each segment is considered as an independent packet and delivered to 
+    the transport layer at the destination machine.
+    Connection Oriented Transport Layer : Before delivering packets, connection is made with transport
+    layer at the destination machine.
+ 
