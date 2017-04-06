@@ -1,0 +1,21 @@
+1. Compare TCP & UDP
+    TCP:
+        Transmission Control Protocol
+        TCP is a connection-oriented protocol.
+        As a message makes its way across the internet from one computer to another. This is connection based.
+        Protocol Used: HTTP, HTTPs, FTP, SMTP, Telnet
+        The speed for TCP is slower than UDP.
+        TCP header size is 20 bytes
+    UDP:
+         	User Datagram Protocol or Universal Datagram Protocol
+          UDP is a connectionless protocol.
+          UDP is also a protocol used in message transport or transfer. This is not connection based 
+              which means that one program can send a load of packets to another and that would be the end of the relationship.
+          Protocol Used: DNS, DHCP, TFTP, SNMP, RIP, VOIP.
+          UDP Header size is 8 bytes.
+          
+2. What is the function of transport layer?  
+    OSI Model, Layer 4, provides transparent transfer of data between end systems, or hosts, and is responsible for 
+    end-to-end error recovery and flow control. It ensures complete data transfer.
+    Transport examples include SPX, TCP, UDP.
+            
