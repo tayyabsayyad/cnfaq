@@ -64,4 +64,11 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
-15.
+15. What is topology?
+    Network topology is the arrangement of the various elements (links, nodes, etc.) of a computer network.
+    
+16. What topology are used in LAN?
+    The shape of a local-area network (LAN) or other communications system. 
+    Topologies are either physical or logical. There are four principal topologies used in LANs. 
+    Bus topology: All devices are connected to a central cable, called the bus or backbone
+ 
