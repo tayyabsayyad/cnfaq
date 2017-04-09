@@ -1,47 +1,16 @@
-1. Why do we need network layer ?
-This layer is responsible for the addresing the nodes in logial manner . It helps in making the decisions on routing the packets from 
-one network to another.
+1. What are the functios of network layer?
+    routing, inter-networking, congestion control
 
-2. How many hosts are possible for Class A,B and C .
-Class A: (2^24)-2
-Class B: (2^16)-2
-Class C: (2^8)-2
+2. The 4 byte IP address consists of?
+     network address & host address
 
-3. How many networks are possible for Class A,B and C .
-Class A: (2^7)-2    
-Class B: (2^14)-2
-Class C: (2^21)-2
+3.  In virtual circuit network each packet contains?
+     A short VC number
 
-4. Default subnet mask in Class A,B,C,D.
-Class A : 255.0.0.0
-Class B : 255.255.0.0
-Class C : 255.255.255.0
-Class D : 255.255.255.255
+4.  Which are the routing algorithm can be used for network layer design?    
+     shortest path algorithm, distance vector routing, link state routing
 
-5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
-Flooding 
-
-6. Why is User datagram protocol called connectionless?
-Because, all UDP packets are treated independently by transport layer. 
-
-7.Which one of the following routing algorithm can be used for network layer design?
-shortest path algorithm,distance vector routing,link state routing
-
-8.The network layer protocol of internet is
-internet protocol
-
-9.ICMP is primarily used for
-error and diagnostic functions
-
-
-7. The 4 byte IP address consists of?
-network address and host address
-
-8. In virtual circuit network each packet contains?
-  A short VC number
-
-
-7. Which device works at network layer?
-   router
-8. how many routing protocols are present in Network layer?
-    
+5. A subset of a network that includes all the routers but contains no loops is called........?
+     spanning tree
+     
+     
