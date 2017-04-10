@@ -59,3 +59,6 @@ Process to process communication.
     Network congestion in data networking and queueing theory is the reduced quality of service that occurs when a network node is carrying more data than it can handle. Typical effects include queueing delay, packet loss or the blocking of new connections.
 14. Which layers do congestion control?
     Transport layer and network layer
+15. What is Traffic Shaping?
+    Traffic shaping, also known as packet shaping, Quality of Service (QoS) or bandwidth management, is the manipulation and prioritization of network traffic to reduce the impact of heavy users or machines from effecting other users.
+
