@@ -18,3 +18,5 @@ Which among the following represents the objectives/requirements of Data Link La
 Frame Synchronization
 Error & Flow Control
 
+When 2 or more bits in a data unit has been changed during the transmission,What is the error called?
+Ans) Burst error.
