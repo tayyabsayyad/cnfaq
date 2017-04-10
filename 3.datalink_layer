@@ -1,0 +1,20 @@
+1.The data link layer takes the packets from _____ and encapsulates them into frames for transmission.
+   network layer
+
+Which sublayer of the data link layer performs data link functions that depend upon the type of medium? 
+media access control sublayer
+
+Header of a frame generally contains?
+synchronization bytes, addresses, frame identifier.
+
+2. Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+   media access control sublayer
+
+3. Automatic repeat request error management mechanism is provided by?
+   logical link control sublayer 
+
+
+Which among the following represents the objectives/requirements of Data Link Layer?
+Frame Synchronization
+Error & Flow Control
+
