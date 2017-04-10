@@ -108,3 +108,9 @@ Ans. Local Area Network
 18. Expand the acronym WAN.
 Ans. Wide Area Network
 
+19. What is meant by RIP?
+->RIP short for Routing Information Protocol is used by routers to send data from one network to another.
+  It efficiently manages routing data by broadcasting its routing table to all other routers within the network.
+
+20. What does 10Base-T mean?
+->The 10 refers to the data transfer rate, in this case is 10Mbps. The word Base refers to base band, as oppose to broad band. T means twisted pair, which is the cable used for that network.
