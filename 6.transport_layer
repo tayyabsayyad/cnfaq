@@ -59,3 +59,5 @@ Process to process communication.
     Network congestion in data networking and queueing theory is the reduced quality of service that occurs when a network node is carrying more data than it can handle. Typical effects include queueing delay, packet loss or the blocking of new connections.
 14. Which layers do congestion control?
     Transport layer and network layer
+Q) What is Socket-style API for windows called?
+Ans) winsock
