@@ -59,6 +59,15 @@ Ans. Generally, networks are distinguished based on their geographical span. A n
 
 5. What are the various network topologies ? 
 
+There are seven basic types of network topologies in the study of network topology:
+Point-to-point topology, 
+bus (point-to-multipoint) topology, 
+ring topology, star topology, 
+hybrid topology, 
+mesh topology 
+and tree topology.
+
+
     a)Bus topology consists of one main cable to which all nodes are connected.
     b)Star topology is where all nodes are connected to a central hub using point-to-point connection.
     c)In Ring topology, the computers in the network are connected in a circular fashion, and the data travels in one direction.
@@ -148,7 +157,6 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
 			are connected by means of Dual-Ring topology and networks connected to them are
 			mostly Star topology networks. Internet is the best example of largest Hybrid
 			topology.
-
 
 
 6. Compare network topologies 
