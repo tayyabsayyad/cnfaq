@@ -5,67 +5,254 @@ Computer Network is collection of computers connected together for exchanging in
 Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,
 application sharing , lan gaming and many more.
 
-3. What are types of the computer network ?
-    Hint LAN, MAN, WAN
+3. What are types of the computer network ? Explain each type.
+Ans. Generally, networks are distinguished based on their geographical span. A network
+	 can be as small as distance between your mobile phone and its Bluetooth headphone
+	 and as large as the internet itself, covering the whole geographical world.
+		i.Personal Area Network
+			A Personal Area Network (PAN) is smallest network which is very personal to a user.
+			This may include Bluetooth enabled devices or infra-red enabled devices. PAN has
+			connectivity range up to 10 meters. PAN may include wireless computer keyboard
+			and mouse, Bluetooth enabled headphones, wireless printers, and TV remotes.
+			For example, Piconet is Bluetooth-enabled Personal Area Network which may contain
+			up to 8 devices connected together in a master-slave fashion.
+		ii.Local Area Network
+			A computer network spanned inside a building and operated under single
+			administrative system is generally termed as Local Area Network (LAN). Usually, LAN
+			covers an organization offices, schools, colleges or universities. Number of systems
+			connected in LAN may vary from as least as two to as much as 16 million.
+			LAN provides a useful way of sharing the resources between end users. The resources
+			such as printers, file servers, scanners, and internet are easily sharable among
+			computers.
+			LANs are composed of inexpensive networking and routing equipment. It may
+			contains local servers serving file storage and other locally shared applications. It
+			mostly operates on private IP addresses and does not involve heavy routing. LAN
+			works under its own local domain and controlled centrally.
+			LAN uses either Ethernet or Token-ring technology. Ethernet is most widely employed
+			LAN technology and uses Star topology, while Token-ring is rarely seen.
+			LAN can be wired, wireless, or in both forms at once.
+		iii.Metropolitan Area Network
+			The Metropolitan Area Network (MAN) generally expands throughout a city such as
+			cable TV network. It can be in the form of Ethernet, Token-ring, ATM, or Fiber
+			Distributed Data Interface (FDDI).
+			Metro Ethernet is a service which is provided by ISPs. This service enables its users
+			to expand their Local Area Networks. For example, MAN can help an organization to
+			connect all of its offices in a city.
+			Backbone of MAN is high-capacity and high-speed fiber optics. MAN works in between
+			Local Area Network and Wide Area Network. MAN provides uplink for LANs to WANs
+			or internet.
+		iv. Wide Area Network
+			As the name suggests, the Wide Area Network (WAN) covers a wide area which may
+			span across provinces and even a whole country. Generally, telecommunication
+			networks are Wide Area Network. These networks provide connectivity to MANs and
+			LANs. Since they are equipped with very high speed backbone, WANs use very
+			expensive network equipment.
+			WAN may use advanced technologies such as Asynchronous Transfer Mode (ATM),
+			Frame Relay, and Synchronous Optical Network (SONET). WAN may be managed by
+			multiple administration.
     
 4. What are the types of data flows in computer ?
      Simplex :- Communication is unidirectional
      Half Duplex :- Each station can both transmit and receive, but not at the same time
      Full Duplex :- Both stations can transmit and receive simultaneously
 
+
 5. What are the various network topologies ? 
+
     a)Bus topology consists of one main cable to which all nodes are connected.
     b)Star topology is where all nodes are connected to a central hub using point-to-point connection.
     c)In Ring topology, the computers in the network are connected in a circular fashion, and the data travels in one direction.
     d)Mesh topology is where every node has a direct point-to-point connection to every other node.
 
+5. What are the various network topologies ? Explain them.
+Ans. A Network Topology is the arrangement with which computer systems or network
+		devices are connected to each other. Topologies may define both physical and logical
+		aspect of the network. Both logical and physical topologies could be same or different
+		in a same network.
+		
+		i. Point-to-Point
+			Point-to-point networks contains exactly two hosts such as computer, switches,
+			routers, or servers connected back to back using a single piece of cable. Often, the
+			receiving end of one host is connected to sending end of the other and vice versa.
+			If the hosts are connected point-to-point logically, then may have multiple
+			intermediate devices. But the end hosts are unaware of underlying network and see
+			each other as if they are connected directly.
+		ii. Bus Topology
+			In case of Bus topology, all devices share single communication line or cable. Bus
+			topology may have problem while multiple hosts sending data at the same time.
+			Therefore, Bus topology either uses CSMA/CD technology or recognizes one host as
+			Bus Master to solve the issue. It is one of the simple forms of networking where a
+			failure of a device does not affect the other devices. But failure of the shared
+			communication line can make all other devices stop functioning.
+			Both ends of the shared channel have line terminator. The data is sent in only one
+			direction and as soon as it reaches the extreme end, the terminator removes the data
+			from the line.
+		iii. Star Topology
+			All hosts in Star topology are connected to a central device, known as hub device,
+			using a point-to-point connection. That is, there exists a point to point connection
+			between hosts and hub. The hub device can be any of the following:
+				a. Layer-1 device such as hub or repeater
+				b. Layer-2 device such as switch or bridge
+				c. Layer-3 device such as router or gateway
+			As in Bus topology, hub acts as single point of failure. If hub fails, connectivity of all
+			hosts to all other hosts fails. Every communication between hosts takes place through
+			only the hub. Star topology is not expensive as to connect one more host, only one
+			cable is required and configuration is simple.
+		iv. Ring Topology
+			In ring topology, each host machine connects to exactly two other machines, creating
+			a circular network structure. When one host tries to communicate or send message
+			to a host which is not adjacent to it, the data travels through all intermediate hosts.
+			To connect one more host in the existing structure, the administrator may need only
+			one more extra cable.
+			Failure of any host results in failure of the whole ring. Thus, every connection in the
+			ring is a point of failure. There are methods which employ one more backup ring.
+		v. Mesh Topology
+			In this type of topology, a host is connected to one or multiple hosts. This topology
+			has hosts in point-to-point connection with every other host or may also have hosts
+			which are in point-to-point connection with few hosts only
+			Hosts in Mesh topology also work as relay for other hosts which do not have direct
+			point-to-point links. Mesh technology comes into two types:
+				a. Full Mesh: All hosts have a point-to-point connection to every other host in
+				  the network. Thus for every new host n(n-1)/2 connections are required. It
+				  provides the most reliable network structure among all network topologies.
+				b. Partially Mesh: Not all hosts have point-to-point connection to every other
+				  host. Hosts connect to each other in some arbitrarily fashion. This topology
+				  exists where we need to provide reliability to some hosts out of all.
+		vi. Tree Topology
+			Also known as Hierarchical Topology, this is the most common form of network
+			topology in use presently. This topology imitates as extended Star topology and
+			inherits properties of Bus topology.
+			This topology divides the network into multiple levels/layers of network. Mainly in
+			LANs, a network is bifurcated into three types of network devices. The lowermost is
+			access-layer where computers are attached. The middle layer is known as distribution
+			layer, which works as mediator between upper layer and lower layer. The highest
+			layer is known as core layer, and is central point of the network, i.e. root of the tree
+			from which all nodes fork.
+			All neighboring hosts have point-to-point connection between them. Similar to the
+			Bus topology, if the root goes down, then the entire network suffers even though it
+			is not the single point of failure. Every connection serves as point of failure, failing of
+			which divides the network into unreachable segment.
+		vii. Daisy Chain
+			This topology connects all the hosts in a linear fashion. Similar to Ring topology, all
+			hosts are connected to two hosts only, except the end hosts. Means, if the end hosts
+			in daisy chain are connected then it represents Ring topology.
+			Each link in daisy chain topology represents single point of failure. Every link failure
+			splits the network into two segments. Every intermediate host works as relay for its
+			immediate hosts.
+		viii. Hybrid Topology
+			A network structure whose design contains more than one topology is said to be
+			hybrid topology. Hybrid topology inherits merits and demerits of all the incorporating
+			topologies.
+			The above picture represents an arbitrarily hybrid topology. The combining topologies
+			may contain attributes of Star, Ring, Bus, and Daisy-chain topologies. Most WANs
+			are connected by means of Dual-Ring topology and networks connected to them are
+			mostly Star topology networks. Internet is the best example of largest Hybrid
+			topology.
+
+
+
 6. Compare network topologies 
+    ------->             Parameters                 Bus                 Ring                     Star                     Mesh
+                              
+                    Network Performance      |   Small                 Small or Large           Small                      Small
+                                                  
+                    Cable Length Requirement |   Less                  Neither less nor         More                       More
+                                                  
+                    Traffic                  |   Less                  High                     Medium                     No
+                                                  
+                    Dataflow Efficiency	     |   More                  Neither Less nor More    More                       More
+                                                  
+                    Failure                  |   Easy to Solve         Difficult to solve      Easy to solve except     Easy to Solve
+                                                                                               hub/switch fails 
+                                                  
+                    Cost                     |   Low                   High                    High                      High
+                         
+                         
 
 
 7. What is internet ?
+
+
     A collection of interconnected networks is internet. Also known as a network of networks.
+
+    The internet is an informal term for the world-wide communication network of computers. It sends information quickly
+    between computers around the world. It has millions of smaller domestic, academic, business, and government networks, which 
+    together carry many different kinds of information. 
+    The World Wide Web is one of its biggest services. It is used by a few billion people all over the world.
+
+
+8. What is internetwork ?
+Ans. Internetwork
+		A network of networks is called an internetwork, or simply the internet. It is the
+		largest network in existence on this planet. The internet hugely connects all WANs
+		and it can have connection to LANs and Home networks. Internet uses TCP/IP
+		protocol suite and uses IP as its addressing protocol. Present day, Internet is widely
+		implemented using IPv4. Because of shortage of address spaces, it is gradually
+		migrating from IPv4 to IPv6.
+		Internet enables its users to share and access enormous amount of information
+		worldwide. It uses WWW, FTP, email services, audio, and video streaming etc. At
+		huge level, internet works on Client-Server model.
+		Internet uses very high speed backbone of fiber optics. To inter-connect various
+		continents, fibers are laid under sea known to us as submarine communication cable.
+		Internet is widely deployed on World Wide Web services using HTML linked pages
+		and is accessible by client software known as Web Browsers. When a user requests
+		a page using some web browser located on some Web Server anywhere in the world,
+		the Web Server responds with the proper HTML page. The communication delay is
+		very low.
+		Internet is serving many proposes and is involved in many aspects of life. Some of
+		them are:
+		a. Web sites
+		b. E-mail
+		c. Instant Messaging
+		d. Blogging
+		e. Social Media
+		f. Marketing
+		g. Networking
+		h. Resource Sharing
+		i. Audio and Video Streaming
     
-8. Two devices are in network if
+
+9. Two devices are in network if
     a) a process in one device is able to exchange information with a process in another device
     b) a process is running on both devices
     c) PIDs of the processes running of different devices are same
     d) none of the mentioned
 Ans. a)
 
-9. In computer network nodes are
+10. In computer network nodes are
     a) the computer that originates the data
     b) the computer that routes the data
     c) the computer that terminates the data
     d) all of the mentioned
 Ans. d)
 
-10. A _____ is a device that forwards packets between networks by processing the routing information included in the packet.
+11. A _____ is a device that forwards packets between networks by processing the routing information included in the packet.
     a) bridge
     b) firewall
     c) router
     d) all of the mentioned
 Ans. c)
 
-11. What is a node?
+12. What is a node?
 Ans.    A node refers to a point or joint where a connection takes place. 
         It can be computer or device that is part of a network. 
         Two or more nodes are needed in order to form a network connection.
         
-12.  What are routers?
+13.  What are routers?
 Ans.    Routers can connect two or more network segments. These are intelligent network devices that store information 
         in its routing table such as paths, hops and bottlenecks. 
         With this info, they are able to determine the best path for data transfer. Routers operate at the OSI Network Layer.
         
-13. Name the types of reference models.
+14. Name the types of reference models.
     a)OSI Reference model (Open Systems interconnection).
     b)TCP/IP Reference model.
     
-14. What are protocols?
+15. What are protocols?
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
 
-15. Function of OSI Model?
+16. Function of OSI Model?
 
     Layer 7: The application layer. This is the layer at which communication partners are identified (Is there someone 
         to talk to?), network capacity is assessed (Will the network let me talk to them right now?), and that creates a 
@@ -96,15 +283,88 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Layer 1: The physical layer. This layer conveys the bit stream through the network at the electrical, optical or 
         radio level. It provides the hardware means of sending and receiving data on a carrier networ
         
-15. Expand the acronym NIC.
+17. Expand the acronym NIC.
 Ans. Network Interface Card
 
-16. Expand the acronym MAC.
+18. Expand the acronym MAC.
 Ans. Media Access Control
 
-17. Expand the acronym LAN.
+19. Expand the acronym LAN.
 Ans. Local Area Network
 
-18. Expand the acronym WAN.
+20. Expand the acronym WAN.
 Ans. Wide Area Network
+
+
+21. Mention Classification of Computer Networks.
+Ans.	Computer networks are classified based on various factors. They include:
+			i.Geographical span
+			ii.Inter-connectivity
+			iii.Administration
+			iv.Architecture
+
+22. What is Geographical Span in Computer Networks?
+Ans.	Geographically a network can be seen in one of the following categories:
+			i. It may be spanned across your table, among Bluetooth enabled devices,ranging not more than few meters.
+			ii. It may be spanned across a whole building, including intermediate devices to connect all floors.
+			iii. It may be spanned across a whole city.
+			iv. It may be spanned across multiple cities or provinces.
+			v. It may be one network covering whole world.
+
+23. What is Inter-Connectivity in Computer Networks?
+Ans. Components of a network can be connected to each other differently in some fashion.
+	 By connectedness we mean either logically, physically, or both ways.
+		i. Every single device can be connected to every other device on network, making the network mesh.
+		ii. All devices can be connected to a single medium but geographically disconnected, created bus-like structure.
+		iii. Each device is connected to its left and right peers only, creating linear structure.
+		iv. All devices connected together with a single device, creating star-like structure.
+		v. All devices connected arbitrarily using all previous ways to connect each other, resulting in a hybrid structure.
+
+24. What is Administration in Computer Networks?
+Ans. From an administrator’s point of view, a network can be private network which belongs a single autonomous system and 
+		cannot be accessed outside its physical or logical domain. A network can be public, which is accessed by all.
+
+25. What is Network Architecture in Computer Networks?
+Ans. Computer networks can be discriminated into various types such as Client-Server,peer-to-peer or hybrid, depending upon its architecture.
+		i. There can be one or more systems acting as Server. Other being Client, requests the Server to serve requests. 
+		Server takes and processes request on behalf of Clients.
+		ii. Two systems can be connected Point-to-Point, or in back-to-back fashion. They both reside at the same level and called peers.
+		iii. There can be hybrid network which involves network architecture of both the above types.
+		
+26. What is Network Applications in Computer Networks?
+Ans. Computer systems and peripherals are connected to form a network. They provide numerous advantages:
+		i. Resource sharing such as printers and storage devices
+		ii. Exchange of information by means of e-Mails and FTP
+		iii. Information sharing by using Web or Internet
+		iv. Interaction with other users using dynamic web pages
+		v. IP phones
+		vi. Video conferences
+		vii. Parallel computing
+		viii. Instant messaging
+
+27. What is Ethernet?
+Ans. Ethernet
+		Ethernet is a widely deployed LAN technology. This technology was invented by Bob
+		Metcalfe and D.R. Boggs in the year 1970. It was standardized in IEEE 802.3 in 1980.
+		Ethernet shares media. Network which uses shared media has high probability of
+		data collision. Ethernet uses Carrier Sense Multi Access/Collision Detection
+		(CSMA/CD) technology to detect collisions. On the occurrence of collision in Ethernet,
+		all its hosts roll back, wait for some random amount of time, and then re-transmit
+		the data.
+		Ethernet connector is network interface card equipped with 48-bits MAC address. This
+		helps other Ethernet devices to identify and communicate with remote devices in
+		Ethernet.
+		Traditional Ethernet uses 10BASE-T specifications. The number 10 depicts 10MBPS
+		speed, BASE stands for baseband, and T stands for Thick Ethernet. 10BASE-T
+		Ethernet provides transmission speed up to 10MBPS and uses coaxial cable or Cat-5
+		twisted pair cable with RJ-5 connector. Ethernet follows Star topology with segment
+		length up to 100 meters. All devices are connected to a hub/switch in a star fashion.
+
+28. What is meant by RIP?
+
+->RIP short for Routing Information Protocol is used by routers to send data from one network to another.
+  It efficiently manages routing data by broadcasting its routing table to all other routers within the network.
+
+29. What does 10Base-T mean?
+->The 10 refers to the data transfer rate, in this case is 10Mbps. The word Base refers to base band, as oppose to broad band. T means twisted pair, which is the cable used for that network.
 
