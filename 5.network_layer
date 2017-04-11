@@ -10,7 +10,39 @@
 4.  Which are the routing algorithm can be used for network layer design?    
      shortest path algorithm, distance vector routing, link state routing
 
-5. A subset of a network that includes all the routers but contains no loops is called........?
+5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
+Flooding 
+
+6. Why is User datagram protocol called connectionless?
+Because, all UDP packets are treated independently by transport layer. 
+
+7.Which one of the following routing algorithm can be used for network layer design?
+shortest path algorithm,distance vector routing,link state routing
+
+8.The network layer protocol of internet is
+internet protocol
+
+9.ICMP is primarily used for
+error and diagnostic functions
+
+
+10. The 4 byte IP address consists of?
+network address and host address
+
+11. In virtual circuit network each packet contains?
+  A short VC number
+
+
+12. Which device works at network layer?
+     Router
+     
+13.How many routing protocols are present in Network layer?
+
+14. Properties of network ?
+
+The network layer is responsible for routing which entails learning the paths, selecting the best path and forwarding the packet.
+Because it services multiple layer 4 protocols it multiplexes.
+
+15. A subset of a network that includes all the routers but contains no loops is called........?
      spanning tree
-     
-     
+
