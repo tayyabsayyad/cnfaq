@@ -141,6 +141,30 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
 			mostly Star topology networks. Internet is the best example of largest Hybrid
 			topology.
 
+
+6. Compare network topologies 
+    ------->             Parameters                 Bus                 Ring                     Star                     Mesh
+                              
+                    Network Performance      |   Small                 Small or Large           Small                      Small
+                                                  
+                    Cable Length Requirement |   Less                  Neither less nor         More                       More
+                                                  
+                    Traffic                  |   Less                  High                     Medium                     No
+                                                  
+                    Dataflow Efficiency	     |   More                  Neither Less nor More    More                       More
+                                                  
+                    Failure                  |   Easy to Solve         Difficult to solve      Easy to solve except     Easy to Solve
+                                                                                               hub/switch fails 
+                                                  
+                    Cost                     |   Low                   High                    High                      High
+                         
+                         
+
+7 What is internet ?
+  The Internet, sometimes called simply "the Net," is a worldwide system of computer networks.a network of networks in which users 
+       at any one computer can, if they have permission, get information from any other computer.
+
+
 6. Compare network topologies 
 
 
@@ -253,6 +277,7 @@ Ans. Media Access Control
 
 17. Expand the acronym LAN.
 Ans. Local Area Network
+
 
 18. Expand the acronym WAN.
 Ans. Wide Area Network
