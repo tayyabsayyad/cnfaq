@@ -67,3 +67,14 @@ Process to process communication.
 
 16. What is Socket-style API for windows called?
     winsock
+
+17. User datagram protocol is called connectionless because?
+    All UDP packets are treated independently by transport layer
+
+18. An endpoint of an inter-process communication flow across a computer network is called
+    Socket
+
+19. Socket-style API for windows is called
+    Winsock
+
+
