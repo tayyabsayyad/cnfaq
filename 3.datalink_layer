@@ -16,7 +16,9 @@ synchronization bytes, addresses, frame identifier.
    Flow control is the management of data flow between computers or devices or between nodes in a network so that the data can be handled at an efficient pace. Too much data arriving before a device can handle it causes data overflow, meaning the data is either lost or must be retransmitted.
 
 
-Which among the following represents the objectives/requirements of Data Link Layer?
+4. Which among the following represents the objectives/requirements of Data Link Layer?
 Frame Synchronization
 Error & Flow Control
 
+5. When 2 or more bits in a data unit has been changed during the transmission,What is the error called?
+Ans) Burst error.
