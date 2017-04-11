@@ -15,10 +15,42 @@ application sharing , lan gaming and many more.
 
 5. What are the various network topologies ? 
 
-    a)Bus topology consists of one main cable to which all nodes are connected.
-    b)Star topology is where all nodes are connected to a central hub using point-to-point connection.
-    c)In Ring topology, the computers in the network are connected in a circular fashion, and the data travels in one direction.
-    d)Mesh topology is where every node has a direct point-to-point connection to every other node.
+    1) Bus Network topology: In the bus network topology, every workstation is connected to a main cable called the bus.
+    2) Mesh Network topology: -> The mesh network topology employs either of two schemes, called full mesh and partial mesh. 
+                              ->In the full mesh topology, each workstation is connected directly to each of the others. 
+                              ->In the partial mesh topology, some workstations are connected to all the others, and some are connected 
+                                 only to those other nodes with which they exchange the most data.
+    3) Ring Network topology: In the ring network topology, the workstations are connected in a closed loop configuration.
+    4) Tree Network topology: The tree network topology uses two or more star networks connected together.
+                              The central computers of the star networks are connected to a main bus. 
+    5) STAR Topology: In this type of topology all the computers are connected to a single hub through a cable. 
+                     This hub is the central node and all others nodes are connected to the central node.
+    6) HYBRID Topology: It is two different types of topologies which is a mixture of two or more topologies.
+
+
+6. Compare network topologies 
+                    Parameters                 Bus                 Ring                     Star                     Mesh
+                              
+                    Network Performance      |   Small                 Small or Large           Small                      Small
+                                                  
+                    Cable Length Requirement |   Less                  Neither less nor         More                       More
+                                                  
+                    Traffic                  |   Less                  High                     Medium                     No
+                                                  
+                    Dataflow Efficiency	     |   More                  Neither Less nor More    More                       More
+                                                  
+                    Failure                  |   Easy to Solve         Difficult to solve      Easy to solve except     Easy to Solve
+                                                                                               hub/switch fails 
+                                                  
+                    Cost                     |   Low                   High                    High                      High
+                         
+                         
+
+7 What is internet ?
+  The Internet, sometimes called simply "the Net," is a worldwide system of computer networks.a network of networks in which users 
+       at any one computer can, if they have permission, get information from any other computer.
+
+
 
 6. Compare network topologies 
     Bus Toplogy : It is the type of topology in which computer and network device in connected to single cable.
@@ -116,6 +148,13 @@ Ans. Media Access Control
 Ans. Local Area Network
 
 
-20. Expand the acronym WAN.
+20. What does 10Base-T mean?
+->The 10 refers to the data transfer rate, in this case is 10Mbps. The word Base refers to base band, as oppose to broad band. T means twisted pair, which is the cable used for that network.
+
+
+21. Expand the acronym WAN.
 Ans. Wide Area Network
 
+22. What is meant by RIP?
+->RIP short for Routing Information Protocol is used by routers to send data from one network to another.
+  It efficiently manages routing data by broadcasting its routing table to all other routers within the network.

@@ -55,7 +55,26 @@ Process to process communication.
     OSI Model, Layer 4, provides transparent transfer of data between end systems, or hosts, and is responsible for 
     end-to-end error recovery and flow control. It ensures complete data transfer.
     Transport examples include SPX, TCP, UDP
+    
 13. What is congestion?
     Network congestion in data networking and queueing theory is the reduced quality of service that occurs when a network node is carrying more data than it can handle. Typical effects include queueing delay, packet loss or the blocking of new connections.
+
 14. Which layers do congestion control?
     Transport layer and network layer
+
+15. What is Traffic Shaping?
+    Traffic shaping, also known as packet shaping, Quality of Service (QoS) or bandwidth management, is the manipulation and prioritization of network traffic to reduce the impact of heavy users or machines from effecting other users.
+
+16. What is Socket-style API for windows called?
+    winsock
+
+17. User datagram protocol is called connectionless because?
+    All UDP packets are treated independently by transport layer
+
+18. An endpoint of an inter-process communication flow across a computer network is called
+    Socket
+
+19. Socket-style API for windows is called
+    Winsock
+
+
