@@ -54,5 +54,20 @@ and access contr
     multiplexing
     
 12. Wireless transmission can be done via:     
-   radio waves, microwaves, infrared  
+   radio waves, microwaves, infrared
+
+13.Why the OSI model was developed?
+The International Organization for Standardization (ISO) created the Open Systems Interconnection (OSI) reference model as a 
+framework for defining standards for connecting computers.
+
+14.a physical layer is responsible for:
+   line coding,channel coding ,modulation
+
+15.The portion of physical layer that interfaces with the media access control sublayer is called:
+   physical signalling sublayer
+
+16.in asynchronous serial communication the physical layer provides:
+   start and stop signalling, flow control 
+
+
 
