@@ -366,5 +366,11 @@ Ans. Ethernet
   It efficiently manages routing data by broadcasting its routing table to all other routers within the network.
 
 29. What does 10Base-T mean?
+
 ->The 10 refers to the data transfer rate, in this case is 10Mbps. The word Base refers to base band, as oppose to broad band. T means twisted pair, which is the cable used for that network.
 
+
+30. What are MAC addresses?
+
+MAC, or Media Access Control, uniquely identifies a device on the network. It is also known as physical address or Ethernet address. 
+A MAC address is made up of 6-byte parts.
