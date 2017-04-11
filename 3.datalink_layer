@@ -14,9 +14,9 @@ synchronization bytes, addresses, frame identifier.
    logical link control sublayer 
 
 
-Which among the following represents the objectives/requirements of Data Link Layer?
+4. Which among the following represents the objectives/requirements of Data Link Layer?
 Frame Synchronization
 Error & Flow Control
 
-When 2 or more bits in a data unit has been changed during the transmission,What is the error called?
+5. When 2 or more bits in a data unit has been changed during the transmission,What is the error called?
 Ans) Burst error.
