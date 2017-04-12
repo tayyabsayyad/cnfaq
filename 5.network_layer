@@ -1,10 +1,325 @@
-7. What is fragmentation?
+
+
+
+1. What are the functios of network layer?
+    routing, inter-networking, congestion control
+
+2. The 4 byte IP address consists of?
+     network address & host address
+
+3.  In virtual circuit network each packet contains?
+     A short VC number
+
+4.  Which are the routing algorithm can be used for network layer design?    
+     shortest path algorithm, distance vector routing, link state routing
+
+5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
+    Flooding 
+
+6. Why is User datagram protocol called connectionless?
+Because, all UDP packets are treated independently by transport layer. 
+
+7.What are network layer design issues?
+-Store-and-Forward Packet Switching
+-Services Provided to the Transport Layer
+-Implementation of Connectionless Service
+-Implementation of Connection-Oriented Service
+-Comparison of Virtual-Circuit and Datagram Subnets
+
+8) The ......... provides two well-defined classes of services, namely connectionless and connection oriented services to the numerous nodes or hosts communicating through subnet.
+
+A. physical layer
+
+B. data link layer
+
+C. network layer
+
+D. transport layer
+
+-->C. network layer
+
+9) In computer networking the term .......... refers to selecting paths in a computer network along which to send data.
+
+A. routing
+
+B. inter-networking
+
+C. internal organization
+
+D. congestion control
+
+-->A. routing
+
+10) ............ Routing algorithms do not base their routing decisions on measurements or estimates of the current traffic and topology.
+
+A. Static or Non-adaptive 
+
+B. Static or adaptive
+
+C. Dynamic or Non-adaptive
+
+D. Dynamic or adaptive
+
+-->A. Static or Non-adaptive
+
+11) ............. Routing algorithm in contrast change their routing decisions to reflect changes in topology and usually the traffic as well. 
+
+A. Static or Non-adaptive 
+
+B. Static or adaptive
+
+C. Dynamic or Non-adaptive
+
+D. Dynamic or adaptive
+
+-->D. Dynamic or adaptive
+
+12) ........... is also a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
+
+A. Shortest Path Algorithm
+
+B. Flooding
+
+C. Distance Vector Routing
+
+D. Hierarchical Routing
+
+-->B. Flooding
+
+13) .......... is basically a vector that keeps track of best known distance to each destination and which line to use to get there.
+
+A. Shortest Path Algorithm
+
+B. Flooding
+
+C. Distance Vector Routing
+
+D. Hierarchical Routing
+
+-->C. Distance Vector Routing
+
+14) In addresses for .......... networks, the first 16 bits specify a particular network, and the last 16 bits specify a particular host.
+
+A. class A
+
+B. class C
+
+C. class B
+
+D. class D
+
+-->C. class B
+
+15) In .......... , the routers are divided into regions. Each router knows all details about how to route packets to destinations within its own region.
+
+A. Shortest Path Algorithm
+
+B. Link state Routing
+
+C. Distance Vector Routing
+
+D. Hierarchical Routing
+
+-->D. Hierarchical Routing
+
+16) In .......... , each node uses as its fundamental data a map of the network in the form of a graph.
+
+A. Shortest Path Algorithm
+
+B. Link state Routing
+
+C. Distance Vector Routing
+
+D. Hierarchical Routing
+
+-->B. Link state Routing
+
+17) ......... protocols are simple and efficient in small networks, and require little, if any management.
+
+A. Shortest Path Algorithm
+
+B. Link state Routing
+
+C. Distance Vector Routing
+
+D. Hierarchical Routing
+
+-->C. Distance Vector Routing
+
+18) In ........... routing algorithm, each router knows all details about how to route packets to destinations within its own region. But does not have any idea about internal structure of other regions.
+
+A. Shortest Path Algorithm
+
+B. Link state Routing
+
+C. Distance Vector Routing
+
+D. Hierarchical Routing
+
+-->D. Hierarchical Routing
+
+19) The set of optimal routers from source to a given destination from a tree rooted at the destination called a ........ tree.
+
+A. sink
+
+B. optimal
+
+C. rooted
+
+D. routing
+
+-->A. sink
+
+20) .......... is a simple mathematical computation used to check for bit-level errors in the IPV4 header.
+
+A. Identification
+
+B. Protocol
+
+C. Checksum
+
+D. Time-to-Live(TTL) 
+
+-->C. Checksum
+
+21) The number of network segments on which the datagram is allowed to travel before a router should discard it is called .......
+
+A. Identification
+
+B. Protocol
+
+C. Checksum
+
+D. Time-to-Live(TTL) 
+
+-->D. Time-to-Live(TTL) 
+
+22) .......... is an identifier of the upper-layer protocol to which the IPV4 payload must be passed.
+
+A. Identification
+
+B. Protocol
+
+C. Checksum
+
+D. Time-to-Live(TTL) 
+
+-->B. Protocol
+
+23) The IPV4 address of the intermediate or final destination of the IPV4 packet is called .......
+
+A. Source IP Address
+
+B. Destination IP Address
+
+C. Identification
+
+D. Checksum
+
+-->B. Destination IP Address
+
+24) .......... type of IPV4 address is assigned to all network interfaces located on a subnet, used for one-to-everyone on a subnet communication.
+
+A. Unicast
+
+B. Multicast
+
+C. Broadcast
+
+D. Anycast
+
+-->C. Broadcast
+
+25) The ......... header field of IPV6 indicates the number of likes on which the packet is allowed to travel before being discarded by a router.
+
+A. Source Address
+
+B. Destination Address
+
+C. Next Header
+
+D. Hop Limit
+
+-->D. Hop Limit
+
+26) ......... is an identifier for either the IPV6 extension header immediately following the IPV6 header or an upper layer protocol, such as ICMPv6, TCP or UDP.
+
+A. Source Address
+
+B. Destination Address
+
+C. Next Header
+
+D. Hop Limit
+
+-->C. Next Header
+
+27) The internet addresses are ......... bits in length in IPV4 addressing scheme.
+
+A. 16
+
+B. 64
+
+C. 32
+
+D. 48
+
+-->C. 32
+
+
+
+7.What is routing?What are the types of routing?
+
+Routing is the process of selecting a path for traffic in a network, or between or across multiple networks. 
+Routing is performed for many types of networks, including circuit-switched networks,
+such as the public switched telephone network (PSTN) and computer networks, such as the Internet.
+The types of routing are:-
+1)Flooding
+2)Distance vector routing
+3)Link State Routing
+4)Hierarchical Routing
+5)Broadcast routing
+6)Multicast routing
+7)Anycast routing
+
+
+7.Which one of the following routing algorithm can be used for network layer design?
+shortest path algorithm,distance vector routing,link state routing
+
+8.The network layer protocol of internet is
+internet protocol
+
+9.ICMP is primarily used for
+error and diagnostic functions
+
+
+10. The 4 byte IP address consists of?
+network address and host address
+
+11. In virtual circuit network each packet contains?
+  A short VC number
+
+
+12. Which device works at network layer?
+     Router
+     
+13.How many routing protocols are present in Network layer?
+
+14. Properties of network ?
+
+The network layer is responsible for routing which entails learning the paths, selecting the best path and forwarding the packet.
+Because it services multiple layer 4 protocols it multiplexes.
+
+15. A subset of a network that includes all the routers but contains no loops is called........?
+     spanning tree
+
+16. What is fragmentation?
 Ans:Fragmentation is when a datagram has to be broken up into smaller datagrams to fit the frame
 size of a certain network. Different networks have different MTUs (maximum transfer unit), when a
 datagram enters a network with a smaller MTU the gateway/router needs to fragment this packet
 into smaller packets that fit the new MTU.
 
-8.What is tunneling in network layer?
+17.What is tunneling in network layer?
 Ans:Tunneling is a protocol that allows for the secure movement of data from one network to another. Tunneling involves allowing private
 network communications to be sent across a public network, such as the Internet, through a process called encapsulation. The encapsulation
 process allows for data packets to appear as though they are of a public nature to a public network when they are actually private data
