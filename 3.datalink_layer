@@ -1,5 +1,5 @@
 
-1.What is data link layer?
+1. What is data link layer?
 Data Link Layer is second layer of OSI Layered Model. Data link layer is responsible for converting data stream to signals bit by bit and to send that over the underlying hardware.
 The Data Link layer is concerned with moving data across the physical links in the network.
 
@@ -26,9 +26,27 @@ The Data Link layer is concerned with moving data across the physical links in t
   Stations on same link may have different speed or capacity. Data-link layer ensures flow control 
   that enables both machine to exchange data on same speed
 
-3.Tyes of errors in framing 
+3.Tyes of errors
+single bit error:In a frame, there is only one bit, anywhere though, which is corrupt.
+Multiple bits error:Frame is received with more than one bits in corrupted state.
+Burst error:Frame contains more than 1 consecutive bits corrupted.
 
-Single bit error:In a frame, there is only one bit, anywhere though, which is corrupt.
+4.What are the error control mechanism?
+1.error detection
+2.error correction
+
+5.Explain sliding window
+
+Sliding window refers to an imaginary boxes that hold the frames on both sender and receiver side.
+• It provides the upper limit on the number of frames that can be transmitted before requiring an acknowledgment.
+• Frames may be acknowledged by receiver at any point even when window is not full on receiver side.
+• Frames may be transmitted by source even when window is not yet full on sender side.
+• The windows have a specific size in which the frames are numbered modulo- n, which means they are numbered from 0 to n-l. 
+For e.g. if n = 8, the frames are numbered 0, 1,2,3,4,5,6, 7, 0, 1,2,3,4,5,6, 7, 0, 1, ....
+• The size of window is n-1. For e.g. In this case it is 7. Therefore, a maximum of n-l frames may be sent before an acknowledgment.
+• When the receiver sends an ACK, it includes the number of next frame it expects to receive. For example in order to acknowledge the 
+group of frames ending in frame 4, the receiver sends an ACK containing the number 5. When sender sees an ACK with number 5, it comes 
+to know that all the frames up to number 4 have been received. 
 
 Multiple bits error:Frame is received with more than one bits in corrupted state.
 Burst error:Frame contains more than1 consecutive bits corrupted.
@@ -36,8 +54,8 @@ Burst error:Frame contains more than1 consecutive bits corrupted.
 
 4.What are the error control mechanism?
 
-1.error detection
-2.error correction
+   1.error detection
+   2.error correction
 
 
   1.error detection
@@ -60,13 +78,13 @@ Burst error:Frame contains more than1 consecutive bits corrupted.
   d.If a single bit flips in transit, the receiver can detect it by counting the number of 1s. 
   But when more than one bits are erro neous, then it is very hard for the receiver to detect the error.
 
-2.Error correction
-  In the digital world, error correction can be done in two ways:
+  2.Error correction
+   In the digital world, error correction can be done in two ways:
 
-  A.Backward Error Correction  :When the receiver detects an error in the data received, 
-  it requests back the sender to retransmit the data unit.
-  B.Forward Error Correction  :When the receiver detects some error in the data received,
-  it executes error-correcting code, which helps it to auto-recover and to correct some kinds of errors.
+   A.Backward Error Correction  :When the receiver detects an error in the data received, 
+   it requests back the sender to retransmit the data unit.
+   B.Forward Error Correction  :When the receiver detects some error in the data received,
+   it executes error-correcting code, which helps it to auto-recover and to correct some kinds of errors.
 
 5.Flow Control
   When a data frame (Layer-2 data) is sent from one host to another over a single medium, it is required 
@@ -218,3 +236,4 @@ Flag bytes with bit stuffing
 
 21. What is HDLC (High-level Data Link Control)?
 HDLC (High-level Data Link Control) is a group of protocols or rules for transmitting data between network points (sometimes called nodes).
+
