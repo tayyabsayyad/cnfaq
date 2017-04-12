@@ -7,7 +7,7 @@
 
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
-   
+
 3. Bits can be send over guided and unguided media as analog signal by?
    digital modulation.
    
@@ -236,4 +236,12 @@ framework for defining standards for connecting computers.
  
 39. Bits can be sent over guided and unguided media as analog signals by?
    Digital Modulation
+   
+   
+40. What is multiplexing?
+   It is set of techniques that allows the simultaneous transmission of multiple signal across a single data link.
+
+
+41.Types of Multiplexing?
+   frequency division multiplexing(analog),wavelength division multiplexing(analog) ,time division multiplexing(digital)
 
