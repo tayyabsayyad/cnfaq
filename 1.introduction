@@ -256,7 +256,6 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     a)OSI Reference model (Open Systems interconnection).
     b)TCP/IP Reference model.
     
-
 15. What is Packet switched networking?
     This technology involves breaking down the data into packets that would be transferred from one computer to the other
     until the final destination computer was reached. Also, if any data were lost, it would be resent.
@@ -460,4 +459,8 @@ Ans:    Broadly there are two types of transmission technology:
         2. Point-to-point networks: This network consists of many connections between individual pairs of
         machines. To go from the source to destination a message (or packet) may have to visit one or more
         intermediate machines
+        
+ 41. What is the use of a default gateway?
+Default gateways provide means for the local networks to connect to the external network. 
+The default gateway for connecting to the external network is usually the address of the external router port.
 
