@@ -1,14 +1,86 @@
-1. The physical layer concerns with?
-   bit-by-bit delivery.
+1. Which transmission media has the highest transmission speed in a network? 
+  optical fiber
 
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
   
-3. Bits can be send over guided and unguided media as analog signal by?
+
+3.   What are the transmission modes in physical layer?
+Ans. Physical Layer defines the direction of transmission between two devices: Simplex, Half Duplex, Full Duplex.
+
+4.   What are the various networking Topologies?
+Ans. Mesh, Star, Ring and Bus
+ 
+5. Bits can be send over guided and unguided media as analog signal by?
    digital modulation
    
-4. The portion of physical layer that interfaces with the media access control sublayer is called?
+6. physical layer provides?
+   mechanical specifications of electrical connectors and cables, electrical specification of transmission line signal level, specification for IR over optical fiber
+
+7 .What is the OSI model?
+OSI stands for Open Systems Interconnection and
+was created by ISO, the International Standards Organization.
+The OSI "reference model" divides particular networked processes into seven different layers:
+Application (Layer 7) 
+Presentation (Layer 6) 
+Session (Layer 5) 
+Transport (Layer 4) 
+Network (Layer 3) 
+Data Link (Layer 2)
+and Physical (Layer 1)
+
+8.What is the Network Time Protocol
+
+The Network Time Protocol (NTP) is a protocol for synchronizing the clocks of computer
+systems over packet switched, variable latency data
+networks. NTP uses UDP as its transport layer. It is designed particularly to
+resist the effects of variable latency.
+
+9.What is virtual network?
+
+An internet architecture in which routers connect multiple physical networks.
+
+10.Is internet a virtual network?
+yes An internet is a single virtual network
+that interconnects all hosts and through which communication is possible ;its
+under lying architecture is both hidden and irrelevant.
+
+11.What are the functions of data link layer in OSI model?
+
+Framing: it divides the stream of bits received from the net
+work layer, physical addressing ,flow control ,error control
+and access contr
+
+12 .Bits can be send over guided and unguided media as analog signal by which modulation?
+  digital modulation
+
+13 .The physical layer translates logical communication requests from the ______ into hardware specific operations. 
+   data link layer
+
+14 .A single channel is shared by multiple signals by:    
+    multiplexing
+    
+15. Wireless transmission can be done via:     
+   radio waves, microwaves, infrared
+
+16.Why the OSI model was developed?
+The International Organization for Standardization (ISO) created the Open Systems Interconnection (OSI) reference model as a 
+framework for defining standards for connecting computers.
+
+17.a physical layer is responsible for:
+   line coding,channel coding ,modulation
+
+18.The portion of physical layer that interfaces with the media access control sublayer is called:
+   physical signalling sublayer
+
+19.in asynchronous serial communication the physical layer provides:
+   start and stop signalling, flow control 
+
+20. Bits can be send over guided and unguided media as analog signal by?
+   digital modulation
+   
+21. The portion of physical layer that interfaces with the media access control sublayer is called?
     physical signalling sublayer
     
-5. In asynchronous serial communication the physical layer provides?
+22. In asynchronous serial communication the physical layer provides?
    start and stop signalling & flow control
