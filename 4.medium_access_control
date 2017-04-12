@@ -1,0 +1,122 @@
+
+
+1. Field of Media Access Control frame that is used to alternate 1s and 0s is called
+    preamble
+
+2. Media access control is sub layer of
+   IEEE
+
+3. Media Access Control layer frame has
+   9 Fields
+
+4. Value of frame body field of Media Access Control frame is in between
+   0 to 2312 bytes
+
+5. Duration field D of Media Access Control layer frame contains
+   2bytes
+   
+6.what is mac address?
+  
+A media access control address (MAC address) of a computer is a unique identifier assigned to network interfaces for
+communications at the data link layer of a network segment. 
+
+MAC addresses are used in the media access control protocol sublayer of the OSI reference model.
+
+7.What is my IP address and MAC address?
+A MAC address is given to a network adapter when it is manufactured.
+It is hardwired or hard-coded onto your computer's network interface card (NIC) and is unique to it.
+Something called the ARP (Address Resolution Protocol) translates an IP address into a MAC address.
+
+   
+ 8.What are the Multiple Access Protocols?
+    1.ALOHA 
+    2.Carrier Sense Multiple Access Protocols 
+    3.Collision-Free Protocols 
+    4.Limited-Contention Protocols 
+    5.Wavelength Division Multiple Access Protocols 
+    6.Wireless LAN Protocols 
+    
+ 9.Aloha?
+   ALOHA: 
+   a.In the 1970s, Norman Abramson and his colleagues at the University of Hawaii devised a new and elegant method to 
+     solve the channel allocation problem. ALOHA in Hawaiian  means “hello”. 
+   b.Two versions of ALOHA : pure and slotted. 
+   c.They differ with respect to whether time is divided into discrete slots into which all frames must fit. 
+   d.Pure ALOHA does not require global time synchronization; slotted ALOHA does.
+  
+  Pure ALOHA :
+  a.Each station sends a frame whenever it has a frame to send. 
+  b.However, since there is only one channel to share, there is the possibility of collision between frames from different stations.
+  c.We need to resend the frames that have been destroyed during transmission. The pure ALOHA protocol relies on acknowledgments 
+   from the receiver.  When a station sends a frame, it expects the receiver to send an acknowledgment. 
+   If the acknowledgment does not arrive after a time-out period, the station assumes that the frame (or the acknowledgment) 
+   has been destroyed and resends the frame. 
+  d.A collision involves two or more stations. If all these stations try to resend their frames after the time-out, 
+    the frames will collide again.  Pure ALOHA dictates that each station waits a random amount of time before 
+    sending its frame. The randomness will help avoid more collisions. We call this time the back-off time.
+
+
+10. Carrier Sense Multiple Access Protocols?
+  Carrier sense multiple access (CSMA) requires that each station first listen to the medium (or check the state of the medium) 
+  before sending. In other words, CSMA is based on the principle "sense before transmit" or "listen before talk.
+  " The possibility of collision still exists because of propagation delay; when a station sends a frame, it still takes 
+  time (although very short) for the first bit to reach every station and for every station to sense it.
+  
+11.Persistence Methods?
+  Three methods have been devised to answer these questions: 
+  A. 1-persistent method 
+  B. nonpersistent method 
+  C. p-persistent method
+
+  1 – Persistent: 
+   a.The station finds the line idle, it sends its frame immediately (with probability 1). 
+   b.This method has the highest chance of collision because two or more stations may find the line idle and send their 
+     frames immediately.
+
+  Non Persistent: 
+   a. If a station that has a frame to send it senses the line.  If the line is idle, it sends immediately. 
+   b. If the line is not idle, it waits a random amount of time and then senses the line again. 
+   c. The nonpersistent approach reduces the chance of collision because it is unlikely that two or more stations
+      will wait the same amount of time and retry to send simultaneously. 
+   d. However, this method reduces the efficiency of the network because the medium remains idle when there may 
+      be stations with frames to send.
+      
+  P-persistent: 
+  The p-persistent method is used if the channel has time slots with a slot duration equal to or greater than 
+  the maximum propagation time
+  In this method, after the station finds the line idle it follows these steps: 
+  1. With probability p, the station sends its frame. 
+  2. With probability q = 1 - p, the station waits for the beginning of the next time slot and checks the line again.     
+     a. If the line is idle, it goes to step 1.      
+     b. If the line is busy, it acts as though a collision has occurred and uses the back-off procedure.
+
+
+12. How many fields does a Media Access Control layer frame have?
+   9 Fields
+
+13.The Channel Allocation Problem?
+  Channel allocation is a problem to those who use broadcast channel (broadcast channels are sometimes referred to 
+  as multiaccess channels or random access channels).
+  Key issue is how to determine who gets to use the channel when there is competition for it.  
+  The protocols used to determine who goes next on a multiaccess channel belong to a sublayer of the 
+  data link layer called the MAC (Medium Access Control) sublayer. 
+  
+  Static Channel Allocation in LANs and MANs:
+  a.For small number of users with fixed demand pattern FDM is a simple and efficient allocation mechanism. 
+  b.For large number of users with varying pattern of demand we have following problem: 
+  c.If spectrum is divided into N channels and less than  N users are available, then valuable spectrum is wasted. 
+  d.If spectrum is divided into N channels and more than  N users are available, then some user are denined channel 
+    due to shortage of spectrum. 
+  e.The delay faced by the data will be equal to transmission delay + delay for resolving the contention 
+    (stations compete with each other to access the medium) + accessing the medium. 
+    
+    Dynamic Channel Allocation in LANs and MANs:
+    Assumptions made : Station Model: There are N independent stations (also called Terminal) 
+    (e.g., computers, telephones, etc.) which has a program which generates the frames. Once a frame has been generated,
+    the station is blocked and does nothing until the frame has been successfully transmitted. 
+
+
+13. what is ethernet?
+-> a system for connecting a number of computer systems to form a local area network, with protocols to control the passing of information and to avoid simultaneous transmission by two or more systems.
+
+
