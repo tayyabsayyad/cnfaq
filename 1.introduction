@@ -464,3 +464,8 @@ Ans:    Broadly there are two types of transmission technology:
 Default gateways provide means for the local networks to connect to the external network. 
 The default gateway for connecting to the external network is usually the address of the external router port.
 
+41. What is RIP?
+
+  RIP, short for Routing Information Protocol is used by routers to send data from one network to another. 
+  It efficiently manages routing data by broadcasting its routing table to all other routers within the network.
+  It determines the network distance in units of hops.
