@@ -1,20 +1,32 @@
-1.What is data link layer?
-Data Link Layer is second layer of OSI Layered Model. Data link layer is responsible for converting data stream to signals bit by bit and to send that over the underlying hardware.
+1.The data link layer takes the packets from _____ and encapsulates them into frames for transmission.
+   network layer
 
-2.Functions of data link layer
-1.framing
-2.addressing
-3.synchronization
-4.error control
-5.flow control 
-6.multi-access
+Which sublayer of the data link layer performs data link functions that depend upon the type of medium? 
+media access control sublayer
 
-Tyes of errors
-single bit error:In a frame, there is only one bit, anywhere though, which is corrupt.
-Multiple bits error:Frame is received with more than one bits in corrupted state.
-Burst error:Frame contains more than1 consecutive bits corrupted.
+Header of a frame generally contains?
+synchronization bytes, addresses, frame identifier.
 
-What are the error control mechanism?
-1.error detection
-2.error correction
+2. Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+   media access control sublayer
 
+3. Automatic repeat request error management mechanism is provided by?
+   logical link control sublayer 
+4. What is Flow Control?
+   Flow control is the management of data flow between computers or devices or between nodes in a network so that the data can be handled at an efficient pace. Too much data arriving before a device can handle it causes data overflow, meaning the data is either lost or must be retransmitted.
+
+
+Which among the following represents the objectives/requirements of Data Link Layer?
+Frame Synchronization
+Error & Flow Control
+
+5.What is one of the functions of the data link layer?
+The three main functions of the data link layer are to deal with transmission errors,
+regulate the flow of data, and provide a well-defined interface to the network layer.
+
+
+Q. Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+A. medium access control sublayer
+
+Q. The data link layer takes the packets from _____ and encapsulates them into frames for transmission.
+A. network layer
