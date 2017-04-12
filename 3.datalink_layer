@@ -215,5 +215,6 @@ Flag bytes with bit stuffing
           Each frame is received exactly once
           Frames are received in order
      3)Special care has to be taken to ensure this in connectionless services
-     
 
+21. What is HDLC (High-level Data Link Control)?
+HDLC (High-level Data Link Control) is a group of protocols or rules for transmitting data between network points (sometimes called nodes).
