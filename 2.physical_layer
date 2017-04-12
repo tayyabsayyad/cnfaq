@@ -8,6 +8,7 @@
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
 
+  
 3. Bits can be send over guided and unguided media as analog signal by?
    digital modulation.
    
@@ -244,4 +245,27 @@ framework for defining standards for connecting computers.
 
 41.Types of Multiplexing?
    frequency division multiplexing(analog),wavelength division multiplexing(analog) ,time division multiplexing(digital)
+
+42. Term that refers to a physical layer technique is called
+   a.CDMA
+   b.FDMA
+   c.TDMA
+   d.TDM
+   soln:D-TDM.
+   
+43. Device that operates below physical layer of OSI model is
+
+   a.active hub
+   b.passive hub
+   c.bridge
+   d.repeater
+   soln:B-passive hub.
+   
+45.Physical layer is responsible for movements of individual
+
+   a.Bits
+   b.frames
+   c.Bytes
+   d.None of Above
+   soln:A-Bits
 
