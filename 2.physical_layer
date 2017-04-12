@@ -4,6 +4,7 @@
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
   
+
 3.   What are the transmission modes in physical layer?
 Ans. Physical Layer defines the direction of transmission between two devices: Simplex, Half Duplex, Full Duplex.
 
@@ -75,3 +76,11 @@ framework for defining standards for connecting computers.
 19.in asynchronous serial communication the physical layer provides:
    start and stop signalling, flow control 
 
+20. Bits can be send over guided and unguided media as analog signal by?
+   digital modulation
+   
+21. The portion of physical layer that interfaces with the media access control sublayer is called?
+    physical signalling sublayer
+    
+22. In asynchronous serial communication the physical layer provides?
+   start and stop signalling & flow control
