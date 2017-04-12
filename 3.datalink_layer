@@ -1,24 +1,42 @@
-1.What is data link layer?
-Data Link Layer is second layer of OSI Layered Model. Data link layer is responsible for converting data stream to signals bit by bit and to send that over the underlying hardware.
 
-2.Functions of data link layer
+1. What is data link layer?
+Data Link Layer is second layer of OSI Layered Model. Data link layer is responsible for converting data stream to signals bit by bit and to send that over the underlying hardware.
+The Data Link layer is concerned with moving data across the physical links in the network.
+
+2. What are the functions of data link layer
+
 1.framing
+  Data-link layer takes packets from Network Layer and encapsulates them into Frames.Then, 
+  it sends each frame bit-by-bit on the hardware. At receiver’ end, data link layer picks 
+  up signals from hardware and assembles them into frames.
 2.addressing
+  Data-link layer provides layer-2 hardware addressing mechanism. Hardware address is assumed 
+  to be unique on the link. It is encoded into hardware at the time of manufacturing.
 3.synchronization
+  When data frames are sent on the link, both machines must be synchronized in order to 
+  transfer to take place.
 4.error control
-5.flow control 
+  Sometimes signals may have encountered problem in transition and the bits are flipped.
+  These errors are detected and attempted to recover actual data bits. It also provides error reporting 
+  mechanism to the sender.
+5.flow control
+  Stations on same link may have different speed or capacity. Data-link layer ensures flow control 
+  that enables both machine to exchange data on same speed
 6.multi-access
+  Stations on same link may have different speed or capacity. Data-link layer ensures flow control 
+  that enables both machine to exchange data on same speed
 
 3.Tyes of errors
 single bit error:In a frame, there is only one bit, anywhere though, which is corrupt.
 Multiple bits error:Frame is received with more than one bits in corrupted state.
-Burst error:Frame contains more than1 consecutive bits corrupted.
+Burst error:Frame contains more than 1 consecutive bits corrupted.
 
 4.What are the error control mechanism?
 1.error detection
 2.error correction
 
 5.Explain sliding window
+
 Sliding window refers to an imaginary boxes that hold the frames on both sender and receiver side.
 • It provides the upper limit on the number of frames that can be transmitted before requiring an acknowledgment.
 • Frames may be acknowledged by receiver at any point even when window is not full on receiver side.
@@ -29,3 +47,193 @@ For e.g. if n = 8, the frames are numbered 0, 1,2,3,4,5,6, 7, 0, 1,2,3,4,5,6, 7,
 • When the receiver sends an ACK, it includes the number of next frame it expects to receive. For example in order to acknowledge the 
 group of frames ending in frame 4, the receiver sends an ACK containing the number 5. When sender sees an ACK with number 5, it comes 
 to know that all the frames up to number 4 have been received. 
+
+Multiple bits error:Frame is received with more than one bits in corrupted state.
+Burst error:Frame contains more than1 consecutive bits corrupted.
+
+
+4.What are the error control mechanism?
+
+   1.error detection
+   2.error correction
+
+
+  1.error detection
+  Errors in the received frames are detected by means of Parity Check and Cyclic Redundancy Check (CRC). 
+  In both cases, few extra bits are sent along with actual data to confirm that bits received at other 
+  end are same as they were sent. If the counter-check at receiver’ end fails, the bits are considered corrupted.
+  
+  Parity Check
+  a.One extra bit is sent along with the original bits to make number of 1s either even in case of even parity, 
+  or odd in case of odd parity.
+  
+  b.The sender while creating a frame counts the number of 1s in it. For example, if even parity is used 
+  and number of 1s is even then one bit with value 0 is added. This way number of 1s remains even.If the 
+  number of 1s is odd, to make it even a bit with value 1 is added.
+  
+  c.The receiver simply counts the number of 1s in a frame. If the count of 1s is even and even parity is used, 
+  the frame is considered to be not-corrupted and is accepted. If the count of 1s is odd and odd parity is used, 
+  the frame is still not corrupted.
+  
+  d.If a single bit flips in transit, the receiver can detect it by counting the number of 1s. 
+  But when more than one bits are erro neous, then it is very hard for the receiver to detect the error.
+
+  2.Error correction
+   In the digital world, error correction can be done in two ways:
+
+   A.Backward Error Correction  :When the receiver detects an error in the data received, 
+   it requests back the sender to retransmit the data unit.
+   B.Forward Error Correction  :When the receiver detects some error in the data received,
+   it executes error-correcting code, which helps it to auto-recover and to correct some kinds of errors.
+
+5.Flow Control
+  When a data frame (Layer-2 data) is sent from one host to another over a single medium, it is required 
+  that the sender and receiver should work at the same speed. That is, sender sends at a speed on which 
+  the receiver can process and accept the data. 
+  If sender is sending too fast the receiver may be overloaded, (swamped) and data may be lost.
+
+  Two types of mechanisms can be deployed to control the flow:
+  1.Stop and Wait
+    This flow control mechanism forces the sender after transmitting a data frame to stop and wait until 
+    the acknowledgement of the data-frame sent is received.
+  2.Sliding Window
+    In this flow control mechanism, both sender and receiver agree on the number of data-frames after which 
+    the acknowledgement should be sent. As we learnt, stop and wait flow control mechanism wastes resources, 
+    this protocol tries to make use of underlying resources as much as possible.
+
+6.Error Control
+  When data-frame is transmitted, there is a probability that data-frame may be lost in the transit or 
+  it is received corrupted. In both cases, the receiver does not receive the correct data-frame and sender 
+  does not know anything about any loss.In such case, both sender and receiver are equipped with some 
+  protocols which helps them to detect transit errors such as loss of data-frame. Hence, either the sender 
+  retransmits the data-frame or the receiver may request to resend the previous data-frame.
+
+  Requirements for error control mechanism:
+  1.Error detection  - The sender and receiver, either both or any, must ascertain that there is some error in the transit.
+  2.Positive ACK  - When the receiver receives a correct frame, it should acknowledge it.
+  3.Negative ACK  - When the receiver receives a damaged frame or a duplicate frame, it sends a NACK back to the sender and the 
+    sender must retransmit the correct frame.
+  4.Retransmission:  The sender maintains a clock and sets a timeout period. If an acknowledgement of a data-frame previously 
+    transmitted does not arrive before the timeout the sender retransmits the frame, thinking that the frame or it’s acknowledgement 
+    is lost in transit.
+  
+  There are three types of techniques available which Data-link layer may deploy to control the errors by 
+  Automatic Repeat Requests (ARQ):
+  Stop-and-wait ARQ 
+  The following transition may occur in Stop-and-Wait ARQ:
+  1.The sender maintains a timeout counter.
+  2.When a frame is sent, the sender starts the timeout counter.
+  3.If acknowledgement of frame comes in time, the sender transmits the next frame in queue.
+  4.If acknowledgement does not come in time, the sender assumes that either the frame or its acknowledgement 
+  is lost in transit. Sender retransmits the frame and starts the timeout counter.
+  5.If a negative acknowledgement is received, the sender retransmits the frame.
+  
+  Go-Back-N ARQ
+  Stop and wait ARQ mechanism does not utilize the resources at their best.When the acknowledgement is received,
+  the sender sits idle and does nothing. In Go-Back-N ARQ method, both sender and receiver maintain a window.
+  The sending-window size enables the sender to send multiple frames without receiving the acknowledgement of the previous ones. 
+  The receiving-window enables the receiver to receive multiple frames and acknowledge them. The receiver keeps track of incoming 
+  frame’s sequence number.
+
+  When the sender sends all the frames in window, it checks up to what sequence number it has received positive 
+  acknowledgement. If all frames are positively acknowledged, the sender sends next set of frames. 
+  If sender finds that it has received NACK or has not receive any ACK for a particular frame, it retransmits all the 
+  frames after which it does not receive any positive ACK.
+
+  Selective Repeat ARQ
+  In Go-back-N ARQ, it is assumed that the receiver does not have any buffer space for its window size 
+  and has to process each frame as it comes. This enforces the sender to retransmit all the frames which are not acknowledged.
+  In Selective-Repeat ARQ, the receiver while keeping track of sequence numbers, buffers the frames in memory and sends NACK 
+  for only frame which is missing or damaged.
+  The sender in this case, sends only packet for which NACK is received.
+
+7.The data link layer takes the packets from _____ and encapsulates them into frames for transmission.
+   network layer
+
+8. Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+   media access control sublayer
+
+9. Automatic repeat request error management mechanism is provided by?
+   logical link control sublayer 
+   
+10. What is Flow Control?
+   Flow control is the management of data flow between computers or devices or between nodes in a network so that the data can be handled at an efficient pace. Too much data arriving before a device can handle it causes data overflow, meaning the data is either lost or must be retransmitted.
+
+11.What is one of the functions of the data link layer?
+The three main functions of the data link layer are to deal with transmission errors,
+regulate the flow of data, and provide a well-defined interface to the network layer.
+
+
+12. Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+ medium access control sublayer
+
+13. The data link layer takes the packets from _____ and encapsulates them into frames for transmission.
+   network layer
+
+
+14. What is Framing?
+
+The usual approach for the data link layer is to break up the bit stream into
+discrete frames, compute a short token called a checksum for each frame, and include
+the checksum in the frame when it is transmitted. When a frame arrives at the destination,
+the checksum is recomputed. If the newly computed checksum is different from
+the one contained in the frame, the data link layer knows that an error has occurred
+and takes steps to deal with it (e.g., discarding the bad frame and possibly
+also sending back an error report).
+
+This is known as framing.Which sublayer of the data link layer performs data link functions that depend upon the type of medium? 
+media access control sublayer
+
+15. Header of a frame generally contains?
+synchronization bytes, addresses, frame identifier.
+
+
+16. Which among the following represents the objectives/requirements of Data Link Layer?
+Frame Synchronization
+Error & Flow Control
+
+17.What are the design issues in datalink layer?
+– Provide interface to the network layer services. 
+– Framing 
+– Flow Control 
+– Error Control 
+– Synchronization 
+– Link Configuration Control.
+
+18 .What is framing in the data link layer?
+A point-to-point connection between two computers or devices consists of a wire in which data is transmitted as a stream of bits. However, these bits must be framed into discernible blocks of information. Framing is a function of the data link layer. It provides a way for a sender to transmit a set of bits that are meaningful to the receiver. Ethernet, token ring, frame relay, and other data link layer technologies have their own frame structures. Frames have headers that contain information such as error-checking codes.
+Types:
+Character  Count
+
+Flag bytes with byte stuffing
+
+Flag bytes with bit stuffing
+
+19 .Functions of Data Link Layer
+  a)Provide service interface to the network layer
+  b)Dealing with transmission errors
+  c)Regulating data flow
+  d)Slow receivers not swamped by fast senders
+  
+20.Types of services provided to the Network Layer
+   Unacknowledged Connectionless service
+    1)Losses are taken care of at higher layers
+    2)Used on reliable medium like coax cables or optical fiber, where the error rate is low.
+    3)Appropriate for voice, where delay is worse than bad data.
+
+   Acknowledged Connectionless service
+    1)Useful on unreliable medium like wireless.
+    2)Acknowledgements add delays.
+    3)On reliable channels, like fiber, the overhead associated with the ack is not justified.
+
+   Acknowledged Connection-Oriented service
+     1)Most reliable, 
+     2)Guaranteed service – 
+          Each frame sent is indeed received
+          Each frame is received exactly once
+          Frames are received in order
+     3)Special care has to be taken to ensure this in connectionless services
+
+21. What is HDLC (High-level Data Link Control)?
+HDLC (High-level Data Link Control) is a group of protocols or rules for transmitting data between network points (sometimes called nodes).
+
