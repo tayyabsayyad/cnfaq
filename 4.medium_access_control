@@ -1,6 +1,4 @@
 
-
-
 1.Medium Access Control Layer?
 The Media Access Control Layer is one of two sublayers that make up the Data Link Layer of the OSI model. The MAC layer is responsible for moving data packets to and from one Network Interface Card (NIC) to another across a shared channel.
 
@@ -176,4 +174,5 @@ Something called the ARP (Address Resolution Protocol) translates an IP address 
 16. What is ethernet?
     Ethernet is a network protocol that controls how data is transmitted over a LAN. Technically it is referred to as the 
     IEEE 802.3 protocol. The protocol has evolved and improved over time and can now deliver at the speed of a gigabit per second.
+
 
