@@ -4,6 +4,19 @@
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
 
+  
+3.What are the functions of physical layer?
+	FUNCTIONS OF PHYSICAL LAYER:
+1.	Representation of Bits
+2.	Data Rate
+3.	Synchronization
+4.	Interface
+5.	Line Configuration
+6.	Topologies
+7.	Transmission Modes
+8.	Deals with baseband and broadband transmission.
+
+
 3.   What are the transmission modes in physical layer?
 Ans. Physical Layer defines the direction of transmission between two devices: Simplex, Half Duplex, Full Duplex.
 
@@ -104,4 +117,5 @@ framework for defining standards for connecting computers.
  
 24. Bits can be sent over guided and unguided media as analog signals by?
    Digital Modulation
+
 
