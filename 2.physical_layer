@@ -1,3 +1,4 @@
+
 1. The physical layer concerns with?
    1.bit-by-bit delivery.
    2.Controls the transmission of the actual data onto the network cable. It defines the
@@ -115,3 +116,125 @@
 
    Each station is assigned with a unique code, called chip. Signals travel with these codes independently, 
    inside the whole bandwidth.The receiver knows in advance the chip code signal it has to receive.
+
+14. Which transmission media has the highest transmission speed in a network? 
+  optical fiber
+
+15. Which transmission media has the highest transmission speed in a network?
+   optical fiber.
+
+  
+16.What are the functions of physical layer?
+	FUNCTIONS OF PHYSICAL LAYER:
+1.	Representation of Bits
+2.	Data Rate
+3.	Synchronization
+4.	Interface
+5.	Line Configuration
+6.	Topologies
+7.	Transmission Modes
+8.	Deals with baseband and broadband transmission.
+
+
+17.   What are the transmission modes in physical layer?
+Ans. Physical Layer defines the direction of transmission between two devices: Simplex, Half Duplex, Full Duplex.
+
+18.   What are the various networking Topologies?
+Ans. Mesh, Star, Ring and Bus
+ 
+19. Bits can be send over guided and unguided media as analog signal by?
+   digital modulation
+   
+20. physical layer provides?
+   mechanical specifications of electrical connectors and cables, electrical specification of transmission line signal level, specification for IR over optical fiber
+
+21 .What is the OSI model?
+OSI stands for Open Systems Interconnection and
+was created by ISO, the International Standards Organization.
+The OSI "reference model" divides particular networked processes into seven different layers:
+Application (Layer 7) 
+Presentation (Layer 6) 
+Session (Layer 5) 
+Transport (Layer 4) 
+Network (Layer 3) 
+Data Link (Layer 2)
+and Physical (Layer 1)
+
+22.What is the Network Time Protocol
+
+The Network Time Protocol (NTP) is a protocol for synchronizing the clocks of computer
+systems over packet switched, variable latency data
+networks. NTP uses UDP as its transport layer. It is designed particularly to
+resist the effects of variable latency.
+
+23.What is virtual network?
+
+An internet architecture in which routers connect multiple physical networks.
+
+24.Is internet a virtual network?
+yes An internet is a single virtual network
+that interconnects all hosts and through which communication is possible ;its
+under lying architecture is both hidden and irrelevant.
+
+25.What are the functions of data link layer in OSI model?
+
+Framing: it divides the stream of bits received from the net
+work layer, physical addressing ,flow control ,error control
+and access contr
+
+26 .Bits can be send over guided and unguided media as analog signal by which modulation?
+  digital modulation
+
+27 .The physical layer translates logical communication requests from the ______ into hardware specific operations. 
+   data link layer
+
+28 .A single channel is shared by multiple signals by:    
+    multiplexing
+    
+29. Wireless transmission can be done via:     
+   radio waves, microwaves, infrared
+
+30.Why the OSI model was developed?
+The International Organization for Standardization (ISO) created the Open Systems Interconnection (OSI) reference model as a 
+framework for defining standards for connecting computers.
+
+31.a physical layer is responsible for:
+   line coding,channel coding ,modulation
+
+32.The portion of physical layer that interfaces with the media access control sublayer is called:
+   physical signalling sublayer
+
+33.in asynchronous serial communication the physical layer provides:
+   start and stop signalling, flow control 
+
+34. Bits can be send over guided and unguided media as analog signal by?
+   digital modulation
+   
+35. The portion of physical layer that interfaces with the media access control sublayer is called?
+    physical signalling sublayer
+    
+36. In asynchronous serial communication the physical layer provides?
+   start and stop signalling & flow control
+
+37. What does physical layer provides??
+   Specification for IR over optical fiber.
+   
+38. Difference between Circuit switching and packet sitching
+            Parameters                             Circuit Switching              Packet Switching
+   1.  Call setup                                     Required                      Not required
+   2.  Dedicated physical path                        Yes                           No
+   3.  Each packet follows the same route             Yes                           No
+   4.  Packets arrive in order                        Yes                           No
+   5.  Is switch crash fatal                          Yes                           No
+   6.  Bandwidth available                            Fixed                         Dynamic
+   7.  When can congestion occur                      At setup time                 On every packet
+   8.  Potentially wasted bandwidth                   Yes                           No
+   9.  Store-and-forwward transmission                No                            Yes 
+   10. Transparency                                   Yes                           No
+   11. Charging                                       Per minute                    Per packet
+
+ 
+39. Bits can be sent over guided and unguided media as analog signals by?
+   Digital Modulation
+
+
