@@ -1,7 +1,9 @@
+
 1.What is data link layer?
 Data Link Layer is second layer of OSI Layered Model. Data link layer is responsible for converting data stream to signals bit by bit and to send that over the underlying hardware.
 
-2.Functions of data link layer
+2. What are the functions of data link layer
+
 1.framing
   Data-link layer takes packets from Network Layer and encapsulates them into Frames.Then, 
   it sends each frame bit-by-bit on the hardware. At receiver’ end, data link layer picks 
@@ -23,13 +25,15 @@ Data Link Layer is second layer of OSI Layered Model. Data link layer is respons
   Stations on same link may have different speed or capacity. Data-link layer ensures flow control 
   that enables both machine to exchange data on same speed
 
-3.Tyes of errors
-single bit error:In a frame, there is only one bit, anywhere though, which is corrupt.
+3.Tyes of errors in framing 
+
+Single bit error:In a frame, there is only one bit, anywhere though, which is corrupt.
 Multiple bits error:Frame is received with more than one bits in corrupted state.
 Burst error:Frame contains more than1 consecutive bits corrupted.
 
 4.What are the error control mechanism?
-1.error detection
+
+  1.error detection
   Errors in the received frames are detected by means of Parity Check and Cyclic Redundancy Check (CRC). 
   In both cases, few extra bits are sent along with actual data to confirm that bits received at other 
   end are same as they were sent. If the counter-check at receiver’ end fails, the bits are considered corrupted.
@@ -37,15 +41,19 @@ Burst error:Frame contains more than1 consecutive bits corrupted.
   Parity Check
   a.One extra bit is sent along with the original bits to make number of 1s either even in case of even parity, 
   or odd in case of odd parity.
+  
   b.The sender while creating a frame counts the number of 1s in it. For example, if even parity is used 
   and number of 1s is even then one bit with value 0 is added. This way number of 1s remains even.If the 
   number of 1s is odd, to make it even a bit with value 1 is added.
+  
   c.The receiver simply counts the number of 1s in a frame. If the count of 1s is even and even parity is used, 
   the frame is considered to be not-corrupted and is accepted. If the count of 1s is odd and odd parity is used, 
   the frame is still not corrupted.
+  
   d.If a single bit flips in transit, the receiver can detect it by counting the number of 1s. 
   But when more than one bits are erro neous, then it is very hard for the receiver to detect the error.
-2.error correction
+
+2.Error correction
   In the digital world, error correction can be done in two ways:
 
   A.Backward Error Correction  :When the receiver detects an error in the data received, 
@@ -113,4 +121,57 @@ Burst error:Frame contains more than1 consecutive bits corrupted.
   In Selective-Repeat ARQ, the receiver while keeping track of sequence numbers, buffers the frames in memory and sends NACK 
   for only frame which is missing or damaged.
   The sender in this case, sends only packet for which NACK is received.
+
+7.The data link layer takes the packets from _____ and encapsulates them into frames for transmission.
+   network layer
+
+8. Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+   media access control sublayer
+
+9. Automatic repeat request error management mechanism is provided by?
+   logical link control sublayer 
+   
+10. What is Flow Control?
+   Flow control is the management of data flow between computers or devices or between nodes in a network so that the data can be handled at an efficient pace. Too much data arriving before a device can handle it causes data overflow, meaning the data is either lost or must be retransmitted.
+
+11.What is one of the functions of the data link layer?
+The three main functions of the data link layer are to deal with transmission errors,
+regulate the flow of data, and provide a well-defined interface to the network layer.
+
+
+12. Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+ medium access control sublayer
+
+13. The data link layer takes the packets from _____ and encapsulates them into frames for transmission.
+   network layer
+
+
+14. What is Framing?
+
+The usual approach for the data link layer is to break up the bit stream into
+discrete frames, compute a short token called a checksum for each frame, and include
+the checksum in the frame when it is transmitted. When a frame arrives at the destination,
+the checksum is recomputed. If the newly computed checksum is different from
+the one contained in the frame, the data link layer knows that an error has occurred
+and takes steps to deal with it (e.g., discarding the bad frame and possibly
+also sending back an error report).
+
+This is known as framing.Which sublayer of the data link layer performs data link functions that depend upon the type of medium? 
+media access control sublayer
+
+15. Header of a frame generally contains?
+synchronization bytes, addresses, frame identifier.
+
+
+16. Which among the following represents the objectives/requirements of Data Link Layer?
+Frame Synchronization
+Error & Flow Control
+
+17.What are the design issues in datalink layer?
+– Provide interface to the network layer services. 
+– Framing 
+– Flow Control 
+– Error Control 
+– Synchronization 
+– Link Configuration Control.
 
