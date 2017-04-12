@@ -148,6 +148,9 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
 
 
 6. Compare network topologies 
+
+Bus, Star, Token ring, Ring, Mesh, Tree
+
     ------->             Parameters                 Bus                 Ring                     Star                     Mesh
                               
                     Network Performance      |   Small                 Small or Large           Small                      Small
@@ -164,6 +167,7 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
                     Cost                     |   Low                   High                    High                      High
                          
                          
+
 
 
 7. What is internet ?
