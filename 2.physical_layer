@@ -4,8 +4,6 @@
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
 
- 
-
 3.   What are the transmission modes in physical layer?
 Ans. Physical Layer defines the direction of transmission between two devices: Simplex, Half Duplex, Full Duplex.
 
@@ -88,7 +86,22 @@ framework for defining standards for connecting computers.
 
 23. What does physical layer provides??
    Specification for IR over optical fiber.
+   
+24. Difference between Circuit switching and packet sitching
+            Parameters                             Circuit Switching              Packet Switching
+   1.  Call setup                                     Required                      Not required
+   2.  Dedicated physical path                        Yes                           No
+   3.  Each packet follows the same route             Yes                           No
+   4.  Packets arrive in order                        Yes                           No
+   5.  Is switch crash fatal                          Yes                           No
+   6.  Bandwidth available                            Fixed                         Dynamic
+   7.  When can congestion occur                      At setup time                 On every packet
+   8.  Potentially wasted bandwidth                   Yes                           No
+   9.  Store-and-forwward transmission                No                            Yes 
+   10. Transparency                                   Yes                           No
+   11. Charging                                       Per minute                    Per packet
 
  
 24. Bits can be sent over guided and unguided media as analog signals by?
    Digital Modulation
+
