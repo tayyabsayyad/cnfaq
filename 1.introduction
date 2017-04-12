@@ -1,9 +1,9 @@
+
 1. What is Computer Network ? 
 Computer Network is collection of computers connected together for exchanging information. 
 
 2. Why we need computer network?
-Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,
-application sharing , lan gaming and many more.
+Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,application sharing , lan gaming and many more.
 
 
 3. What are types of the computer network ? Explain each type.
@@ -58,22 +58,6 @@ Ans. Generally, networks are distinguished based on their geographical span. A n
      Half Duplex :- Each station can both transmit and receive, but not at the same time
      Full Duplex :- Both stations can transmit and receive simultaneously
 
-
-5. What are the various network topologies ? 
-
-There are seven basic types of network topologies in the study of network topology:
-Point-to-point topology, 
-bus (point-to-multipoint) topology, 
-ring topology, star topology, 
-hybrid topology, 
-mesh topology 
-and tree topology.
-
-
-    a)Bus topology consists of one main cable to which all nodes are connected.
-    b)Star topology is where all nodes are connected to a central hub using point-to-point connection.
-    c)In Ring topology, the computers in the network are connected in a circular fashion, and the data travels in one direction.
-    d)Mesh topology is where every node has a direct point-to-point connection to every other node.
 
 5. What are the various network topologies ? Explain them.
 Ans. A Network Topology is the arrangement with which computer systems or network
@@ -261,6 +245,7 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
 
+
 16. Function of OSI Model?
 
     Layer 7: The application layer. This is the layer at which communication partners are identified (Is there someone 
@@ -397,3 +382,13 @@ A MAC address is made up of 6-byte parts.
    is possible that the first one sent can be delayed so that the second one arrives
    first.
    
+32.Name the factors that affect the performance of the network?
+    a. Number of Users
+    b. Type of transmission medium
+    c. Hardware
+    d. Software
+    
+33. Name the factors that affect the reliability of the network?
+    a. Frequency of failure
+    b. Recovery time of a network after a failure
+ 
