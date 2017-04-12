@@ -1,6 +1,7 @@
 
 1.What is data link layer?
 Data Link Layer is second layer of OSI Layered Model. Data link layer is responsible for converting data stream to signals bit by bit and to send that over the underlying hardware.
+The Data Link layer is concerned with moving data across the physical links in the network.
 
 2. What are the functions of data link layer
 
@@ -28,10 +29,16 @@ Data Link Layer is second layer of OSI Layered Model. Data link layer is respons
 3.Tyes of errors in framing 
 
 Single bit error:In a frame, there is only one bit, anywhere though, which is corrupt.
+
 Multiple bits error:Frame is received with more than one bits in corrupted state.
 Burst error:Frame contains more than1 consecutive bits corrupted.
 
+
 4.What are the error control mechanism?
+
+1.error detection
+2.error correction
+
 
   1.error detection
   Errors in the received frames are detected by means of Parity Check and Cyclic Redundancy Check (CRC). 
@@ -174,4 +181,39 @@ Error & Flow Control
 – Error Control 
 – Synchronization 
 – Link Configuration Control.
+
+18 .What is framing in the data link layer?
+A point-to-point connection between two computers or devices consists of a wire in which data is transmitted as a stream of bits. However, these bits must be framed into discernible blocks of information. Framing is a function of the data link layer. It provides a way for a sender to transmit a set of bits that are meaningful to the receiver. Ethernet, token ring, frame relay, and other data link layer technologies have their own frame structures. Frames have headers that contain information such as error-checking codes.
+Types:
+Character  Count
+
+Flag bytes with byte stuffing
+
+Flag bytes with bit stuffing
+
+19 .Functions of Data Link Layer
+  a)Provide service interface to the network layer
+  b)Dealing with transmission errors
+  c)Regulating data flow
+  d)Slow receivers not swamped by fast senders
+  
+20.Types of services provided to the Network Layer
+   Unacknowledged Connectionless service
+    1)Losses are taken care of at higher layers
+    2)Used on reliable medium like coax cables or optical fiber, where the error rate is low.
+    3)Appropriate for voice, where delay is worse than bad data.
+
+   Acknowledged Connectionless service
+    1)Useful on unreliable medium like wireless.
+    2)Acknowledgements add delays.
+    3)On reliable channels, like fiber, the overhead associated with the ack is not justified.
+
+   Acknowledged Connection-Oriented service
+     1)Most reliable, 
+     2)Guaranteed service – 
+          Each frame sent is indeed received
+          Each frame is received exactly once
+          Frames are received in order
+     3)Special care has to be taken to ensure this in connectionless services
+     
 
