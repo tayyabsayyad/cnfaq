@@ -123,17 +123,16 @@
 15. Which transmission media has the highest transmission speed in a network?
    optical fiber.
 
-  
-16.What are the functions of physical layer?
-	FUNCTIONS OF PHYSICAL LAYER:
-1.	Representation of Bits
-2.	Data Rate
-3.	Synchronization
-4.	Interface
-5.	Line Configuration
-6.	Topologies
-7.	Transmission Modes
-8.	Deals with baseband and broadband transmission.
+ 16.What are the functions of physical layer?
+	
+    1.	Representation of Bits
+    2.	Data Rate
+    3.	Synchronization
+    4.	Interface
+    5.	Line Configuration
+    6.	Topologies
+    7.	Transmission Modes
+    8.	Deals with baseband and broadband transmission.
 
 
 17.   What are the transmission modes in physical layer?
@@ -149,6 +148,7 @@ Ans. Mesh, Star, Ring and Bus
    mechanical specifications of electrical connectors and cables, electrical specification of transmission line signal level, specification for IR over optical fiber
 
 21 .What is the OSI model?
+
 OSI stands for Open Systems Interconnection and
 was created by ISO, the International Standards Organization.
 The OSI "reference model" divides particular networked processes into seven different layers:
@@ -240,6 +240,7 @@ framework for defining standards for connecting computers.
    
 40. What is multiplexing?
    It is set of techniques that allows the simultaneous transmission of multiple signal across a single data link.
+
 
 41.Types of Multiplexing?
    frequency division multiplexing(analog),wavelength division multiplexing(analog) ,time division multiplexing(digital)
