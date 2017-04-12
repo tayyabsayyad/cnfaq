@@ -1,4 +1,115 @@
-Services of transport layer
+
+
+1.The transport layer protocols used for real time multimedia, file transfer, DNS and email, respectively are:
+UDP, TCP, UDP and TCP
+
+2.Which of the following transport layer protocols is used to support electronic mail?
+TCP
+
+3.Which one of the following uses UDP as the transport protocol? 
+DNS
+
+4. Transport layer aggregates data from different applications into a single stream before passing it to
+Network layer
+
+5.Which one of the following is a transport layer protocol used in internet?
+TCP and UDP
+
+6.A _____ is a TCP name for a transport service access point. 
+Port
+
+7.Transport layer protocols deals with: 
+process to process communication
+
+8.Which one of the following is a transport layer protocol? 
+stream control transmission protocol
+
+9. What is trasnport layer?
+In the Open Systems Interconnection (OSI) communications model, the Transport layer ensures
+the reliable arrival of messages and provides error checking mechanisms and data flow controls.
+The Transport layer provides services for both "connection-mode" transmissions and for
+"connectionless-mode" transmissions. For connection-mode transmissions, a transmission
+may be sent or arrive in the form of packets that need to be reconstructed into a complete
+message at the other end.
+
+10.Transport layer protocols deals with?
+Process to process communication.
+
+
+11. Compare TCP & UDP
+    TCP:
+        Transmission Control Protocol
+        TCP is a connection-oriented protocol.
+        As a message makes its way across the internet from one computer to another. This is connection based.
+        Protocol Used: HTTP, HTTPs, FTP, SMTP, Telnet
+        The speed for TCP is slower than UDP.
+        TCP header size is 20 bytes
+    UDP:
+         	User Datagram Protocol or Universal Datagram Protocol
+          UDP is a connectionless protocol.
+          UDP is also a protocol used in message transport or transfer. This is not connection based 
+              which means that one program can send a load of packets to another and that would be the end of the relationship.
+          Protocol Used: DNS, DHCP, TFTP, SNMP, RIP, VOIP.
+          UDP Header size is 8 bytes.
+          
+12. What is the function of transport layer?  
+    OSI Model, Layer 4, provides transparent transfer of data between end systems, or hosts, and is responsible for 
+    end-to-end error recovery and flow control. It ensures complete data transfer.
+
+    Transport examples include SPX, TCP, UDP.
+    
+13.Which protocols operate at the transport layer?
+   There are five basic protocols for the Transport Layer
+    Transmission Control Protocol (TCP)
+    User Datagram Protocol (UDP)
+    Datagram Congestion Control Protocol (DCCP)
+    Stream Control Transmission Protocol (SCTP)
+    Resource Reservation Protocol (RSVP)
+
+    Transport examples include SPX, TCP, UDP
+    
+14. What is congestion?
+    Network congestion in data networking and queueing theory is the reduced quality of service that occurs when a network node is carrying more data than it can handle. Typical effects include queueing delay, packet loss or the blocking of new connections.
+
+15. Which layers do congestion control?
+    Transport layer and network layer
+
+16. What is Traffic Shaping?
+    Traffic shaping, also known as packet shaping, Quality of Service (QoS) or bandwidth management, is the manipulation and prioritization of network traffic to reduce the impact of heavy users or machines from effecting other users.
+
+17. What is Socket-style API for windows called?
+    winsock
+
+18. User datagram protocol is called connectionless because?
+    All UDP packets are treated independently by transport layer
+
+19. An endpoint of an inter-process communication flow across a computer network is called
+    Socket
+
+20. Socket-style API for windows is called
+    Winsock
+
+21.  Which protocol does DHCP use at the Transport layer?
+    a. 	IP
+    b. 	TCP
+    c. 	UDP
+    d. 	ARP
+Ans. c.
+
+22.  Two types of Connection Control?
+Ans.Connectionless Transport Layer : Each segment is considered as an independent packet and delivered to 
+    the transport layer at the destination machine.
+    Connection Oriented Transport Layer : Before delivering packets, connection is made with transport
+    layer at the destination machine.
+    
+23. What is DNS in application layer?
+
+Domain Name System (DNS) is one of the industry-standard suite of protocols that comprise TCP/IP. Microsoft Windows Server 2003. DNS is implemented using two software components: the DNS server and the DNS client (or resolver). Both components are run as background service applications.
+
+Network resources are identified by numeric IP addresses, but these IP addresses are difficult for network users to remember. The DNS database contains records that map user-friendly alphanumeric names for network resources to the IP address used by those resources for communication.
+
+24. What are the services of transport layer ?
+
 As layer four of the OSI model, the transport layer is responsible for providing communication services between computers on a network. 
 For example, as the data packets transit between the originating or sending computer and the destination or receiving computer, the 
 transport layer performs error checking and data packet routing services. Additionally, while working with the three lower and three 
