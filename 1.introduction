@@ -5,6 +5,7 @@ Computer Network is collection of computers connected together for exchanging in
 Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,
 application sharing , lan gaming and many more.
 
+
 3. What are types of the computer network ? Explain each type.
 Ans. Generally, networks are distinguished based on their geographical span. A network
 	 can be as small as distance between your mobile phone and its Bluetooth headphone
@@ -50,6 +51,7 @@ Ans. Generally, networks are distinguished based on their geographical span. A n
 			WAN may use advanced technologies such as Asynchronous Transfer Mode (ATM),
 			Frame Relay, and Synchronous Optical Network (SONET). WAN may be managed by
 			multiple administration.
+
     
 4. What are the types of data flows in computer ?
      Simplex :- Communication is unidirectional
