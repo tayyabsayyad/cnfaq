@@ -115,3 +115,8 @@ Something called the ARP (Address Resolution Protocol) translates an IP address 
     (e.g., computers, telephones, etc.) which has a program which generates the frames. Once a frame has been generated,
     the station is blocked and does nothing until the frame has been successfully transmitted. 
 
+
+13. what is ethernet?
+-> a system for connecting a number of computer systems to form a local area network, with protocols to control the passing of information and to avoid simultaneous transmission by two or more systems.
+
+

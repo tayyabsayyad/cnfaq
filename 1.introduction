@@ -1,9 +1,10 @@
+
 1. What is Computer Network ? 
 Computer Network is collection of computers connected together for exchanging information. 
 
 2. Why we need computer network?
-Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,
-application sharing , lan gaming and many more.
+Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,application sharing , lan gaming and many more.
+
 
 3. What are types of the computer network ? Explain each type.
 Ans. Generally, networks are distinguished based on their geographical span. A network
@@ -50,6 +51,7 @@ Ans. Generally, networks are distinguished based on their geographical span. A n
 			WAN may use advanced technologies such as Asynchronous Transfer Mode (ATM),
 			Frame Relay, and Synchronous Optical Network (SONET). WAN may be managed by
 			multiple administration.
+
     
 4. What are the types of data flows in computer ?
      Simplex :- Communication is unidirectional
@@ -57,14 +59,9 @@ Ans. Generally, networks are distinguished based on their geographical span. A n
      Full Duplex :- Both stations can transmit and receive simultaneously
 
 
-5. What are the various network topologies ? 
 
-    a)Bus topology consists of one main cable to which all nodes are connected.
-    b)Star topology is where all nodes are connected to a central hub using point-to-point connection.
-    c)In Ring topology, the computers in the network are connected in a circular fashion, and the data travels in one direction.
-    d)Mesh topology is where every node has a direct point-to-point connection to every other node.
+5. What are the various network topologies ? Explain them.
 
-6. What are the various network topologies ? Explain them.
 Ans. A Network Topology is the arrangement with which computer systems or network
 		devices are connected to each other. Topologies may define both physical and logical
 		aspect of the network. Both logical and physical topologies could be same or different
@@ -148,7 +145,6 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
 			are connected by means of Dual-Ring topology and networks connected to them are
 			mostly Star topology networks. Internet is the best example of largest Hybrid
 			topology.
-
 
 
 6. Compare network topologies 
@@ -397,8 +393,35 @@ Ans. Ethernet
 34. What are MAC addresses?
 
 MAC, or Media Access Control, uniquely identifies a device on the network. It is also known as physical address or Ethernet address. 
+
 A MAC address is made up of 6-byte parts
 
 35. What are protocols?
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
+
+A MAC address is made up of 6-byte parts.
+
+36.What are connection oriented and connectionless services?
+   Layers can offer two different types of service to the layers above them: connection-
+   oriented and connectionless. 
+   1)Connection-oriented service is modeled after the telephone system. To talk
+   to someone, you pick up the phone, dial the number, talk, and then hang up. Similarly,
+   to use a connection-oriented network service, the service user first establishes
+   a connection, uses the connection, and then releases the connection.
+   2)In contrast to connection-oriented service, connectionless service is modeled
+   after the postal system. Normally, when two messages are sent to
+   the same destination, the first one sent will be the first one to arrive. However, it
+   is possible that the first one sent can be delayed so that the second one arrives
+   first.
+   
+37.Name the factors that affect the performance of the network?
+    a. Number of Users
+    b. Type of transmission medium
+    c. Hardware
+    d. Software
+    
+38. Name the factors that affect the reliability of the network?
+    a. Frequency of failure
+    b. Recovery time of a network after a failure
+
