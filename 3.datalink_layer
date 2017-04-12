@@ -31,26 +31,6 @@ single bit error:In a frame, there is only one bit, anywhere though, which is co
 Multiple bits error:Frame is received with more than one bits in corrupted state.
 Burst error:Frame contains more than 1 consecutive bits corrupted.
 
-4.What are the error control mechanism?
-1.error detection
-2.error correction
-
-5.Explain sliding window
-
-Sliding window refers to an imaginary boxes that hold the frames on both sender and receiver side.
-• It provides the upper limit on the number of frames that can be transmitted before requiring an acknowledgment.
-• Frames may be acknowledged by receiver at any point even when window is not full on receiver side.
-• Frames may be transmitted by source even when window is not yet full on sender side.
-• The windows have a specific size in which the frames are numbered modulo- n, which means they are numbered from 0 to n-l. 
-For e.g. if n = 8, the frames are numbered 0, 1,2,3,4,5,6, 7, 0, 1,2,3,4,5,6, 7, 0, 1, ....
-• The size of window is n-1. For e.g. In this case it is 7. Therefore, a maximum of n-l frames may be sent before an acknowledgment.
-• When the receiver sends an ACK, it includes the number of next frame it expects to receive. For example in order to acknowledge the 
-group of frames ending in frame 4, the receiver sends an ACK containing the number 5. When sender sees an ACK with number 5, it comes 
-to know that all the frames up to number 4 have been received. 
-
-Multiple bits error:Frame is received with more than one bits in corrupted state.
-Burst error:Frame contains more than1 consecutive bits corrupted.
-
 
 4.What are the error control mechanism?
 
@@ -236,4 +216,62 @@ Flag bytes with bit stuffing
 
 21. What is HDLC (High-level Data Link Control)?
 HDLC (High-level Data Link Control) is a group of protocols or rules for transmitting data between network points (sometimes called nodes).
+
+
+22. Which one of the following task is not done by data link layer?
+a) framing 
+b) error control 
+c) flow control 
+d) channel coding
+Answer: channel coding.
+
+23. Header of a frame generally contains 
+a) synchronization bytes 
+b) addresses 
+c) frame identifier 
+d) all of the mentioned
+Answer: all of the mentioned
+
+24. Automatic repeat request error management mechanism is provided by 
+a) logical link control sublayer 
+b) media access control sublayer 
+c) network interface control sublayer 
+d) none of the mentioned
+Answer: logical link control sublayer
+
+25. CRC stands for 
+a) cyclic redundancy check 
+b) code repeat check 
+c) code redundancy check 
+d) cyclic repeat check
+Answer: cyclic redundancy check
+
+26. Which sublayer of the data link layer performs data link functions that depend upon the type of medium? 
+a) logical link control sublayer 
+b) media access control sublayer 
+c) network interface control sublayer 
+d) none of the mentioned
+Answer: media access control sublayer
+
+
+27. What are the error control mechanism?
+1.error detection
+2.error correction
+
+
+28. Explain sliding window
+
+Sliding window refers to an imaginary boxes that hold the frames on both sender and receiver side.
+• It provides the upper limit on the number of frames that can be transmitted before requiring an acknowledgment.
+• Frames may be acknowledged by receiver at any point even when window is not full on receiver side.
+• Frames may be transmitted by source even when window is not yet full on sender side.
+• The windows have a specific size in which the frames are numbered modulo- n, which means they are numbered from 0 to n-l. 
+For e.g. if n = 8, the frames are numbered 0, 1,2,3,4,5,6, 7, 0, 1,2,3,4,5,6, 7, 0, 1, ....
+• The size of window is n-1. For e.g. In this case it is 7. Therefore, a maximum of n-l frames may be sent before an acknowledgment.
+• When the receiver sends an ACK, it includes the number of next frame it expects to receive. For example in order to acknowledge the 
+group of frames ending in frame 4, the receiver sends an ACK containing the number 5. When sender sees an ACK with number 5, it comes 
+to know that all the frames up to number 4 have been received. 
+
+Multiple bits error:Frame is received with more than one bits in corrupted state.
+Burst error:Frame contains more than1 consecutive bits corrupted.
 
