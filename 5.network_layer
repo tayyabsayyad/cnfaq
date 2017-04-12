@@ -11,10 +11,26 @@
      shortest path algorithm, distance vector routing, link state routing
 
 5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
-Flooding 
+    Flooding 
 
 6. Why is User datagram protocol called connectionless?
 Because, all UDP packets are treated independently by transport layer. 
+
+
+7.What is routing?What are the types of routing?
+
+Routing is the process of selecting a path for traffic in a network, or between or across multiple networks. 
+Routing is performed for many types of networks, including circuit-switched networks,
+such as the public switched telephone network (PSTN) and computer networks, such as the Internet.
+The types of routing are:-
+1)Flooding
+2)Distance vector routing
+3)Link State Routing
+4)Hierarchical Routing
+5)Broadcast routing
+6)Multicast routing
+7)Anycast routing
+
 
 7.Which one of the following routing algorithm can be used for network layer design?
 shortest path algorithm,distance vector routing,link state routing
@@ -45,4 +61,5 @@ Because it services multiple layer 4 protocols it multiplexes.
 
 15. A subset of a network that includes all the routers but contains no loops is called........?
      spanning tree
+
 
