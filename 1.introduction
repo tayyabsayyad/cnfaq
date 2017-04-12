@@ -52,13 +52,20 @@ Ans. Generally, networks are distinguished based on their geographical span. A n
 			Frame Relay, and Synchronous Optical Network (SONET). WAN may be managed by
 			multiple administration.
 
+3. What are types of the computer network ?
+  Personal area network, or PAN
+  Local area network, or LAN
+  Metropolitan area network, or MAN
+  Wide area network, or WAN
+  Storage area network, or SAN
+  Enterprise private network, or EPN
+  Virtual private network, or VPN
+
     
 4. What are the types of data flows in computer ?
      Simplex :- Communication is unidirectional
      Half Duplex :- Each station can both transmit and receive, but not at the same time
      Full Duplex :- Both stations can transmit and receive simultaneously
-
-
 
 5. What are the various network topologies ? Explain them.
 
