@@ -1,5 +1,4 @@
 
-
 1.The transport layer protocols used for real time multimedia, file transfer, DNS and email, respectively are:
 UDP, TCP, UDP and TCP
 
@@ -370,3 +369,7 @@ D. None of the above
 ANSWER: C
 
 25.what is the efficiency of network layer when natural calamities like earthquake,floods...etc comes? 
+
+26. In which layer does socket programming takes place?
+A. Socket programming takes place in Transport layer mostly but you can use the socket API to access layer 2 and 3 if you're privileged, but that's not done outside of research.
+
