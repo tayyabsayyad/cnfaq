@@ -115,3 +115,4 @@ For example, as the data packets transit between the originating or sending comp
 transport layer performs error checking and data packet routing services. Additionally, while working with the three lower and three 
 upper layers, the transport layer continues to provide services, even though different application software processes are running 
 simultaneously on multiple computers.
+25.what is the efficiency of network layer when natural calamities like earthquake,floods...etc comes? 
