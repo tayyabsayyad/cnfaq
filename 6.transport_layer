@@ -320,6 +320,4 @@ Ans:Data throughput, or transfer efficiency, would be low if the transmitting ma
     Windowing controls how much information is transferred from one end to the other. While some protocols quantify 
     information by observing the number of packets, here TCP/IP protocol measures it by counting the number of bytes.
 
-
-
-
+25.what is the efficiency of network layer when natural calamities like earthquake,floods...etc comes? 
