@@ -1,6 +1,6 @@
-
-1.Medium Access Control Layer?
-The Media Access Control Layer is one of two sublayers that make up the Data Link Layer of the OSI model. The MAC layer is responsible for moving data packets to and from one Network Interface Card (NIC) to another across a shared channel.
+1.  What is Medium Access Control layer?
+Ans:  The Media Access Control Layer is one of two sublayers that make up the Data Link Layer of the OSI model.
+      The MAC layer is responsible for moving data packets to and from one Network Interface Card (NIC) to another across a shared channel.
 
 2.Multiple Access Protocols
 ALOHA:
@@ -205,3 +205,4 @@ Ans->
     But if two station find the channel idle and start transmitting simultaneoulsy, their signals would collide.
     This can be Prevented if the stations quickly detect the collison befeore it happens thus abruptly stoping the transmission saving the time and bandwidth.
     This protocol is known as CSMA with Collison Detection(CSMA/CD)
+
