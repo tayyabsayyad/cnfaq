@@ -325,4 +325,63 @@ network communications to be sent across a public network, such as the Internet,
 process allows for data packets to appear as though they are of a public nature to a public network when they are actually private data
 packets, allowing them to pass through unnoticed.Tunneling is also known as port forwarding.
 
+18.What is Store-and-Forward Packet Switching?
+Ans:All routers are part of subnet and run same algorithms.A host with a packet to send transmits it to the nearest
+router.The packet is stored there until it has fully arrived so the checksum can be verified.
+Then it is forwarded to the next router along the path until it reaches the destination host, where it is delivered.
+This mechanism is store-and-forward packet switching.
+
+19.Routing Algorithms?
+Ans:The Optimality Principle
+    Shortest Path Routing       
+    Flooding
+    Distance Vector Routing
+    Link State Routing
+    Hierarchical Routing
+    Broadcast Routing
+    Multicast Routing
+    Routing for Mobile Hosts
+    Routing in Ad Hoc Networks
+    
+20.Properties desirable for routing algo?
+Ans:Correctness
+    Simplicity
+    Robustness
+    Stability 
+    Fairness, and 
+    Optimality
+    Dynamic to changes 
+    
+21.Nonadaptive and Adaptive roting algo?
+Ans:Nonadaptive algorithms do not base their routing decisions on measurements or estimates of the current traffic and topology.
+    Instead,it is computed in advance, off-line, and downloaded to the routers when the network is booted. 
+    This procedure is sometimes called static routing.
+
+    Adaptive algorithms  change their routing decisions to reflect changes in the topology,  and usually the traffic as well. 
+    Adaptive algorithms differ in where they get their information. 
+    (e.g., locally, from adjacent routers, or from all routers)
+    
+22.What is link state routing?
+Ans:Each router must do the following:
+    a.Discover its neighbors, learn their network address.
+    b.Measure the delay or cost to each of its neighbors.
+    c.Construct a packet telling all it has just learned.
+    d.Send this packet to all other routers.
+    e.Compute the shortest path to every other router.
+    
+23.Congestion Control Algorithma?
+Ans:General Principles of Congestion Control
+    Congestion Prevention Policies
+    Congestion Control in Virtual-Circuit Subnets
+    Congestion Control in Datagram Subnets
+    Load Shedding
+    Jitter Control
+    
+24.General principles of Congestion control Mechanism?
+Ans:1.Monitor the system .
+      -detect when and where congestion occurs.
+    2.Pass information to where action can be taken.
+    3.Adjust system operation to correct the problem.
+
+
 
