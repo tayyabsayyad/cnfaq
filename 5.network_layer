@@ -19,6 +19,7 @@
 6. Why is User datagram protocol called connectionless?
 Because, all UDP packets are treated independently by transport layer. 
 
+
 7.What are network layer design issues?
 -Store-and-Forward Packet Switching
 -Services Provided to the Transport Layer
@@ -266,9 +267,7 @@ D. 48
 
 -->C. 32
 
-
-
-7.What is routing?What are the types of routing?
+28. What is routing?What are the types of routing?
 
 Routing is the process of selecting a path for traffic in a network, or between or across multiple networks. 
 Routing is performed for many types of networks, including circuit-switched networks,
@@ -283,55 +282,55 @@ The types of routing are:-
 7)Anycast routing
 
 
-7.Which one of the following routing algorithm can be used for network layer design?
+29. Which one of the following routing algorithm can be used for network layer design?
 shortest path algorithm,distance vector routing,link state routing
 
-8.The network layer protocol of internet is
+30. The network layer protocol of internet is
 internet protocol
 
-9.ICMP is primarily used for
+31. ICMP is primarily used for
 error and diagnostic functions
 
 
-10. The 4 byte IP address consists of?
+32. The 4 byte IP address consists of?
 network address and host address
 
-11. In virtual circuit network each packet contains?
+33. In virtual circuit network each packet contains?
   A short VC number
 
 
-12. Which device works at network layer?
+34. Which device works at network layer?
      Router
      
-13.How many routing protocols are present in Network layer?
+35.How many routing protocols are present in Network layer?
 
-14. Properties of network ?
+36. Properties of network ?
 
 The network layer is responsible for routing which entails learning the paths, selecting the best path and forwarding the packet.
 Because it services multiple layer 4 protocols it multiplexes.
 
-15. A subset of a network that includes all the routers but contains no loops is called........?
+37. A subset of a network that includes all the routers but contains no loops is called........?
      spanning tree
 
-16. What is fragmentation?
+38. What is fragmentation?
 Ans:Fragmentation is when a datagram has to be broken up into smaller datagrams to fit the frame
 size of a certain network. Different networks have different MTUs (maximum transfer unit), when a
 datagram enters a network with a smaller MTU the gateway/router needs to fragment this packet
 into smaller packets that fit the new MTU.
 
-17.What is tunneling in network layer?
+39. What is tunneling in network layer?
 Ans:Tunneling is a protocol that allows for the secure movement of data from one network to another. Tunneling involves allowing private
 network communications to be sent across a public network, such as the Internet, through a process called encapsulation. The encapsulation
 process allows for data packets to appear as though they are of a public nature to a public network when they are actually private data
 packets, allowing them to pass through unnoticed.Tunneling is also known as port forwarding.
 
-18.What is Store-and-Forward Packet Switching?
+40. What is Store-and-Forward Packet Switching?
 Ans:All routers are part of subnet and run same algorithms.A host with a packet to send transmits it to the nearest
 router.The packet is stored there until it has fully arrived so the checksum can be verified.
 Then it is forwarded to the next router along the path until it reaches the destination host, where it is delivered.
 This mechanism is store-and-forward packet switching.
 
-19.Routing Algorithms?
+41. Routing Algorithms?
 Ans:The Optimality Principle
     Shortest Path Routing       
     Flooding
@@ -343,7 +342,7 @@ Ans:The Optimality Principle
     Routing for Mobile Hosts
     Routing in Ad Hoc Networks
     
-20.Properties desirable for routing algo?
+42.Properties desirable for routing algo?
 Ans:Correctness
     Simplicity
     Robustness
@@ -352,7 +351,7 @@ Ans:Correctness
     Optimality
     Dynamic to changes 
     
-21.Nonadaptive and Adaptive roting algo?
+43. Nonadaptive and Adaptive roting algo?
 Ans:Nonadaptive algorithms do not base their routing decisions on measurements or estimates of the current traffic and topology.
     Instead,it is computed in advance, off-line, and downloaded to the routers when the network is booted. 
     This procedure is sometimes called static routing.
@@ -361,7 +360,7 @@ Ans:Nonadaptive algorithms do not base their routing decisions on measurements o
     Adaptive algorithms differ in where they get their information. 
     (e.g., locally, from adjacent routers, or from all routers)
     
-22.What is link state routing?
+44. What is link state routing?
 Ans:Each router must do the following:
     a.Discover its neighbors, learn their network address.
     b.Measure the delay or cost to each of its neighbors.
@@ -369,7 +368,7 @@ Ans:Each router must do the following:
     d.Send this packet to all other routers.
     e.Compute the shortest path to every other router.
     
-23.Congestion Control Algorithma?
+45. Congestion Control Algorithma?
 Ans:General Principles of Congestion Control
     Congestion Prevention Policies
     Congestion Control in Virtual-Circuit Subnets
@@ -377,11 +376,35 @@ Ans:General Principles of Congestion Control
     Load Shedding
     Jitter Control
     
-24.General principles of Congestion control Mechanism?
+46. General principles of Congestion control Mechanism?
 Ans:1.Monitor the system .
       -detect when and where congestion occurs.
     2.Pass information to where action can be taken.
     3.Adjust system operation to correct the problem.
 
 
+47. Explain Connection oriented and connectionless services?
 
+Connection-oriented :
+  Requires a session connection be established before any data can be sent.
+  This method is often called a "reliable" network service. It can guarantee
+  that data will arrive in the same order. Connection-oriented services set up
+  virtual links between end systems through a network
+  
+Connectionless  :
+  Does not require a session connection between sender and receiver.
+  The sender simply starts sending packets (called datagrams) to the destination.
+  This service does not have the reliability of the connection-oriented method,
+  but it is useful for periodic burst transfers. Neither system must maintain
+  state information for the systems that they send transmission to or receive transmission from.
+  A connectionless network provides minimal services.
+
+48.What is Firewall?
+
+  A firewall is a system designed to prevent unauthorized access to or from a private network.
+  You can implement a firewall in either hardware or software form, or a combination of both.
+  Firewalls prevent unauthorized Internet users from accessing private networks connected to the Internet,
+  especially intranets. All messages entering or leaving the intranet (i.e., the local network to which you are connected)
+  must pass through the firewall, which examines each message and blocks those that do not meet the specified security criteria.
+  
+ 49.What is Fragmentation?
