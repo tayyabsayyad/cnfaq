@@ -7,9 +7,10 @@
 
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
-  
-3. Bits can be send over guided and unguided media as analog signal by?
-   digital modulation.
+
+3. The physical layer is responsible for?
+   Line Coding, Channel coding and modulation
+
    
 4.What is switching and categories of Switching?
   Switching is process to forward packets coming in from one port to a port leading towards the destination. 
@@ -383,5 +384,6 @@ Ans. The speed of transmission of information is said to be the channel capacity
    Twisted Pair
    Coaxial cable
    Fiber optics
-  
 
+56. Bits can be send over guided and unguided media as analog signal by?
+   digital modulation
