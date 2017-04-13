@@ -284,3 +284,90 @@ framework for defining standards for connecting computers.
            b) Connector type specifications like RJ11, RJ45 etc.
            c) Link/Channel Multiplexing techniques like FDM, TDM etc.
 
+48. Name type of signals and explain them.
+Ans. Signals 
+	When data is sent over physical medium, it needs to be first converted into
+	electromagnetic signals. Data itself can be analog such as human voice, or digital
+	such as file on the disk. Both analog and digital data can be represented in digital or
+	analog signals.
+	        i.Digital Signals
+		 Digital signals are discrete in nature and represent sequence of voltage pulses. Digital
+		 signals are used within the circuitry of a computer system.
+		ii.Analog Signals
+		 Analog signals are in continuous wave form in nature and represented by continuous
+		 electromagnetic waves.
+
+49. What is Transmission Impairment? Explain the reasons responsible for it.
+Ans. When signals travel through the medium, they tend to deteriorate. This may have
+     many reasons as given:
+	
+	i.Attenuation
+	For the receiver to interpret the data accurately, the signal must be sufficiently
+	strong. When the signal passes through the medium, it tends to get weaker. As it
+	covers distance, it loses strength.
+
+	ii.Dispersion
+	As signal travels through the media, it tends to spread and overlaps. The amount of
+	dispersion depends upon the frequency used.
+
+	iii.Delay distortion
+	Signals are sent over media with pre-defined speed and frequency. If the signal speed
+	and frequency do not match, there are possibilities that signal reaches destination in 
+	arbitrary fashion. In digital media, this is very critical that some bits reach earlier
+	than the previously sent ones.
+
+
+	iv.Noise
+	Random disturbance or fluctuation in analog or digital signal is said to be Noise in
+	signal, which may distort the actual information being carried. Noise can be
+	characterized in one of the following class:
+
+	v.Thermal Noise
+	Heat agitates the electronic conductors of a medium which may introduce noise in
+	the media. Up to a certain level, thermal noise is unavoidable.
+
+	vi.Intermodulation
+	When multiple frequencies share a medium, their interference can cause noise in the
+	medium. Intermodulation noise occurs if two different frequencies are sharing a
+	medium and one of them has excessive strength or the component itself is not
+	functioning properly, then the resultant frequency may not be delivered as expected.
+
+	vii.Crosstalk
+	This sort of noise happens when a foreign signal enters into the media. This is because
+	signal in one medium affects the signal of second medium.
+
+	ix.Impulse
+	This noise is introduced because of irregular disturbances such as lightening,
+	electricity, short-circuit, or faulty components. Digital data is mostly affected by this
+	sort of noise.
+
+50.Explain Transmission media and its types.
+Ans. Transmission Media
+	The media over which the information between two computer systems is sent, called
+	transmission media. Transmission media comes in two forms.
+	
+	i.Guided Media
+	All communication wires/cables are guided media, such as UTP, coaxial cables, and
+	fiber Optics. In this media, the sender and receiver are directly connected and the
+	information is send (guided) through it.
+
+	ii.Unguided Media
+	Wireless or open air space is said to be unguided media, because there is no
+	connectivity between the sender and receiver. Information is spread over the air, and
+	anyone including the actual recipient may collect the information.
+
+51.What is Channel Capacity?
+Ans. The speed of transmission of information is said to be the channel capacity. We count
+	it as data rate in digital world. It depends on numerous factors such as:
+	
+	i.Bandwidth: The physical limitation of underlying media.
+	ii. Error-rate: Incorrect reception of information because of noise.
+	iii. Encoding: The number of levels used for signaling.
+	
+52. 
+Ans.
+
+
+
+
+
