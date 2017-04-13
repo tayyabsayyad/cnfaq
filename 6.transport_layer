@@ -116,7 +116,95 @@ transport layer performs error checking and data packet routing services. Additi
 upper layers, the transport layer continues to provide services, even though different application software processes are running 
 simultaneously on multiple computers.
 
-25.The Internet Transport Protocols: UDP ?
+
+25. What are the problems faced in stream of packet? How can we solve them?
+Ans. Problems
+        There can be problems such as: 
+        (i) the packets can go out of sequence, 
+        (ii) packets might get lost and never arrive,
+        (iii) they might arrive but be corrupt, and 
+        (iv) packets might arrive faster than the receiver can deal with them. 
+   
+    All of these are problems that must be solved by the transport (TCP) level software. The solution is
+    to require acknowledgement of receipt of the packets and to retransmit them if they are not acknowledged.
+    
+    The simplest solution is that the sender can only transmit the next packet when the previous one has been
+    acknowledged (ACK-ed):
+    Whenever a packet is sent a timer is started, if a timeout occurs before an acknowledgement is received
+    (which suggests a lost packet) the sender must re-transmit the last packet.
+    However this is very slow and wasteful, there might be several packets to send but they cannot be sent
+    until the ACK is returned, that means waiting for the full RTT (round trip time) for the packet to reach the
+    receiver and the ACK to get back.
+
+26. What is Packet “windows”?
+Ans. It is an improvement to the above mentioned solution. 
+     Which is to have a window of packets awaiting acknowledgement. Both ends will agree a window
+     size of n packets (for example n=3), this is the number of packets the sender can send without an
+     acknowledgement. In the following diagram the sender sends 3 packets but must then wait for an ACK for
+     packet 1 from the receiver. As soon as it gets the ACK it can continue to transmit packet 4.
+     
+                 SENDER                          RECEIVER
+            
+  i.             send 1
+            
+  ii.            send 2
+
+  iii.           send 3                         get 1. send ack 1
+           
+   iv.                                          get 2, send ack 2  
+        
+   v.          get ack 1, send 4                get 3, send ack 3
+
+   vi.         get ack 2, send 5
+
+  vii.         get ack 3, send 6                get 4, send ack 4
+               
+  viii.                                         get 5, send ack 5
+ 
+  ix.          get ack 4, send 7                get 6, send ack 6
+
+
+    The additional overheads of this are that the sender must keep all the packets sent but not yet acknowledged.
+    Packet windows also cope with out of sequence packets. This requires that the receiver will save packets
+    got ahead of the sequence number it expects and further that it doesn’t acknowledge until it has got all the
+    ones up to the current sequence number.
+
+27. What is End to end flow control?
+Ans. End to end flow control
+    If the receiving host on one connection cannot keep up with the rate of arrival of packets because it has
+    limited buffer space and its application isn’t consuming the data fast enough then it can ask the sender to
+    reduce the window size so it will not receive so much data, it can, if necessary, reduce the window to zero.
+    It does this by using the WINDOW field in ACK packets.
+
+28. Explain Network congestion.
+Ans. Network congestion and flow control are different things.
+    Sometimes Internet IP packet routers get overloaded and congested,
+    if that happens they will have to discard some packets. What could happen, if the sliding window packet
+    retransmission software is too simple, is that it will immediately respond by retransmitting all the lost
+    packets. This will make the congestion worse! All “good” implementations of TCP should respond more
+    gently—if packets timeout then the TCP sender will reduce the window size and delay before retransmitting,
+    if it still has timeouts it delay even longer. It will only start increasing the window size and cutting the delay
+    when it starts receiving acknowledgements again.
+
+29. Explain End-to-end communication.
+Ans. End-to-end communication: ports
+    TCP connections are between processes, IP datagrams are between hosts. Therefore the TCP layer must
+    support distributing the arriving datagrams to the appropriate server program. It uses port numbers, This
+    is not a process number because they are transitory and vary, it is a “conventional” number that selects a
+    service, there are fixed numbers for well known services like 21 for FTP, 80 for WWW and 23 for telnet.
+    Numbers below 1024 are reserved, higher numbers can be used by anybody (but might clash with existing
+    services, see the file /etc/services). A process that provides a service informs the system that it will accept
+    connections to a given port number. When a remote process tries to ask for a service on the machine it
+    must give the port number aswell as the address and the transport layer uses this to select which process to
+    connect to.
+    TCP must record for every connection which process is bound to a port. It uses a unique 4 tuple to
+    identify all connections:
+    < src-port, src-ipaddr, dst-port, dst-ipaddr >
+    a server port is obvious but the port of the client is not obvious, what TCP does is to create a unique port
+    number for every outgoing client connection. Consequently if one computer makes 2 telnet connections
+    to the same remote machine each connection will have a different 4-tuple to identify it.
+    
+30. The Internet Transport Protocols: UDP ?
 Ans:1. The Internet protocol suite supports a connectionless transport protocol, UDP (User Datagram Protocol). 
     2. UDP transmits segments consisting of an 8byte header followed by the payload.
     3. The source port is primarily needed when a reply must be sent back to the source. 
@@ -125,7 +213,7 @@ Ans:1. The Internet protocol suite supports a connectionless transport protocol,
     5. The UDP length field includes the 8-byte header and the data. The UDP checksum is optional and stored as 0 if not 
         computed (a true computed 0 is stored as all 1s).
         
-26.The Internet Transport Protocols: TCP ?
+31.The Internet Transport Protocols: TCP ?
 Ans:1. The IP layer gives no guarantee that datagrams will be delivered properly, so it is up to TCP to time out 
     and retransmit them as need be. 
     2. Datagrams that do arrive may well do so in the wrong order; it is also up to TCP to reassemble them into messages 
@@ -165,7 +253,7 @@ Ans:1. The IP layer gives no guarantee that datagrams will be delivered properly
          application puts some control information in the data stream and gives it to TCP along with the URGENT flag.
          This event causes TCP to stop accumulating data and transmit everything it has for that connection immediately.
 
-27.What are the TCP Congestion Control?
+32.What are the TCP Congestion Control?
 Ans:Two potential problems exist, which cause congestion: 
    1.Network capacity 
    2.Receiver capacity
@@ -179,7 +267,7 @@ Ans:Two potential problems exist, which cause congestion:
         increase linearly till the timeout occurs. Once the timeout occurs the congestion window threshold is halved, and the 
         system again begins in slow start phase.
         
-28.TCP Timer Management?
+33.TCP Timer Management?
 Ans:Retransmission timer 
     When a segment is sent, a retransmission timer is started. 
     If the segment is acknowledged before the timer expires, the timer is stopped. 
@@ -209,13 +297,13 @@ Ans:Retransmission timer
     It runs for twice the maximum packet lifetime to make sure that when a connection is closed, all packets created by 
     it have died off.
 
-29.Where and why would we use the TCP?
+34.Where and why would we use the TCP?
 Ans:1.Its primary job is to get data from one location to another, regardless of the physical network and location.
     2.TCP offers an extremely reliable and robust method of transferring data, ensuring that the data being transferred does 
     not become corrupt in any way.
     3.Some common protocols that use TCP are: FTP, Telnet, HTTP, HTTPS, DNS, SMTP and POP3.
     
-30.Main Features of TCP?
+35.Main Features of TCP?
 Ans:a.Reliable Transport
     b.Connection-Oriented
     c.Flow Control
@@ -223,14 +311,15 @@ Ans:a.Reliable Transport
     e.Acknowledgements
     f.More overhead
     
-31.Why TCP is Reliable?
+36.Why TCP is Reliable?
 Ans:It's a reliable transport because of the different techniques it uses to ensure that the data received is error free.
 
-32.What is Windowing?
+37.What is Windowing?
 Ans:Data throughput, or transfer efficiency, would be low if the transmitting machine had to wait for an acknowledgment after 
     sending each packet of data.
     Windowing controls how much information is transferred from one end to the other. While some protocols quantify 
     information by observing the number of packets, here TCP/IP protocol measures it by counting the number of bytes.
+
 
 
 
