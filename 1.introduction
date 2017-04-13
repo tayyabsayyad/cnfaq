@@ -52,17 +52,6 @@ Ans. Generally, networks are distinguished based on their geographical span. A n
 			Frame Relay, and Synchronous Optical Network (SONET). WAN may be managed by
 			multiple administration.
 
-3. What are types of the computer network ?
-
-  Personal area network, or PAN
-  Local area network, or LAN
-  Metropolitan area network, or MAN
-  Wide area network, or WAN
-  Storage area network, or SAN
-  Enterprise private network, or EPN
-  Virtual private network, or VPN
-
-
     
 4. What are the types of data flows in computer ?
      Simplex :- Communication is unidirectional
@@ -181,8 +170,6 @@ Bus, Star, Token ring, Ring, Mesh, Tree
                          
                          
 
-
-
 7. What is internet ?
 
 
@@ -256,7 +243,8 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
         in its routing table such as paths, hops and bottlenecks. 
         With this info, they are able to determine the best path for data transfer. Routers operate at the OSI Network Layer.
 
-        
+
+       
 14. Name the types of reference models.
     a)OSI Reference model (Open Systems interconnection).
     b)TCP/IP Reference model.
@@ -488,4 +476,7 @@ Ans. A tree topology combines characteristics of linear bus and star topologies.
 Ans.In Star topology, all the components of network are connected to the central device called “hub” which may be a hub, a router or a switch. Unlike Bus topology (discussed earlier), where nodes were connected to central cable, here all the workstations are connected to central device with a point-to-point connection. So it can be said that every computer is indirectly connected to every other node by the help of “hub”. 
 
 46.What is point to point topology?
+
+47. Importance of networking in modern world with a real life example?
+Ans. Uber uses networking to track the taxi which is near the customer which helps the taxi to reach the customer early and also helps the customer to track the taxi and taxi drivers and helps reducing crime
 
