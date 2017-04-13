@@ -320,4 +320,53 @@ Ans:Data throughput, or transfer efficiency, would be low if the transmitting ma
     Windowing controls how much information is transferred from one end to the other. While some protocols quantify 
     information by observing the number of packets, here TCP/IP protocol measures it by counting the number of bytes.
 
+38. What are services provided by transport layer?
+
+ANS.
+Transport layer services are conveyed to an application via a programming interface to the transport layer protocols. The services may include the following features:
+
+Connection-oriented communication: It is normally easier for an application to interpret a connection as a data stream rather than having to deal with the underlying connection-less models, such as the datagram model of the User Datagram Protocol (UDP) and of the Internet Protocol (IP).
+
+Same order delivery: The network layer doesn't generally guarantee that packets of data will arrive in the same order that they were sent, but often this is a desirable feature. This is usually done through the use of segment numbering, with the receiver passing them to the application in order. This can cause head-of-line blocking.
+
+Reliability: Packets may be lost during transport due to network congestion and errors. By means of an error detection code, such as a checksum, the transport protocol may check that the data is not corrupted, and verify correct receipt by sending an ACK or NACK message to the sender. Automatic repeat request schemes may be used to retransmit lost or corrupted data.
+
+Flow control: The rate of data transmission between two nodes must sometimes be managed to prevent a fast sender from transmitting more data than can be supported by the receiving data buffer, causing a buffer overrun. This can also be used to improve efficiency by reducing buffer underrun.
+
+Congestion avoidance: Congestion control can control traffic entry into a telecommunications network, so as to avoid congestive collapse by attempting to avoid oversubscription of any of the processing or link capabilities of the intermediate nodes and networks and taking resource reducing steps, such as reducing the rate of sending packets. For example, automatic repeat requests may keep the network in a congested state; this situation can be avoided by adding congestion avoidance to the flow control, including slow-start. This keeps the bandwidth consumption at a low level in the beginning of the transmission, or after packet retransmission.
+
+Multiplexing: Ports can provide multiple endpoints on a single node. For example, the name on a postal address is a kind of multiplexing, and distinguishes between different recipients of the same location. Computer applications will each listen for information on their own ports, which enables the use of more than one network service at the same time. It is part of the transport layer in the TCP/IP model, but of the session layer in the OSI model.
+
+39. In transport layer, a message is normally divided into transmittable
+
+A. Segments
+B. Signals
+C. Networks
+D. Paths
+ANSWER: A
+
+40. Transport layer may be responsible for flow and error Control, like the
+
+A. IP Link Layer
+B. Data Link Layer
+C. Subnet Layer
+D. Linear Layer
+ANSWER: B
+
+41.Each segment as an independent packet and delivers it to transport layer at destination machine is called
+
+A. Connection Oriented
+B. connectionless
+C. Segmentation
+D. Reassembly
+ANSWER: B
+
+42. Which mechanism/s is/are extremely essential in data link and transport layers in accordance to operational services offered by the transport protocols?
+
+A. Buffering
+B. Flow Control
+C. Both a & b
+D. None of the above
+ANSWER: C
+
 25.what is the efficiency of network layer when natural calamities like earthquake,floods...etc comes? 
