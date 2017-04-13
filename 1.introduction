@@ -58,6 +58,7 @@ Ans. Generally, networks are distinguished based on their geographical span. A n
      Half Duplex :- Each station can both transmit and receive, but not at the same time
      Full Duplex :- Both stations can transmit and receive simultaneously
 
+
 5. What are the various network topologies ? Explain them.
 
 Ans. A Network Topology is the arrangement with which computer systems or network
@@ -171,6 +172,8 @@ Bus, Star, Token ring, Ring, Mesh, Tree
                          
 
 7. What is internet ?
+    => Internet is a global computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.
+    => The Internet carries an extensive range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and peer-to-peer networks for file sharing.
 
 
     A collection of interconnected networks is internet. Also known as a network of networks.
