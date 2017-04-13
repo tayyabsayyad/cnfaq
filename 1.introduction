@@ -1,9 +1,10 @@
-1. What is Computer Network ? 
+
+1. What is Computer Network  ?
 Computer Network is collection of computers connected together for exchanging information. 
 
-2. Why we need computer network?
-Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,
-application sharing , lan gaming and many more.
+2. Why we need computer network  ?
+Computer network help the user to share the resources and in communication. It useful for file sharing , communication ,application sharing , lan gaming and many more.
+
 
 3. What are types of the computer network ? Explain each type.
 Ans. Generally, networks are distinguished based on their geographical span. A network
@@ -50,21 +51,15 @@ Ans. Generally, networks are distinguished based on their geographical span. A n
 			WAN may use advanced technologies such as Asynchronous Transfer Mode (ATM),
 			Frame Relay, and Synchronous Optical Network (SONET). WAN may be managed by
 			multiple administration.
+
     
 4. What are the types of data flows in computer ?
      Simplex :- Communication is unidirectional
      Half Duplex :- Each station can both transmit and receive, but not at the same time
      Full Duplex :- Both stations can transmit and receive simultaneously
 
-
-5. What are the various network topologies ? 
-
-    a)Bus topology consists of one main cable to which all nodes are connected.
-    b)Star topology is where all nodes are connected to a central hub using point-to-point connection.
-    c)In Ring topology, the computers in the network are connected in a circular fashion, and the data travels in one direction.
-    d)Mesh topology is where every node has a direct point-to-point connection to every other node.
-
 5. What are the various network topologies ? Explain them.
+
 Ans. A Network Topology is the arrangement with which computer systems or network
 		devices are connected to each other. Topologies may define both physical and logical
 		aspect of the network. Both logical and physical topologies could be same or different
@@ -150,8 +145,14 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
 			topology.
 
 
-
 6. Compare network topologies 
+   BUS TOPOLOGY: The most widely used of these is bus, because it is employed by Ethernet, which is the dominant LAN architecture. In a bus topology all devices are connected to a central cable, called the bus or backbone. This topology is relatively inexpensive and easy to install for small networks. 
+   RING TOPOLOGY:In a ring topology each device is connected directly to two other devices, one on either side of it, to form a closed loop. This topology is relatively expensive and difficult to install, but it offers high bandwidth and can span large distances. A variation is the token ring, in which signals travel in only one direction around the loop, carried by a so-called token from node to node. 
+   STAR TOPOLOGY:In a star topology all devices are connected directly to a central computer or server. Such networks are relatively easy to install and manage, but bottlenecks can occur because all data must pass through the central device. 
+   MESH TOPOLOGY:The mesh topology can be either a full mesh or a partial mesh. In the former, each computer is connected directly to each of the others. In the latter, some computers are connected to most of the others, and some are connected only to those other nodes with which they exchange the most data. 
+
+Bus, Star, Token ring, Ring, Mesh, Tree
+
     ------->             Parameters                 Bus                 Ring                     Star                     Mesh
                               
                     Network Performance      |   Small                 Small or Large           Small                      Small
@@ -168,7 +169,6 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
                     Cost                     |   Low                   High                    High                      High
                          
                          
-
 
 7. What is internet ?
 
@@ -242,17 +242,42 @@ Ans.    A node refers to a point or joint where a connection takes place.
 Ans.    Routers can connect two or more network segments. These are intelligent network devices that store information 
         in its routing table such as paths, hops and bottlenecks. 
         With this info, they are able to determine the best path for data transfer. Routers operate at the OSI Network Layer.
-        
+
+
+       
 14. Name the types of reference models.
     a)OSI Reference model (Open Systems interconnection).
     b)TCP/IP Reference model.
     
-15. What are protocols?
-    Protocol is a standard used to define a method of exchanging data over a computer network.
-    For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
+15. What is Packet switched networking?
+    This technology involves breaking down the data into packets that would be transferred from one computer to the other
+    until the final destination computer was reached. Also, if any data were lost, it would be resent.
+
+16. What is broadcasting?
+    Broadcast systems generally allow the possibility of addressing a packet to all destinations by using a special code
+    in the address field. When a packet with this code is transmitted, it is received and processed by every machine on the
+    network. This mode of operation is called as broadcasting.
+   
+17. Internet Vs WWW
+    Internet is an infrastructure that makes the WWW work. WWW is just one of many "Virtual networks" built on internet. i.e., WWW is
+    a medium through which we can access internet.
+   
+18. What are the key elements of a protocol?
+    a). Syntax: Structure or format of data. i.e., the order in which the data is presented or interpreted.
+    b). Semantics: It refers to the "meaning" of each section of bits. 
+    Syntax helps us to recognize the bit and semantics helps us to take action.
+    c). Timing: Refers to 2 characteristics- When the data should be sent and how fast they can be sent.
+
+19. What are the design issues for the layers?
+    a). Addressing
+    b). Data transfer
+    c). Error control
+    d). Sequencing
+    e). Flow Control
+    f). Segmentation
 
 
-16. Function of OSI Model?
+20. Function of OSI Model?
 
     Layer 7: The application layer. This is the layer at which communication partners are identified (Is there someone 
         to talk to?), network capacity is assessed (Will the network let me talk to them right now?), and that creates a 
@@ -283,27 +308,27 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     Layer 1: The physical layer. This layer conveys the bit stream through the network at the electrical, optical or 
         radio level. It provides the hardware means of sending and receiving data on a carrier networ
         
-17. Expand the acronym NIC.
+21. Expand the acronym NIC.
 Ans. Network Interface Card
 
-18. Expand the acronym MAC.
+22. Expand the acronym MAC.
 Ans. Media Access Control
 
-19. Expand the acronym LAN.
+23. Expand the acronym LAN.
 Ans. Local Area Network
 
-20. Expand the acronym WAN.
+24. Expand the acronym WAN.
 Ans. Wide Area Network
 
 
-21. Mention Classification of Computer Networks.
+25. Mention Classification of Computer Networks.
 Ans.	Computer networks are classified based on various factors. They include:
 			i.Geographical span
 			ii.Inter-connectivity
 			iii.Administration
 			iv.Architecture
 
-22. What is Geographical Span in Computer Networks?
+26. What is Geographical Span in Computer Networks?
 Ans.	Geographically a network can be seen in one of the following categories:
 			i. It may be spanned across your table, among Bluetooth enabled devices,ranging not more than few meters.
 			ii. It may be spanned across a whole building, including intermediate devices to connect all floors.
@@ -311,7 +336,7 @@ Ans.	Geographically a network can be seen in one of the following categories:
 			iv. It may be spanned across multiple cities or provinces.
 			v. It may be one network covering whole world.
 
-23. What is Inter-Connectivity in Computer Networks?
+27. What is Inter-Connectivity in Computer Networks?
 Ans. Components of a network can be connected to each other differently in some fashion.
 	 By connectedness we mean either logically, physically, or both ways.
 		i. Every single device can be connected to every other device on network, making the network mesh.
@@ -320,18 +345,18 @@ Ans. Components of a network can be connected to each other differently in some 
 		iv. All devices connected together with a single device, creating star-like structure.
 		v. All devices connected arbitrarily using all previous ways to connect each other, resulting in a hybrid structure.
 
-24. What is Administration in Computer Networks?
+28. What is Administration in Computer Networks?
 Ans. From an administrator’s point of view, a network can be private network which belongs a single autonomous system and 
 		cannot be accessed outside its physical or logical domain. A network can be public, which is accessed by all.
 
-25. What is Network Architecture in Computer Networks?
+29. What is Network Architecture in Computer Networks?
 Ans. Computer networks can be discriminated into various types such as Client-Server,peer-to-peer or hybrid, depending upon its architecture.
 		i. There can be one or more systems acting as Server. Other being Client, requests the Server to serve requests. 
 		Server takes and processes request on behalf of Clients.
 		ii. Two systems can be connected Point-to-Point, or in back-to-back fashion. They both reside at the same level and called peers.
 		iii. There can be hybrid network which involves network architecture of both the above types.
 		
-26. What is Network Applications in Computer Networks?
+30. What is Network Applications in Computer Networks?
 Ans. Computer systems and peripherals are connected to form a network. They provide numerous advantages:
 		i. Resource sharing such as printers and storage devices
 		ii. Exchange of information by means of e-Mails and FTP
@@ -342,7 +367,7 @@ Ans. Computer systems and peripherals are connected to form a network. They prov
 		vii. Parallel computing
 		viii. Instant messaging
 
-27. What is Ethernet?
+31. What is Ethernet?
 Ans. Ethernet
 		Ethernet is a widely deployed LAN technology. This technology was invented by Bob
 		Metcalfe and D.R. Boggs in the year 1970. It was standardized in IEEE 802.3 in 1980.
@@ -360,11 +385,98 @@ Ans. Ethernet
 		twisted pair cable with RJ-5 connector. Ethernet follows Star topology with segment
 		length up to 100 meters. All devices are connected to a hub/switch in a star fashion.
 
-28. What is meant by RIP?
+32. What is meant by RIP?
 
 ->RIP short for Routing Information Protocol is used by routers to send data from one network to another.
   It efficiently manages routing data by broadcasting its routing table to all other routers within the network.
 
-29. What does 10Base-T mean?
+33. What does 10Base-T mean?
+
 ->The 10 refers to the data transfer rate, in this case is 10Mbps. The word Base refers to base band, as oppose to broad band. T means twisted pair, which is the cable used for that network.
+
+
+34. What are MAC addresses?
+
+MAC, or Media Access Control, uniquely identifies a device on the network. It is also known as physical address or Ethernet address. 
+
+A MAC address is made up of 6-byte parts
+
+35. What are protocols?
+    Protocol is a standard used to define a method of exchanging data over a computer network.
+    For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
+
+36.What are connection oriented and connectionless services?
+   Layers can offer two different types of service to the layers above them: connection-
+   oriented and connectionless. 
+   1)Connection-oriented service is modeled after the telephone system. To talk
+   to someone, you pick up the phone, dial the number, talk, and then hang up. Similarly,
+   to use a connection-oriented network service, the service user first establishes
+   a connection, uses the connection, and then releases the connection.
+   2)In contrast to connection-oriented service, connectionless service is modeled
+   after the postal system. Normally, when two messages are sent to
+   the same destination, the first one sent will be the first one to arrive. However, it
+   is possible that the first one sent can be delayed so that the second one arrives
+   first.
+   
+37.Name the factors that affect the performance of the network?
+    a. Number of Users
+    b. Type of transmission medium
+    c. Hardware
+    d. Software
+    
+38. Name the factors that affect the reliability of the network?
+    a. Frequency of failure
+    b. Recovery time of a network after a failure
+
+39 .Mention different categories of computer networks (on the basis of scale) and distinguish
+    one from the other.
+Ans:   Local Area Network (LAN): It is privately owned communication systems that cover a small
+       area, say a building or a complex of buildings. Length is about 10 meters to few kilometers and
+       operates at a high speed like 10 MBPS to 1000 MBPS. It has very low error rate.
+
+        Metropolitan Area Network (MAN): It is public or privately owned communication system that
+        typically covers a complete city. Speed is about 10 MBPS and follows DQDB (Distributed Queue
+        Double Bus) standard. Its reliability is moderate.
+        
+        Wide Area Network (WAN): It covers a large geographical area and usually owned by a state. Data
+        transfer rate is low (few KBPS to 10 MBPS) and error rate is much higher.
+        
+40. What are the two types of Transmission technologies, basis on which computer networks
+can be categorized?
+
+Ans:    Broadly there are two types of transmission technology:
+        1. Broadcast networks: a single communication channel that is shared by all the machines on the
+        network
+
+        2. Point-to-point networks: This network consists of many connections between individual pairs of
+        machines. To go from the source to destination a message (or packet) may have to visit one or more
+        intermediate machines
+        
+ 41. What is the use of a default gateway?
+Default gateways provide means for the local networks to connect to the external network. 
+The default gateway for connecting to the external network is usually the address of the external router port.
+
+41. What is RIP?
+
+  RIP, short for Routing Information Protocol is used by routers to send data from one network to another. 
+  It efficiently manages routing data by broadcasting its routing table to all other routers within the network.
+  It determines the network distance in units of hops.
+
+
+42.What is Network Topology?
+Ans.   A Network Topology is the pattern in which nodes(i.e. computers,routers etc..devices) are connected to a local area network(LAN) or other network via links(e.g. optical fibre,copper wire cabel etc...).
+
+43.What is Hybrid Network Topology?
+Ans.A hybrid topology is a type of network topology that uses two or more other network topologies, including bus topology, mesh topology, ring topology, star topology, and tree topology.
+
+44.What is Tree Topology?
+Ans. A tree topology combines characteristics of linear bus and star topologies. It consists of groups of star-configured workstations connected to a linear bus backbone cable
+
+45.What is Star topology?
+Ans.In Star topology, all the components of network are connected to the central device called “hub” which may be a hub, a router or a switch. Unlike Bus topology (discussed earlier), where nodes were connected to central cable, here all the workstations are connected to central device with a point-to-point connection. So it can be said that every computer is indirectly connected to every other node by the help of “hub”. 
+
+46.What is point to point topology?
+
+47. Importance of networking in modern world with a real life example?
+Ans. Uber uses networking to track the taxi which is near the customer which helps the taxi to reach the customer early and also helps the customer to track the taxi and taxi drivers and helps reducing crime
 
