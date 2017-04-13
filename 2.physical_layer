@@ -284,7 +284,9 @@ framework for defining standards for connecting computers.
            b) Connector type specifications like RJ11, RJ45 etc.
            c) Link/Channel Multiplexing techniques like FDM, TDM etc.
 
+
 48. Name type of signals and explain them.
+
 Ans. Signals 
 	When data is sent over physical medium, it needs to be first converted into
 	electromagnetic signals. Data itself can be analog such as human voice, or digital
@@ -364,10 +366,22 @@ Ans. The speed of transmission of information is said to be the channel capacity
 	ii. Error-rate: Incorrect reception of information because of noise.
 	iii. Encoding: The number of levels used for signaling.
 	
-52. 
-Ans.
 
-
-
-
+52. Applications of co-axial cable?
+   Transmissions line for radio frequency signal
+   Radio transmitter
+   Television Signal
+   
+53. What is Circuit Switching?
+   The switching equipment in the telephone system which seeks out a physical path from your telephone to the reciever'stelephone.
+   
+54. What is packet Switching?
+   A mode of data transmission in which a meeage is broken into a number of parts which are sent independently.
+   
+55. Types of Guided Media?
+   Magnetic Media
+   Twisted Pair
+   Coaxial cable
+   Fiber optics
+  
 
