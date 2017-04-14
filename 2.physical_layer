@@ -1,6 +1,482 @@
+
+
 1. The physical layer concerns with?
-   bit-by-bit delivery.
+   1.bit-by-bit delivery.
+   2.Controls the transmission of the actual data onto the network cable. It defines the
+   electrical signals, line states and encoding of the data and the connector types used. An example is
+   10BaseT
+
 
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
+
+3. The physical layer is responsible for?
+   Line Coding, Channel coding and modulation
+
+   
+4.What is switching and categories of Switching?
+  Switching is process to forward packets coming in from one port to a port leading towards the destination. 
+  When data comes on a port it is called ingress, and when data leaves a port or goes out it is called egress.
+  A communication system may include number of switches and nodes. At broad level, 
+  switching can be divided into two major categories:
+
+  1.Connectionless: The data is forwarded on behalf of forwarding tables. No previous handshaking is required 
+    and acknowledgements are optional.
+
+  2.Connection Oriented:  Before switching data to be forwarded to destination, there is a need to pre-establish 
+    circuit along the path between both endpoints. Data is then forwarded on that circuit. After the transfer is 
+    completed, circuits can be kept for future use or can be turned down immediately.
+
+5.What are the types of switching?
+   1.Circuit Switching
+   2.Message Switching
+   3.Packet Switching
+   
+6.What is Circuit Switching?
+   When two nodes communicate with each other over a dedicated communication path, it is called circuit 
+   switching.There 'is a need of pre-specified route from which data will travels and no other data is 
+   permitted.In circuit switching, to transfer the data, circuit must be established so that the data transfer can take place.
+   Circuits can be permanent or temporary. Applications which use circuit switching may have to go through three phases:
+
+   1.Establish a circuit
+   2.Transfer the data
+   3.Disconnect the circuit
+   
+   Circuit switching was designed for voice applications. Telephone is the best suitable example of 
+   circuit switching. Before a user can make a call, a virtual path between caller and callee is established over the network.
+   
+7.What is Message Switching?
+   This technique was somewhere in middle of circuit switching and packet switching. In message 
+   switching, the whole message is treated as a data unit and is switching / transferred in its entirety.
+   A switch working on message switching, first receives the whole message and buffers it until there are 
+   resources available to transfer it to the next hop. If the next hop is not having enough resource to 
+   accommodate large size message, the message is stored and switch waits.
+   
+   This technique was considered substitute to circuit switching. As in circuit switching the whole path 
+   is blocked for two entities only. Message switching is replaced by packet switching. 
+   Message switching has the following drawbacks:
+
+   1.Every switch in transit path needs enough storage to accommodate entire message.
+   2.Because of store-and-forward technique and waits included until resources are available, 
+     message switching is very slow.
+   3.Message switching was not a solution for streaming media and real-time applications.
+   
+8.What is Packet Switching?
+   Shortcomings of message switching gave birth to an idea of packet switching. 
+   The entire message is broken down into smaller chunks called packets. The switching 
+   information is added in the header of each packet and transmitted independently.
+
+   It is easier for intermediate networking devices to store small size packets and they 
+   do not take much resources either on carrier path or in the internal memory of switches.
+   
+   Packet switching enhances line efficiency as packets from multiple applications can be 
+   multiplexed over the carrier. The internet uses packet switching technique. 
+   Packet switching enables the user to differentiate data streams based on priorities. 
+   Packets are stored and forwarded according to their priority to provide quality of service.
+   
+ 9.What is Multiplexing?
+   Multiplexing is a technique by which different analog and digital streams of transmission 
+   can be simultaneously processed over a shared link. Multiplexing divides the high capacity 
+   medium into low capacity logical medium which is then shared by different streams.
+
+   Communication is possible over the air (radio frequency), using a physical media (cable), 
+   and light (optical fiber). All mediums are capable of multiplexing.
+
+   When multiple senders try to send over a single medium, a device called Multiplexer 
+   divides the physical channel and allocates one to each. On the other end of communication, 
+   a De-multiplexer receives data from a single medium, identifies each, and sends to different receivers.
+   
+10.What is Frequency Division Multiplexing?
+   When the carrier is frequency, FDM is used. FDM is an analog technology. FDM divides the spectrum or 
+   carrier bandwidth in logical channels and allocates one user to each channel. Each user can use the 
+   channel frequency independently and has exclusive access of it. All channels are divided in such a way 
+   that they do not overlap with each other. Channels are separated by guard bands. Guard band is a frequency 
+   which is not used by either channel.
+   
+11.What is Time Division Multiplexing?
+   TDM is applied primarily on digital signals but can be applied on analog signals as well.   
+   In TDM the shared channel is divided among its user by means of time slot. Each user can transmit 
+   data within the provided time slot only. Digital signals are divided in frames, equivalent to time slot i.e. 
+   frame of an optimal size which can be transmitted in given time slot.
+
+   TDM works in synchronized mode. Both ends, i.e. Multiplexer and De-multiplexer are timely 
+   synchronized and both switch to next channel simultaneously.
+   When channel A transmits its frame at one end,the De-multiplexer provides media to channel A on the other end.
+   As soon as the channel A’s time slot expires, this side switches to channel B. On the other end, 
+   the De-multiplexer works in a synchronized manner and provides media to channel B. 
+   Signals from different channels travel the path in interleaved manner.
+   
+12.What is Wavelength Division Multiplexing?
+   Light has different wavelength (colors). In fiber optic mode, multiple optical carrier signals are multiplexed 
+   into an optical fiber by using different wavelengths. 
+   This is an analog multiplexing technique and is done conceptually in the same manner as FDM but uses light as signals.
+   Further, on each wavelength time division multiplexing can be incorporated to accommodate more data signals.
+
+13.What is Code Division Multiplexing?
+   Multiple data signals can be transmitted over a single frequency by using Code Division Multiplexing. 
+   FDM divides the frequency in smaller channels but CDM allows its users to full bandwidth and transmit 
+   signals all the time using a unique code. CDM uses orthogonal codes to spread signals.
+
+   Each station is assigned with a unique code, called chip. Signals travel with these codes independently, 
+   inside the whole bandwidth.The receiver knows in advance the chip code signal it has to receive.
+
+14. Which transmission media has the highest transmission speed in a network? 
+  optical fiber
+
+15. Which transmission media has the highest transmission speed in a network?
+   optical fiber.
+
+16. What are the functions of physical layer?
+	
+    1.	Representation of Bits
+    2.	Data Rate
+    3.	Synchronization
+    4.	Interface
+    5.	Line Configuration
+    6.	Topologies
+    7.	Transmission Modes
+    8.	Deals with baseband and broadband transmission.
+
+
+17.   What are the transmission modes in physical layer?
+Ans. Physical Layer defines the direction of transmission between two devices: Simplex, Half Duplex, Full Duplex.
+
+18.   What are the various networking Topologies?
+Ans. Mesh, Star, Ring and Bus
+ 
+19. Bits can be send over guided and unguided media as analog signal by?
+   digital modulation
+   
+20. physical layer provides?
+   mechanical specifications of electrical connectors and cables, electrical specification of transmission line signal level, specification for IR over optical fiber
+
+21 .What is the OSI model?
+
+OSI stands for Open Systems Interconnection and
+was created by ISO, the International Standards Organization.
+The OSI "reference model" divides particular networked processes into seven different layers:
+Application (Layer 7) 
+Presentation (Layer 6) 
+Session (Layer 5) 
+Transport (Layer 4) 
+Network (Layer 3) 
+Data Link (Layer 2)
+and Physical (Layer 1)
+
+22.What is the Network Time Protocol
+
+The Network Time Protocol (NTP) is a protocol for synchronizing the clocks of computer
+systems over packet switched, variable latency data
+networks. NTP uses UDP as its transport layer. It is designed particularly to
+resist the effects of variable latency.
+
+23.What is virtual network?
+
+An internet architecture in which routers connect multiple physical networks.
+
+24.Is internet a virtual network?
+yes An internet is a single virtual network
+that interconnects all hosts and through which communication is possible ;its
+under lying architecture is both hidden and irrelevant.
+
+25.What are the functions of data link layer in OSI model?
+
+Framing: it divides the stream of bits received from the net
+work layer, physical addressing ,flow control ,error control
+and access contr
+
+26 .Bits can be send over guided and unguided media as analog signal by which modulation?
+  digital modulation
+
+27 .The physical layer translates logical communication requests from the ______ into hardware specific operations. 
+   data link layer
+
+28 .A single channel is shared by multiple signals by:    
+    multiplexing
+    
+29. Wireless transmission can be done via:     
+   radio waves, microwaves, infrared
+
+30.Why the OSI model was developed?
+The International Organization for Standardization (ISO) created the Open Systems Interconnection (OSI) reference model as a 
+framework for defining standards for connecting computers.
+
+31.a physical layer is responsible for:
+   line coding,channel coding ,modulation
+
+32.The portion of physical layer that interfaces with the media access control sublayer is called:
+   physical signalling sublayer
+
+33.in asynchronous serial communication the physical layer provides:
+   start and stop signalling, flow control 
+
+34. Bits can be send over guided and unguided media as analog signal by?
+   digital modulation
+   
+35. The portion of physical layer that interfaces with the media access control sublayer is called?
+    physical signalling sublayer
+    
+36. In asynchronous serial communication the physical layer provides?
+   start and stop signalling & flow control
+
+37. What does physical layer provides??
+   Specification for IR over optical fiber.
+   
+38. Difference between Circuit switching and packet sitching
+            Parameters                             Circuit Switching              Packet Switching
+   1.  Call setup                                     Required                      Not required
+   2.  Dedicated physical path                        Yes                           No
+   3.  Each packet follows the same route             Yes                           No
+   4.  Packets arrive in order                        Yes                           No
+   5.  Is switch crash fatal                          Yes                           No
+   6.  Bandwidth available                            Fixed                         Dynamic
+   7.  When can congestion occur                      At setup time                 On every packet
+   8.  Potentially wasted bandwidth                   Yes                           No
+   9.  Store-and-forwward transmission                No                            Yes 
+   10. Transparency                                   Yes                           No
+   11. Charging                                       Per minute                    Per packet
+
+ 
+39. Bits can be sent over guided and unguided media as analog signals by?
+   Digital Modulation
+   
+   
+40. What is multiplexing?
+   It is set of techniques that allows the simultaneous transmission of multiple signal across a single data link.
+
+
+41.Types of Multiplexing?
+   frequency division multiplexing(analog),wavelength division multiplexing(analog) ,time division multiplexing(digital)
+
+42. Term that refers to a physical layer technique is called
+   a.CDMA
+   b.FDMA
+   c.TDMA
+   d.TDM
+   soln:D-TDM.
+   
+43. Device that operates below physical layer of OSI model is
+
+   a.active hub
+   b.passive hub
+   c.bridge
+   d.repeater
+   soln:B-passive hub.
+   
+45.Physical layer is responsible for movements of individual
+
+   a.Bits
+   b.frames
+   c.Bytes
+   d.None of Above
+   soln:A-Bits
+   
+
+46. What is Physical Layer in Networking?
+   IT is the only layer of OSI model which actually deals with physical connectivity of two different stations. This Layer defines the hardware equipment,cabling,wiring,freq,pulses used to represent binary signals etc.It provides its services to data link layer.
+
+47. Functions of Physical Layer?
+
+   a)Physical layer is the actual carrier of information between computers
+   b)It is the most important layer, as communication between computers cannot happen without a physical layer
+   c)Data is actually carried between every adjacent node (computers/routers)  by transmission of electromagnetic/optical signals  at the physical layer over wired/wireless media
+   d)Physical layer therefore encompasses the set of all protocols/standards used in different types of Wired/Wireless interfaces and  the telecommunication links connecting them
+   e)It also includes the mechanical, electrical and timing specifications for different network interfaces
+   f) Typical examples of physical layer protocols are 
+           a) Ethernet/DSL/Optical/WiFi/3G line coding techniques
+           b) Connector type specifications like RJ11, RJ45 etc.
+           c) Link/Channel Multiplexing techniques like FDM, TDM etc.
+
+
+48. Name type of signals and explain them.
+
+Ans. Signals 
+	When data is sent over physical medium, it needs to be first converted into
+	electromagnetic signals. Data itself can be analog such as human voice, or digital
+	such as file on the disk. Both analog and digital data can be represented in digital or
+	analog signals.
+	        i.Digital Signals
+		 Digital signals are discrete in nature and represent sequence of voltage pulses. Digital
+		 signals are used within the circuitry of a computer system.
+		ii.Analog Signals
+		 Analog signals are in continuous wave form in nature and represented by continuous
+		 electromagnetic waves.
+
+49. What is Transmission Impairment? Explain the reasons responsible for it.
+Ans. When signals travel through the medium, they tend to deteriorate. This may have
+     many reasons as given:
+	
+	i.Attenuation
+	For the receiver to interpret the data accurately, the signal must be sufficiently
+	strong. When the signal passes through the medium, it tends to get weaker. As it
+	covers distance, it loses strength.
+
+	ii.Dispersion
+	As signal travels through the media, it tends to spread and overlaps. The amount of
+	dispersion depends upon the frequency used.
+
+	iii.Delay distortion
+	Signals are sent over media with pre-defined speed and frequency. If the signal speed
+	and frequency do not match, there are possibilities that signal reaches destination in 
+	arbitrary fashion. In digital media, this is very critical that some bits reach earlier
+	than the previously sent ones.
+
+
+	iv.Noise
+	Random disturbance or fluctuation in analog or digital signal is said to be Noise in
+	signal, which may distort the actual information being carried. Noise can be
+	characterized in one of the following class:
+
+	v.Thermal Noise
+	Heat agitates the electronic conductors of a medium which may introduce noise in
+	the media. Up to a certain level, thermal noise is unavoidable.
+
+	vi.Intermodulation
+	When multiple frequencies share a medium, their interference can cause noise in the
+	medium. Intermodulation noise occurs if two different frequencies are sharing a
+	medium and one of them has excessive strength or the component itself is not
+	functioning properly, then the resultant frequency may not be delivered as expected.
+
+	vii.Crosstalk
+	This sort of noise happens when a foreign signal enters into the media. This is because
+	signal in one medium affects the signal of second medium.
+
+	ix.Impulse
+	This noise is introduced because of irregular disturbances such as lightening,
+	electricity, short-circuit, or faulty components. Digital data is mostly affected by this
+	sort of noise.
+
+50.Explain Transmission media and its types.
+Ans. Transmission Media
+	The media over which the information between two computer systems is sent, called
+	transmission media. Transmission media comes in two forms.
+	
+	i.Guided Media
+	All communication wires/cables are guided media, such as UTP, coaxial cables, and
+	fiber Optics. In this media, the sender and receiver are directly connected and the
+	information is send (guided) through it.
+
+	ii.Unguided Media
+	Wireless or open air space is said to be unguided media, because there is no
+	connectivity between the sender and receiver. Information is spread over the air, and
+	anyone including the actual recipient may collect the information.
+
+51.What is Channel Capacity?
+Ans. The speed of transmission of information is said to be the channel capacity. We count
+	it as data rate in digital world. It depends on numerous factors such as:
+	
+	i.Bandwidth: The physical limitation of underlying media.
+	ii. Error-rate: Incorrect reception of information because of noise.
+	iii. Encoding: The number of levels used for signaling.
+	
+
+52. Applications of co-axial cable?
+   Transmissions line for radio frequency signal
+   Radio transmitter
+   Television Signal
+   
+53. What is Circuit Switching?
+   The switching equipment in the telephone system which seeks out a physical path from your telephone to the reciever'stelephone.
+   
+54. What is packet Switching?
+   A mode of data transmission in which a meeage is broken into a number of parts which are sent independently.
+   
+55. Types of Guided Media?
+   Magnetic Media
+   Twisted Pair
+   Coaxial cable
+   Fiber optics
+
+56. Bits can be send over guided and unguided media as analog signal by?
+   digital modulation
+
+57. Physical layer provides
+   Mechanical specifications of electrical connectors and cables and Specification for IR over optical fiber.
+   
+58. Name the Layer Which is associated with transmission media?
+
+The first layer (physical layer) of Communication Networks the OSI Seven layer model 
+is dedicated to the transmission media.
+
+59. What are duties of physical layer?
+
+Physical Layer:
+    
+    Transforms a sequence of bits into signals for transmission.
+    
+    The signal will be different for different communication media.
+    E.g., dial-up phone, dial-up cellular phone, fiber optic LAN, Ethernet.
+    The details of communicating over the available communication channel (link) are transparent to higher layers.
+    This function is normally implemented in hardware. 
+
+
+60. Classification of transmission media?
+
+There are two types of transmission media: Guided and Unguided.
+
+Guided Media:
+    Unshielded Twisted Pair (UTP)
+    Shielded Twisted Pair
+    Coaxial Cable
+    Optical Fiber
+    hub
+    
+Unguided Media: Transmission media then looking at analysis of using them unguided 
+transmission media is data signals that flow through the air. They are not guided or
+bound to a channel to follow.
+Following are unguided media used for data communication:
+
+   Radio Transmission
+   Microwave
+
+61. Types of guided Media?
+
+    Unshielded Twisted Pair (UTP)
+    Shielded Twisted Pair
+    Coaxial Cable
+    Optical Fiber
+    hub
+
+62. Types of unguided Media?
+
+    Radio Transmission
+    Microwave
+
+63. Advantages of optical Fibre?
+
+   1.Bandwidth - Fibre optic cables have a much greater bandwidth than metal cables.
+   2.Low Power Loss - An optical fibre offers low power loss.  This allows for longer transmission distances.
+   3.Interference - Fibre optic cables are immune to electromagnetic interference.
+   4.Size - In comparison to copper, a fibre optic cable has nearly 4.5 times as much capacity as the wire cable has
+            and a cross sectional area that is 30 times less.
+   5. Weight - Fibre optic cables are much thinner and lighter than metal wires.
+   6.Safety - Since the fibre is a dielectric, it does not present a spark hazard. 
+
+   7. Security - Optical fibres are difficult to tap
+   8.Flexibility - An optical fibre has greater tensile strength than copper or steel fibres of the same diameter. 
+                   It is flexible, bends easily and resists most corrosive elements that attack copper cable.
+                   
+64. Ways of Wireless Transmission?
+
   
+65. Bits can be send over guided and unguided media as analog signal by?
+-> digital modulation
+
+66. What does physical layer provides?
+->(a)mechanical specifications of electrical connectors and cables
+  (b)electrical specification of transmission line signal level
+  (c) specification for IR over optical fiber
+  
+67. The physical layer translates logical communication requests from the ______ into hardware specific operations. 
+->data link layer
+
+
+13) What does Physical Layer mean?
+The physical layer is the first layer of the Open System Interconnection Model (OSI Model).The physical Layer deals with bit level
+      transmission.
+      
+14) List the services provided by the physical layer?
+    * Bit synchronization for synchronous serial communications.
+    * Bit interleaving to improve error correction.
+    * Auto-negotiation
+    * Transmission mode control.
