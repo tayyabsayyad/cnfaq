@@ -52,7 +52,7 @@ Ans. Generally, networks are distinguished based on their geographical span. A n
 			Frame Relay, and Synchronous Optical Network (SONET). WAN may be managed by
 			multiple administration.
 
-    
+
 4. What are the types of data flows in computer ?
      Simplex :- Communication is unidirectional
      Half Duplex :- Each station can both transmit and receive, but not at the same time
