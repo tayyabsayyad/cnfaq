@@ -83,4 +83,10 @@ Ans.    A node refers to a point or joint where a connection takes place.
 Ans.    Routers can connect two or more network segments. These are intelligent network devices that store information
         in its routing table such as paths, hops and bottlenecks.
         With this info, they are able to determine the best path for data transfer. Routers operate at the OSI Network Layer.
-13.
+13.Types of Network Secirity
+Distributed Denial of Service (DDoS) Prevention
+Email Gateway/Firewall
+Firewalls
+Intrusion Prevention/Detection System (IPS/IDS)
+Security Information and Event Management (SIEM)
+Network Access Control (NAC)
