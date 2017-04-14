@@ -146,9 +146,6 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
 			topology.
 
 
-
-6. Compare network topologies 
-
    BUS TOPOLOGY: The most widely used of these is bus, because it is employed by Ethernet, which is the dominant LAN architecture. In a bus topology all devices are connected to a central cable, called the bus or backbone. This topology is relatively inexpensive and easy to install for small networks. 
    RING TOPOLOGY:In a ring topology each device is connected directly to two other devices, one on either side of it, to form a closed loop. This topology is relatively expensive and difficult to install, but it offers high bandwidth and can span large distances. A variation is the token ring, in which signals travel in only one direction around the loop, carried by a so-called token from node to node. 
    STAR TOPOLOGY:In a star topology all devices are connected directly to a central computer or server. Such networks are relatively easy to install and manage, but bottlenecks can occur because all data must pass through the central device. 
@@ -174,7 +171,7 @@ Bus, Star, Token ring, Ring, Mesh, Tree
                          
                          
 
-7. What is internet ?
+6.. What are the various network topologies ? 
 
 The Internet is the global system of interconnected computer networks that use the Internet protocol suite (TCP/IP)
 to link devices worldwide. It is a network of networks that consists of private, public, academic, business, 
@@ -492,18 +489,20 @@ Ans. A tree topology combines characteristics of linear bus and star topologies.
 Ans.In Star topology, all the components of network are connected to the central device called “hub” which may be a hub, a router or a switch. Unlike Bus topology (discussed earlier), where nodes were connected to central cable, here all the workstations are connected to central device with a point-to-point connection. So it can be said that every computer is indirectly connected to every other node by the help of “hub”. 
 
 46.What is point to point topology?
+  It provides a dedicated link between two devices.
+  The entire capacity of the link is reserved for transmission between the two devices.
+  
 
 47. Importance of networking in modern world with a real life example?
 Ans. Uber uses networking to track the taxi which is near the customer which helps the taxi to reach the customer early and also helps the customer to track the taxi and taxi drivers and helps reducing crime
 
-    
+   
 
 48. What are protocols?
     Protocol is a standard used to define a method of exchanging data over a computer network.
     For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
     
-    17. Expand the acronym NIC.
-Ans. Network Interface Card
+    
 
 49. Expand the acronym MAC.
 Ans. Media Access Control
@@ -518,6 +517,29 @@ Ans. Local Area Network
 52. Expand the acronym WAN.
 Ans. Wide Area Network
 
+
 53. What is meant by RIP?
 ->RIP short for Routing Information Protocol is used by routers to send data from one network to another.
   It efficiently manages routing data by broadcasting its routing table to all other routers within the network.
+
+ 54. What is a topology?
+   Topology of a network is defined as the geometric representation of the relationship
+   of all the links and linking devices (node) to one another .  
+   
+  55.What is mesh network?
+   A network in which there are multiple network links between computers to provide
+   multiple paths for data to travel.
+   
+56. What are major types of networks?
+  	Server-based network
+    Peer-to-peer network 
+
+57. What is URL ?
+  It is a standard for specifying any kind of information on the World Wide Web.
+  
+58. What is Hypertext Transfer Protocol(HTTP) ?
+  	It is the main protocol used to access data on the World Wide Web .
+    the protol transfers data in the form of plain text,hypertext,audio,video,and so on.
+    
+59. Expand the acronym NIC.
+    Network Interface Card
