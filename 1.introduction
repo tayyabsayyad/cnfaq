@@ -146,6 +146,7 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
 			topology.
 
 
+
 6. Compare network topologies 
 
    BUS TOPOLOGY: The most widely used of these is bus, because it is employed by Ethernet, which is the dominant LAN architecture. In a bus topology all devices are connected to a central cable, called the bus or backbone. This topology is relatively inexpensive and easy to install for small networks. 
@@ -174,6 +175,12 @@ Bus, Star, Token ring, Ring, Mesh, Tree
                          
 
 7. What is internet ?
+
+The Internet is the global system of interconnected computer networks that use the Internet protocol suite (TCP/IP)
+to link devices worldwide. It is a network of networks that consists of private, public, academic, business, 
+and government networks of local to global scope, linked by a broad array of electronic, wireless, 
+and optical networking technologies.
+
     => Internet is a global computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.
     => The Internet carries an extensive range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and peer-to-peer networks for file sharing.
 
