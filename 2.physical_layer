@@ -10,57 +10,44 @@
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
 
-3. The physical layer is responsible for?
-   Line Coding, Channel coding and modulation
+3. physical layer provides:
+A. mechanical specifications of electrical connectors and cables 
+B. electrical specification of transmission line signal level 
+C. specification for IR over optical fiber
+ D. all of the mentioned
+ANSWER:   D
 
-   
-4.What is switching and categories of Switching?
-  Switching is process to forward packets coming in from one port to a port leading towards the destination. 
-  When data comes on a port it is called ingress, and when data leaves a port or goes out it is called egress.
-  A communication system may include number of switches and nodes. At broad level, 
-  switching can be divided into two major categories:
+4. The physical layer translates logical communication requests from the ______ into hardware specific operations.
+A. data link layer 
+B. network layer
+ C. trasnport layer 
+D. application layer
+ANSWER: A
 
-  1.Connectionless: The data is forwarded on behalf of forwarding tables. No previous handshaking is required 
-    and acknowledgements are optional.
+5. ........... is used to optimize the use of the channel capacity available in a network, to minimize the transmission latency and to increase robustness of communication.
 
-  2.Connection Oriented:  Before switching data to be forwarded to destination, there is a need to pre-establish 
-    circuit along the path between both endpoints. Data is then forwarded on that circuit. After the transfer is 
-    completed, circuits can be kept for future use or can be turned down immediately.
+A. Message switching
+B. Linear switching
+C. circuit switching
+D. packet switching 
+ANSWER: D
 
-5.What are the types of switching?
-   1.Circuit Switching
-   2.Message Switching
-   3.Packet Switching
-   
-6.What is Circuit Switching?
-   When two nodes communicate with each other over a dedicated communication path, it is called circuit 
-   switching.There 'is a need of pre-specified route from which data will travels and no other data is 
-   permitted.In circuit switching, to transfer the data, circuit must be established so that the data transfer can take place.
-   Circuits can be permanent or temporary. Applications which use circuit switching may have to go through three phases:
+6. Which of the following is not the sources of noise?
 
-   1.Establish a circuit
-   2.Transfer the data
-   3.Disconnect the circuit
-   
-   Circuit switching was designed for voice applications. Telephone is the best suitable example of 
-   circuit switching. Before a user can make a call, a virtual path between caller and callee is established over the network.
-   
-7.What is Message Switching?
-   This technique was somewhere in middle of circuit switching and packet switching. In message 
-   switching, the whole message is treated as a data unit and is switching / transferred in its entirety.
-   A switch working on message switching, first receives the whole message and buffers it until there are 
-   resources available to transfer it to the next hop. If the next hop is not having enough resource to 
-   accommodate large size message, the message is stored and switch waits.
-   
-   This technique was considered substitute to circuit switching. As in circuit switching the whole path 
-   is blocked for two entities only. Message switching is replaced by packet switching. 
-   Message switching has the following drawbacks:
+A. Thermal
+B. Magnetic
+C. Inter-modulation
+D. Cross talk
+ANSWER: B
 
-   1.Every switch in transit path needs enough storage to accommodate entire message.
-   2.Because of store-and-forward technique and waits included until resources are available, 
-     message switching is very slow.
-   3.Message switching was not a solution for streaming media and real-time applications.
-   
+7. Data rate in data communication depends on which of the following factors.
+
+A. The bandwidth available
+B. The level of the signals we use
+C. The quality of the channel
+D. All of the above
+ANSWER: D 
+
 8.What is Packet Switching?
    Shortcomings of message switching gave birth to an idea of packet switching. 
    The entire message is broken down into smaller chunks called packets. The switching 
@@ -139,6 +126,7 @@
 
 
 17.   What are the transmission modes in physical layer?
+
 Ans. Physical Layer defines the direction of transmission between two devices: Simplex, Half Duplex, Full Duplex.
 
 18.   What are the various networking Topologies?
@@ -488,3 +476,55 @@ Ans :- Physical Layer
 71. Which layer specifies voltage, wire speed, and pinout cables and moves bits between devices ?
 
 Ans :- Physical Layer
+
+72. The physical layer is responsible for?
+   Line Coding, Channel coding and modulation
+
+   
+73. What is switching and categories of Switching?
+  Switching is process to forward packets coming in from one port to a port leading towards the destination. 
+  When data comes on a port it is called ingress, and when data leaves a port or goes out it is called egress.
+  A communication system may include number of switches and nodes. At broad level, 
+  switching can be divided into two major categories:
+
+  1.Connectionless: The data is forwarded on behalf of forwarding tables. No previous handshaking is required 
+    and acknowledgements are optional.
+
+  2.Connection Oriented:  Before switching data to be forwarded to destination, there is a need to pre-establish 
+    circuit along the path between both endpoints. Data is then forwarded on that circuit. After the transfer is 
+    completed, circuits can be kept for future use or can be turned down immediately.
+
+74.What are the types of switching?
+   1.Circuit Switching
+   2.Message Switching
+   3.Packet Switching
+   
+75. What is Circuit Switching?
+   When two nodes communicate with each other over a dedicated communication path, it is called circuit 
+   switching.There 'is a need of pre-specified route from which data will travels and no other data is 
+   permitted.In circuit switching, to transfer the data, circuit must be established so that the data transfer can take place.
+   Circuits can be permanent or temporary. Applications which use circuit switching may have to go through three phases:
+
+   1.Establish a circuit
+   2.Transfer the data
+   3.Disconnect the circuit
+   
+   Circuit switching was designed for voice applications. Telephone is the best suitable example of 
+   circuit switching. Before a user can make a call, a virtual path between caller and callee is established over the network.
+   
+76. What is Message Switching?
+   This technique was somewhere in middle of circuit switching and packet switching. In message 
+   switching, the whole message is treated as a data unit and is switching / transferred in its entirety.
+   A switch working on message switching, first receives the whole message and buffers it until there are 
+   resources available to transfer it to the next hop. If the next hop is not having enough resource to 
+   accommodate large size message, the message is stored and switch waits.
+   
+   This technique was considered substitute to circuit switching. As in circuit switching the whole path 
+   is blocked for two entities only. Message switching is replaced by packet switching. 
+   Message switching has the following drawbacks:
+
+   1.Every switch in transit path needs enough storage to accommodate entire message.
+   2.Because of store-and-forward technique and waits included until resources are available, 
+     message switching is very slow.
+   3.Message switching was not a solution for streaming media and real-time applications.
+   
