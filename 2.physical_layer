@@ -1,9 +1,11 @@
 
+
 1. The physical layer concerns with?
    1.bit-by-bit delivery.
    2.Controls the transmission of the actual data onto the network cable. It defines the
    electrical signals, line states and encoding of the data and the connector types used. An example is
    10BaseT
+
 
 2. Which transmission media has the highest transmission speed in a network?
    optical fiber.
@@ -469,3 +471,12 @@ Following are unguided media used for data communication:
 ->data link layer
 
 
+13) What does Physical Layer mean?
+The physical layer is the first layer of the Open System Interconnection Model (OSI Model).The physical Layer deals with bit level
+      transmission.
+      
+14) List the services provided by the physical layer?
+    * Bit synchronization for synchronous serial communications.
+    * Bit interleaving to improve error correction.
+    * Auto-negotiation
+    * Transmission mode control.

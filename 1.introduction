@@ -147,6 +147,7 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
 
 
 6. Compare network topologies 
+
    BUS TOPOLOGY: The most widely used of these is bus, because it is employed by Ethernet, which is the dominant LAN architecture. In a bus topology all devices are connected to a central cable, called the bus or backbone. This topology is relatively inexpensive and easy to install for small networks. 
    RING TOPOLOGY:In a ring topology each device is connected directly to two other devices, one on either side of it, to form a closed loop. This topology is relatively expensive and difficult to install, but it offers high bandwidth and can span large distances. A variation is the token ring, in which signals travel in only one direction around the loop, carried by a so-called token from node to node. 
    STAR TOPOLOGY:In a star topology all devices are connected directly to a central computer or server. Such networks are relatively easy to install and manage, but bottlenecks can occur because all data must pass through the central device. 
@@ -155,6 +156,7 @@ Ans. A Network Topology is the arrangement with which computer systems or networ
 Bus, Star, Token ring, Ring, Mesh, Tree
 
     ------->             Parameters                 Bus                 Ring                     Star                     Mesh
+
                               
                     Network Performance      |   Small                 Small or Large           Small                      Small
                                                   
@@ -176,6 +178,12 @@ Bus, Star, Token ring, Ring, Mesh, Tree
     => The Internet carries an extensive range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and peer-to-peer networks for file sharing.
 
 
+
+8. Compare internet and world wide web. Also explain What is internetwork ?
+    Internet is the not a single network but a network of networks and the web is a distributed system that runs on top of the internet. 
+    A collection of interconnected networks is internet. Also known as a network of networks.
+    
+
     A collection of interconnected networks is internet. Also known as a network of networks.
 
     The internet is an informal term for the world-wide communication network of computers. It sends information quickly
@@ -184,8 +192,7 @@ Bus, Star, Token ring, Ring, Mesh, Tree
     The World Wide Web is one of its biggest services. It is used by a few billion people all over the world.
 
 
-8. What is internetwork ?
-Ans. Internetwork
+ Internetwork
 		A network of networks is called an internetwork, or simply the internet. It is the
 		largest network in existence on this planet. The internet hugely connects all WANs
 		and it can have connection to LANs and Home networks. Internet uses TCP/IP
@@ -214,6 +221,7 @@ Ans. Internetwork
 		h. Resource Sharing
 		i. Audio and Video Streaming
     
+
 
 9. Two devices are in network if
     a) a process in one device is able to exchange information with a process in another device
@@ -246,12 +254,11 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
         in its routing table such as paths, hops and bottlenecks. 
         With this info, they are able to determine the best path for data transfer. Routers operate at the OSI Network Layer.
 
-
-       
 14. Name the types of reference models.
     a)OSI Reference model (Open Systems interconnection).
     b)TCP/IP Reference model.
-    
+
+
 15. What is Packet switched networking?
     This technology involves breaking down the data into packets that would be transferred from one computer to the other
     until the final destination computer was reached. Also, if any data were lost, it would be resent.
@@ -278,7 +285,6 @@ Ans.    Routers can connect two or more network segments. These are intelligent 
     d). Sequencing
     e). Flow Control
     f). Segmentation
-
 
 20. Function of OSI Model?
 
@@ -483,3 +489,28 @@ Ans.In Star topology, all the components of network are connected to the central
 47. Importance of networking in modern world with a real life example?
 Ans. Uber uses networking to track the taxi which is near the customer which helps the taxi to reach the customer early and also helps the customer to track the taxi and taxi drivers and helps reducing crime
 
+    
+
+48. What are protocols?
+    Protocol is a standard used to define a method of exchanging data over a computer network.
+    For example : TCP, IP, UDP, POP, SMTP, HTTP, and FTP 
+    
+    17. Expand the acronym NIC.
+Ans. Network Interface Card
+
+49. Expand the acronym MAC.
+Ans. Media Access Control
+
+50. Expand the acronym LAN.
+Ans. Local Area Network
+
+
+51. What does 10Base-T mean?
+->The 10 refers to the data transfer rate, in this case is 10Mbps. The word Base refers to base band, as oppose to broad band. T means twisted pair, which is the cable used for that network.
+
+52. Expand the acronym WAN.
+Ans. Wide Area Network
+
+53. What is meant by RIP?
+->RIP short for Routing Information Protocol is used by routers to send data from one network to another.
+  It efficiently manages routing data by broadcasting its routing table to all other routers within the network.
