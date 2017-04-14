@@ -1,0 +1,388 @@
+
+
+1.The transport layer protocols used for real time multimedia, file transfer, DNS and email, respectively are:
+UDP, TCP, UDP and TCP
+
+2.Which of the following transport layer protocols is used to support electronic mail?
+TCP
+
+3.Which one of the following uses UDP as the transport protocol? 
+DNS
+
+4. Transport layer aggregates data from different applications into a single stream before passing it to
+Network layer
+
+5.Which one of the following is a transport layer protocol used in internet?
+TCP and UDP
+
+6.A _____ is a TCP name for a transport service access point. 
+Port
+
+7.Transport layer protocols deals with: 
+process to process communication
+
+8.Which one of the following is a transport layer protocol? 
+stream control transmission protocol
+
+9. What is trasnport layer?
+In the Open Systems Interconnection (OSI) communications model, the Transport layer ensures
+the reliable arrival of messages and provides error checking mechanisms and data flow controls.
+The Transport layer provides services for both "connection-mode" transmissions and for
+"connectionless-mode" transmissions. For connection-mode transmissions, a transmission
+may be sent or arrive in the form of packets that need to be reconstructed into a complete
+message at the other end.
+
+10.Transport layer protocols deals with?
+Process to process communication.
+
+
+11. Compare TCP & UDP
+    TCP:
+        Transmission Control Protocol
+        TCP is a connection-oriented protocol.
+        As a message makes its way across the internet from one computer to another. This is connection based.
+        Protocol Used: HTTP, HTTPs, FTP, SMTP, Telnet
+        The speed for TCP is slower than UDP.
+        TCP header size is 20 bytes
+    UDP:
+         	User Datagram Protocol or Universal Datagram Protocol
+          UDP is a connectionless protocol.
+          UDP is also a protocol used in message transport or transfer. This is not connection based 
+              which means that one program can send a load of packets to another and that would be the end of the relationship.
+          Protocol Used: DNS, DHCP, TFTP, SNMP, RIP, VOIP.
+          UDP Header size is 8 bytes.
+          
+12. What is the function of transport layer?  
+    OSI Model, Layer 4, provides transparent transfer of data between end systems, or hosts, and is responsible for 
+    end-to-end error recovery and flow control. It ensures complete data transfer.
+
+    Transport examples include SPX, TCP, UDP.
+    
+13.Which protocols operate at the transport layer?
+   There are five basic protocols for the Transport Layer
+    Transmission Control Protocol (TCP)
+    User Datagram Protocol (UDP)
+    Datagram Congestion Control Protocol (DCCP)
+    Stream Control Transmission Protocol (SCTP)
+    Resource Reservation Protocol (RSVP)
+
+    Transport examples include SPX, TCP, UDP
+    
+14. What is congestion?
+    Network congestion in data networking and queueing theory is the reduced quality of service that occurs when a network node is carrying more data than it can handle. Typical effects include queueing delay, packet loss or the blocking of new connections.
+
+15. Which layers do congestion control?
+    Transport layer and network layer
+
+16. What is Traffic Shaping?
+    Traffic shaping, also known as packet shaping, Quality of Service (QoS) or bandwidth management, is the manipulation and prioritization of network traffic to reduce the impact of heavy users or machines from effecting other users.
+
+17. What is Socket-style API for windows called?
+    winsock
+
+18. User datagram protocol is called connectionless because?
+    All UDP packets are treated independently by transport layer
+
+19. An endpoint of an inter-process communication flow across a computer network is called
+    Socket
+
+20. Socket-style API for windows is called
+    Winsock
+
+21.  Which protocol does DHCP use at the Transport layer?
+    a. 	IP
+    b. 	TCP
+    c. 	UDP
+    d. 	ARP
+Ans. c.
+
+22.  Two types of Connection Control?
+Ans.Connectionless Transport Layer : Each segment is considered as an independent packet and delivered to 
+    the transport layer at the destination machine.
+    Connection Oriented Transport Layer : Before delivering packets, connection is made with transport
+    layer at the destination machine.
+    
+23. What is DNS in application layer?
+
+Domain Name System (DNS) is one of the industry-standard suite of protocols that comprise TCP/IP. Microsoft Windows Server 2003. DNS is implemented using two software components: the DNS server and the DNS client (or resolver). Both components are run as background service applications.
+
+Network resources are identified by numeric IP addresses, but these IP addresses are difficult for network users to remember. The DNS database contains records that map user-friendly alphanumeric names for network resources to the IP address used by those resources for communication.
+
+24. What are the services of transport layer ?
+
+As layer four of the OSI model, the transport layer is responsible for providing communication services between computers on a network. 
+For example, as the data packets transit between the originating or sending computer and the destination or receiving computer, the 
+transport layer performs error checking and data packet routing services. Additionally, while working with the three lower and three 
+upper layers, the transport layer continues to provide services, even though different application software processes are running 
+simultaneously on multiple computers.
+
+
+25. What are the problems faced in stream of packet? How can we solve them?
+Ans. Problems
+        There can be problems such as: 
+        (i) the packets can go out of sequence, 
+        (ii) packets might get lost and never arrive,
+        (iii) they might arrive but be corrupt, and 
+        (iv) packets might arrive faster than the receiver can deal with them. 
+   
+    All of these are problems that must be solved by the transport (TCP) level software. The solution is
+    to require acknowledgement of receipt of the packets and to retransmit them if they are not acknowledged.
+    
+    The simplest solution is that the sender can only transmit the next packet when the previous one has been
+    acknowledged (ACK-ed):
+    Whenever a packet is sent a timer is started, if a timeout occurs before an acknowledgement is received
+    (which suggests a lost packet) the sender must re-transmit the last packet.
+    However this is very slow and wasteful, there might be several packets to send but they cannot be sent
+    until the ACK is returned, that means waiting for the full RTT (round trip time) for the packet to reach the
+    receiver and the ACK to get back.
+
+26. What is Packet “windows”?
+Ans. It is an improvement to the above mentioned solution. 
+     Which is to have a window of packets awaiting acknowledgement. Both ends will agree a window
+     size of n packets (for example n=3), this is the number of packets the sender can send without an
+     acknowledgement. In the following diagram the sender sends 3 packets but must then wait for an ACK for
+     packet 1 from the receiver. As soon as it gets the ACK it can continue to transmit packet 4.
+     
+                 SENDER                          RECEIVER
+            
+  i.             send 1
+            
+  ii.            send 2
+
+  iii.           send 3                         get 1. send ack 1
+           
+   iv.                                          get 2, send ack 2  
+        
+   v.          get ack 1, send 4                get 3, send ack 3
+
+   vi.         get ack 2, send 5
+
+  vii.         get ack 3, send 6                get 4, send ack 4
+               
+  viii.                                         get 5, send ack 5
+ 
+  ix.          get ack 4, send 7                get 6, send ack 6
+
+
+    The additional overheads of this are that the sender must keep all the packets sent but not yet acknowledged.
+    Packet windows also cope with out of sequence packets. This requires that the receiver will save packets
+    got ahead of the sequence number it expects and further that it doesn’t acknowledge until it has got all the
+    ones up to the current sequence number.
+
+27. What is End to end flow control?
+Ans. End to end flow control
+    If the receiving host on one connection cannot keep up with the rate of arrival of packets because it has
+    limited buffer space and its application isn’t consuming the data fast enough then it can ask the sender to
+    reduce the window size so it will not receive so much data, it can, if necessary, reduce the window to zero.
+    It does this by using the WINDOW field in ACK packets.
+
+28. Explain Network congestion.
+Ans. Network congestion and flow control are different things.
+    Sometimes Internet IP packet routers get overloaded and congested,
+    if that happens they will have to discard some packets. What could happen, if the sliding window packet
+    retransmission software is too simple, is that it will immediately respond by retransmitting all the lost
+    packets. This will make the congestion worse! All “good” implementations of TCP should respond more
+    gently—if packets timeout then the TCP sender will reduce the window size and delay before retransmitting,
+    if it still has timeouts it delay even longer. It will only start increasing the window size and cutting the delay
+    when it starts receiving acknowledgements again.
+
+29. Explain End-to-end communication.
+Ans. End-to-end communication: ports
+    TCP connections are between processes, IP datagrams are between hosts. Therefore the TCP layer must
+    support distributing the arriving datagrams to the appropriate server program. It uses port numbers, This
+    is not a process number because they are transitory and vary, it is a “conventional” number that selects a
+    service, there are fixed numbers for well known services like 21 for FTP, 80 for WWW and 23 for telnet.
+    Numbers below 1024 are reserved, higher numbers can be used by anybody (but might clash with existing
+    services, see the file /etc/services). A process that provides a service informs the system that it will accept
+    connections to a given port number. When a remote process tries to ask for a service on the machine it
+    must give the port number aswell as the address and the transport layer uses this to select which process to
+    connect to.
+    TCP must record for every connection which process is bound to a port. It uses a unique 4 tuple to
+    identify all connections:
+    < src-port, src-ipaddr, dst-port, dst-ipaddr >
+    a server port is obvious but the port of the client is not obvious, what TCP does is to create a unique port
+    number for every outgoing client connection. Consequently if one computer makes 2 telnet connections
+    to the same remote machine each connection will have a different 4-tuple to identify it.
+    
+30. The Internet Transport Protocols: UDP ?
+Ans:1. The Internet protocol suite supports a connectionless transport protocol, UDP (User Datagram Protocol). 
+    2. UDP transmits segments consisting of an 8byte header followed by the payload.
+    3. The source port is primarily needed when a reply must be sent back to the source. 
+    4. By copying the source port field from the incoming segment into the destination port field of the outgoing segment, 
+        the process sending the reply can specify which process on the sending machine is to get it. 
+    5. The UDP length field includes the 8-byte header and the data. The UDP checksum is optional and stored as 0 if not 
+        computed (a true computed 0 is stored as all 1s).
+        
+31.The Internet Transport Protocols: TCP ?
+Ans:1. The IP layer gives no guarantee that datagrams will be delivered properly, so it is up to TCP to time out 
+    and retransmit them as need be. 
+    2. Datagrams that do arrive may well do so in the wrong order; it is also up to TCP to reassemble them into messages 
+        in the proper sequence. 
+        
+        The TCP Service Model
+        1. TCP service is obtained by both the sender and receiver creating end points, called sockets. 
+        2. Each socket has a socket number (address) consisting of the IP address of the host and a 16-bit number local to that host, 
+            called a port. A port is the TCP name for a TSAP (Transport Service Access Point)
+        3. A socket may be used for multiple connections at the same time. ( i.e, two or more connections may terminate at the same 
+            socket. ) 
+        4. Connections are identified by the socket identifiers at both ends, that is, (socket1, socket2). 
+        5. Port numbers below 1024 are called wellknown ports and are reserved for standard services.
+        
+         UNIX based architectures use inetd (Internet daemon) as a single daemon instead of running multiple daemons 
+         and wasting the resources. 
+         For example if there is a web server, mail server and ftp server running three daemons, each will 
+         consume more resource. Assuming mail and ftp is lightly loaded it makes sense to execute three server 
+         daemons when required. Inetd does this.All TCP connections are full duplex and point-topoint. Full duplex means 
+         that traffic can go in both directions at the same time. 
+         Point-to-point means that each connection has exactly two end points. 
+         TCP does not support multicasting or broadcasting. A TCP connection is a byte stream, not a message stream. Message 
+         boundaries are not preserved end to end.For example, if the sending process does four 512byte writes to a TCP stream, 
+         these data may be delivered to the receiving process as four 512-byte chunks, two 1024-byte chunks, 
+         one 2048-byte chunk or some other way. There is no way for the receiver to detect the hoe many chunks of data 
+         was written by sender. When an application passes data to TCP, TCP may send it immediately or buffer it (in order to collect a 
+         larger amount to send at once), at its discretion.However, sometimes, the application really wants the data to be sent immediately. 
+         For example, suppose a user is logged into a remote machine. After a command line has been finished and the carriage return typed, 
+         it is essential that the line be shipped off to the remote machine immediately and not buffered until the next line comes in. 
+         To force data out, applications can use the PUSH flag, which tells TCP not to delay the transmission.
+         When an application passes data to TCP, TCP may send it immediately or buffer it (in order to collect a larger amount to send 
+         at once), at its discretion.However, sometimes, the application really wants the data to be sent immediately. 
+         For example, suppose a user is logged into a remote machine. After a command line has been finished and the carriage return 
+         typed, it is essential that the line be shipped off to the remote machine immediately and not buffered until the next line 
+         comes in.To force data out, applications can use the PUSH flag, which tells TCP not to delay the transmission.
+         When an interactive user hits the DEL or CTRL-C key to break off a remote computation that has already begun, the sending       
+         application puts some control information in the data stream and gives it to TCP along with the URGENT flag.
+         This event causes TCP to stop accumulating data and transmit everything it has for that connection immediately.
+
+32.What are the TCP Congestion Control?
+Ans:Two potential problems exist, which cause congestion: 
+   1.Network capacity 
+   2.Receiver capacity
+
+    1.When a connection is established, the sender initializes the congestion window to the size of the 1 maximum segment (1MSS). 
+        It then sends one maximum segment. 
+    2.If this segment is acknowledged before the timer goes off, it doubles the congestion window and transmits double the number of MSS. 
+    3.The congestion window keeps growing exponentially until either a timeout occurs or the receiver's window is reached. 
+        This region of exponential rise is called as slow start. Once the limit of congestion window threshhold is reached the 
+        algorithm enter the phase of linear growth. Now the congestion window is increased 1 MSS at a time. This continues to 
+        increase linearly till the timeout occurs. Once the timeout occurs the congestion window threshold is halved, and the 
+        system again begins in slow start phase.
+        
+33.TCP Timer Management?
+Ans:Retransmission timer 
+    When a segment is sent, a retransmission timer is started. 
+    If the segment is acknowledged before the timer expires, the timer is stopped. 
+    If, on the other hand, the timer goes off before the acknowledgement comes in, the segment is retransmitted (and the timer started 
+    again). 
+    For each connection, TCP maintains a variable, RTT, that is the best current estimate of the round-trip time to the destination 
+    in question.
+    When a segment is sent, a timer is started, both to see how long the acknowledgement takes and to trigger a retransmission 
+    if it takes too long. 
+    If the acknowledgement gets back before the timer expires, TCP measures how long the acknowledgement took, say, M. It then 
+    updates RTT according to the formula
+
+    A second timer is the persistence timer. 
+    The receiver sends an acknowledgement with a window size of 0, telling the sender to wait. 
+    Later, the receiver updates the window, but the packet with the update is lost.
+    Now both the sender and the receiver are waiting for each other to do something. 
+    When the persistence timer goes off, the sender transmits a probe to the receiver. 
+    The response to the probe gives the window size. If it is still zero, the persistence timer is set again and the cycle repeats. 
+    If it is nonzero, data can now be sent.
+
+    A third timer is the keepalive timer. 
+    When a connection has been idle for a long time, the keepalive timer may go off to cause one side to check whether the other 
+    side is still there. 
+    If it fails to respond, the connection is terminated.
+
+    The last timer used on each TCP connection is the closing timer. 
+    It runs for twice the maximum packet lifetime to make sure that when a connection is closed, all packets created by 
+    it have died off.
+
+34.Where and why would we use the TCP?
+Ans:1.Its primary job is to get data from one location to another, regardless of the physical network and location.
+    2.TCP offers an extremely reliable and robust method of transferring data, ensuring that the data being transferred does 
+    not become corrupt in any way.
+    3.Some common protocols that use TCP are: FTP, Telnet, HTTP, HTTPS, DNS, SMTP and POP3.
+    
+35.Main Features of TCP?
+Ans:a.Reliable Transport
+    b.Connection-Oriented
+    c.Flow Control
+    d.Windowing
+    e.Acknowledgements
+    f.More overhead
+    
+36.Why TCP is Reliable?
+Ans:It's a reliable transport because of the different techniques it uses to ensure that the data received is error free.
+
+37.What is Windowing?
+Ans:Data throughput, or transfer efficiency, would be low if the transmitting machine had to wait for an acknowledgment after 
+    sending each packet of data.
+    Windowing controls how much information is transferred from one end to the other. While some protocols quantify 
+    information by observing the number of packets, here TCP/IP protocol measures it by counting the number of bytes.
+
+38. What are services provided by transport layer?
+
+ANS.
+Transport layer services are conveyed to an application via a programming interface to the transport layer protocols. The services may include the following features:
+
+Connection-oriented communication: It is normally easier for an application to interpret a connection as a data stream rather than having to deal with the underlying connection-less models, such as the datagram model of the User Datagram Protocol (UDP) and of the Internet Protocol (IP).
+
+Same order delivery: The network layer doesn't generally guarantee that packets of data will arrive in the same order that they were sent, but often this is a desirable feature. This is usually done through the use of segment numbering, with the receiver passing them to the application in order. This can cause head-of-line blocking.
+
+Reliability: Packets may be lost during transport due to network congestion and errors. By means of an error detection code, such as a checksum, the transport protocol may check that the data is not corrupted, and verify correct receipt by sending an ACK or NACK message to the sender. Automatic repeat request schemes may be used to retransmit lost or corrupted data.
+
+Flow control: The rate of data transmission between two nodes must sometimes be managed to prevent a fast sender from transmitting more data than can be supported by the receiving data buffer, causing a buffer overrun. This can also be used to improve efficiency by reducing buffer underrun.
+
+Congestion avoidance: Congestion control can control traffic entry into a telecommunications network, so as to avoid congestive collapse by attempting to avoid oversubscription of any of the processing or link capabilities of the intermediate nodes and networks and taking resource reducing steps, such as reducing the rate of sending packets. For example, automatic repeat requests may keep the network in a congested state; this situation can be avoided by adding congestion avoidance to the flow control, including slow-start. This keeps the bandwidth consumption at a low level in the beginning of the transmission, or after packet retransmission.
+
+Multiplexing: Ports can provide multiple endpoints on a single node. For example, the name on a postal address is a kind of multiplexing, and distinguishes between different recipients of the same location. Computer applications will each listen for information on their own ports, which enables the use of more than one network service at the same time. It is part of the transport layer in the TCP/IP model, but of the session layer in the OSI model.
+
+39. In transport layer, a message is normally divided into transmittable
+
+A. Segments
+B. Signals
+C. Networks
+D. Paths
+ANSWER: A
+
+40. Transport layer may be responsible for flow and error Control, like the
+
+A. IP Link Layer
+B. Data Link Layer
+C. Subnet Layer
+D. Linear Layer
+ANSWER: B
+
+41.Each segment as an independent packet and delivers it to transport layer at destination machine is called
+
+A. Connection Oriented
+B. connectionless
+C. Segmentation
+D. Reassembly
+ANSWER: B
+
+42. Which mechanism/s is/are extremely essential in data link and transport layers in accordance to operational services offered by the transport protocols?
+
+A. Buffering
+B. Flow Control
+C. Both a & b
+D. None of the above
+ANSWER: C
+
+43.what is the efficiency of network layer when natural calamities like earthquake,floods...etc comes? 
+
+44. In which layer does socket programming takes place?
+A. Socket programming takes place in Transport layer mostly but you can use the socket API to access layer 2 and 3 if you're privileged, but that's not done outside of research.
+
+
+45. What are the functions of the transport layer?
+Ans. The transport layer is responsible for delivering data to the appropriate application process on the host computers. This involves statistical multiplexing of data from different application processes, i.e. forming data packets, and adding source and destination port numbers in the header of each transport layer data packet.
+
+46. What are the protocols that work on transport layer ?
+Ans.  Transmission Control Protocol (TCP)
+User Datagram Protocol (UDP)
+Datagram Congestion Control Protocol (DCCP)
+Stream Control Transmission Protocol (SCTP)
+Resource Reservation Protocol (RSVP)
+
+
