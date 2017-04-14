@@ -1,6 +1,5 @@
 
 
-
 1. What are the functios of network layer?
     routing, inter-networking, congestion control
 
@@ -13,34 +12,13 @@
 4.  Which are the routing algorithm can be used for network layer design?    
      shortest path algorithm, distance vector routing, link state routing
 
-5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
-Flooding 
 
-
-6.What are the responsibilities of Network Layer?
-Routing, IP Addressing and Path determination are the main responsibilities of Network Layer.
-
-7.Which layer provides logical addressing that routers will use for path determination ?
-Network Layer
-
-8.Which Layer manages device addressing, tracks the location of devices on the network, and determine the best way to move data ?
-Network layer
-
-9.At which layer is routing implemented, enabling connections and path selection between two end systems. ?
-Network Layer
-
-10.What is the number of network IDs in a Class C network?
-A.
-For a Class C network, the number of usable Network ID bits is 21.
-The number of possible network IDs is 2 raised to 21 or 2,097,152. 
-The number of host IDs per network ID is 2 raised to 8 minus 2, or 254.
-=======
-   Flooding 
+5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives
+Ans. Flooding
 
 
 6. Why is User datagram protocol called connectionless?
-Because, all UDP packets are treated independently by transport layer. 
-
+Because, all UDP packets are treated independently 
 
 7.What are network layer design issues?
 -Store-and-Forward Packet Switching
@@ -564,5 +542,48 @@ Ans.  Unicast (destined to one host)
       Multicast (destined to group) 
       Broadcast (destined to all)
       Anycast (destined to nearest one)
+      
+      
+65. Why do we need network layer ?
+Ans. This layer is responsible for the addressing the nodes in logical manner . It helps in making the decisions on routing the packets from
+one network to another.
 
+66. How many hosts are possible for Class A,B and C .
+Ans. Class A: (2^24)-2
+Class B: (2^16)-2
+Class C: (2^8)-2
+
+67. How many networks are possible for Class A,B and C .
+Ans. Class A: (2^7)-2
+Class B: (2^14)-2
+Class C: (2^21)-2
+
+68. Default subnet mask in Class A,B,C,D.
+Ans.Class A : 255.0.0.0
+Class B : 255.255.0.0
+Class C : 255.255.255.0
+Class D : 255.255.255.255
+
+
+69. What is the protocol data unit of the Network Layer ?
+
+70. What protocols work on the network layer ?
+
+71. What are the responsibilities of Network Layer?
+Routing, IP Addressing and Path determination are the main responsibilities of Network Layer.
+
+72. Which layer provides logical addressing that routers will use for path determination ?
+Network Layer
+
+73. Which Layer manages device addressing, tracks the location of devices on the network, and determine the best way to move data ?
+Network layer
+
+74. At which layer is routing implemented, enabling connections and path selection between two end systems. ?
+Network Layer
+
+75. What is the number of network IDs in a Class C network?
+A.
+For a Class C network, the number of usable Network ID bits is 21.
+The number of possible network IDs is 2 raised to 21 or 2,097,152. 
+The number of host IDs per network ID is 2 raised to 8 minus 2, or 254.
 
