@@ -16,6 +16,7 @@
 5. Which is a static algorithm in which every incoming packet is sent out on every outgoing line except the one it arrives on.
 Flooding 
 
+
 6.What are the responsibilities of Network Layer?
 Routing, IP Addressing and Path determination are the main responsibilities of Network Layer.
 
@@ -548,4 +549,20 @@ Ans. IP works with the help of several control protocols:
     • DHCP assigns a local IP address to a host
         − Gets host started by automatically configuring it
         − Host sends request to server, which grants a lease
+
+
+63. Functions of a network layer
+Ans.  It translates logical network address into physical address. Concerned with circuit, message or packet switching.
+      Routers and gateways operate in the network layer. Mechanism is provided by Network Layer for routing the packets to 
+      final destination.
+      Connection services are provided including network layer flow control, network layer error control and packet 
+      sequence control.
+      Breaks larger packets into small packets.
+      
+64. What are the different types on network addresses
+Ans.  Unicast (destined to one host)
+      Multicast (destined to group) 
+      Broadcast (destined to all)
+      Anycast (destined to nearest one)
+
 
