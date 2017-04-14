@@ -414,26 +414,119 @@ Connectionless  :
 ->Forwarding  is  about  moving  a  packet  from  a  router’s  input  link  to  the 
 appropriate output link. Routing is about determiningthe end to routes between sources  and destination.
 
-8. What are routers?
+50. What are routers?
 ->Routers can connect two or more network segments. These are intelligent network devices that store information in its 
 routing table such as paths, hops and bottlenecks. With this info, they are able to determine the best path for data transfer. 
 Routers operate at the OSI Network Layer.
 
-9) What is subnet mask?
+51. What is subnet mask?
 -> A subnet mask is combined with an IP address in order to identify two parts: the extended network address and the host 
 address. Like an IP address, a subnet mask is made up of 32 bits.
 
-10) What is the maximum length allowed for a UTP cable?
+52) What is the maximum length allowed for a UTP cable?
 -> A single segment of UTP cable has an allowable length of 90 to 100 meters. This limitation can be overcome by using
 repeaters and switches.
 
-11)What are MAC addresses?
+53)What are MAC addresses?
 -> MAC, or Media Access Control, uniquely identifies a device on the network.It is also known as physical address or 
 Ethernet address. A MAC address is made up of 6-byte parts.
 
-12) What are gateways?
+54) What are gateways?
 -> Gateways provide connectivity between two or more network segments. It is usually a computer that runs the gateway software and provides translation services. 
 This translation is a key in allowing different systems to communicate on the network.
 
-13. Header of datagram in IPv4 has
+55. Header of datagram in IPv4 has
 ->20 to 60 bytes
+
+56. What are the Network layer functionalities?
+Ans. Devices which work on Network Layer mainly focus on routing. Routing may include
+    various tasks aimed to achieve a single goal. These can be:
+        i. Addressing devices and networks.
+        ii. Populating routing tables or static routes.
+        iii. Queuing incoming and outgoing data and then forwarding them according to
+             quality of service constraints set for those packets.
+        iv. Internetworking between two different subnets.
+        v. Delivering packets to destination with best efforts.
+        vi. Provides connection oriented and connection less mechanism.
+
+57. List the features of the Network Layer.
+Ans. Network Layer Features
+    With its standard functionalities, Layer 3 can provide various features as:
+        i. Quality of service management
+        ii. Load balancing and link management
+        iii. Security
+        iv. Interrelation of different protocols and subnets with different schema.
+        v. Different logical network design over the physical network design.
+        vi. L3 VPN and tunnels can be used to provide end to end dedicated connectivity.
+
+58. Explain Different types of switching in Network Layer.
+Ans. Switching Via Memory
+        First generation routers:
+        i. traditional computers with switching under direct
+            control of CPU
+        ii.packet copied to system’s memory
+        iii. speed limited by memory bandwidth (2 bus
+            crossings per datagram)
+
+     Switching Via a Bus
+        i. datagram from input port memory
+             to output port memory via a shared bus
+        ii. bus contention: switching speed
+            limited by bus bandwidth
+        iii. 1 Gbps bus, Cisco 1900: sufficient
+             speed for access and enterprise
+             routers (not regional or backbone)
+   
+     Switching Via An Interconnection Network
+        i. overcome bus bandwidth limitations
+        ii. Banyan networks, other interconnection nets
+            initially developed to connect processors in
+            multiprocessor
+        iii. Advanced design: fragmenting datagram into fixed
+            length cells, switch cells through the fabric.
+        iv. Cisco 12000: switches Gbps through the
+            interconnection network
+
+59. What is flooding?
+Ans. Flooding is a simple method to send a packet to all network nodes
+        Each node floods a new packet received on an
+        incoming link by sending it out all of the other links
+        Nodes need to keep track of flooded packets to stop the
+        flood; even using a hop limit can blow up exponentially
+
+60. What is Broadcast Routing?
+Ans. Broadcast Routing-
+    Broadcast sends a packet to all nodes
+    • RPF (Reverse Path Forwarding): send broadcast
+      received on the link to the source out all remaining links
+    • Alternatively, can build and use sink trees at all nodes
+    
+61. Write a note on IPv6
+Ans. Major upgrade in the 1990s due to impending address
+       exhaustion, with various other goals:
+        − Support billions of hosts
+        − Reduce routing table size
+        − Simplify protocol
+        − Better security
+        − Attention to type of service
+        − Aid multicasting
+        − Roaming host without changing address
+        − Allow future protocol evolution
+        − Permit coexistence of old, new protocols, …
+    Deployment has been slow & painful, but may pick up
+    pace now that addresses are all but exhausted
+    IPv6 protocol header has much longer addresses (128
+    vs. 32 bits) and is simpler (by using extension headers)
+    
+62. What are Internet Control Protocols?
+Ans. IP works with the help of several control protocols:
+    • ICMP is a companion to IP that returns error info
+        − Required, and used in many ways, e.g., for traceroute
+    • ARP finds Ethernet address of a local IP address
+        − Glue that is needed to send any IP packets
+        − Host queries an address and the owner replies
+    • DHCP assigns a local IP address to a host
+        − Gets host started by automatically configuring it
+        − Host sends request to server, which grants a lease
+    
+    
