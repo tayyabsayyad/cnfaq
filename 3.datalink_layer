@@ -169,6 +169,7 @@ media access control sublayer
 synchronization bytes, addresses, frame identifier.
 
 
+
 16. Which among the following represents the objectives/requirements of Data Link Layer?
 Frame Synchronization
 Error & Flow Control
@@ -285,4 +286,31 @@ Often, frames of several different sizes are nested inside each other. For examp
 
 
 
+30.What are the error control mechanism?
+1.error detection
+2.error correction
+
+31.Which layer provides the physical transmission sof the data and handless error notification, network topology, and flow control ?
+ -> Data Link Layer
+ 
+ 6.Which layer combines bits into bytes and bytes into frames, uses MAC addressing, and provide error detection ?
+-> Data Link Layer
+
+32.What is the purpose of the Data Link?
+Data Link Layer is responsible for Framing, Error Detection and Physical Addressing
+
+33.What is the role of the LLC sublayer in datalink layer?
+Logical Link Control provides error detection, using Ethernet trailer field frame check sequence (FCS).
+
+34.What are the responsibilities of Data Link Layer?
+Framing, Error detection, CRC and Physical Addressing is the task of DLL.
+
+35.List the major functions of the data link layer
+Ans.
+The major functions of the data link layer are:
+Packetizing
+Flow Control
+Addressing
+Error Control
+Media Access Control
 
