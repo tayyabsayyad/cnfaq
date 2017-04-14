@@ -471,12 +471,20 @@ Following are unguided media used for data communication:
 ->data link layer
 
 
-13) What does Physical Layer mean?
+68. What does Physical Layer mean?
 The physical layer is the first layer of the Open System Interconnection Model (OSI Model).The physical Layer deals with bit level
       transmission.
       
-14) List the services provided by the physical layer?
+69. List the services provided by the physical layer?
     * Bit synchronization for synchronous serial communications.
     * Bit interleaving to improve error correction.
     * Auto-negotiation
     * Transmission mode control.
+
+70. Which layer is responsible for converting data packets from the Data Link layer into electrical signals ?
+
+Ans :- Physical Layer
+
+71. Which layer specifies voltage, wire speed, and pinout cables and moves bits between devices ?
+
+Ans :- Physical Layer
