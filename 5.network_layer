@@ -586,4 +586,64 @@ A.
 For a Class C network, the number of usable Network ID bits is 21.
 The number of possible network IDs is 2 raised to 21 or 2,097,152. 
 The number of host IDs per network ID is 2 raised to 8 minus 2, or 254.
+76.	The network layer concerns with
+a) bits
+b) frames
+c) packets
+d) none of the mentioned
+Answer:c
+77.	Which one of the following is not a function of network layer?
+a) routing
+b) inter-networking
+c) congestion control
+d) none of the mentioned
+Answer:d
+78.	The 4 byte IP address consists of
+a) network address
+b) host address
+c) both (a) and (b)
+d) none of the mentioned
+Answer:c
+79.	In virtual circuit network each packet contains
+a) full source and destination address
+b) a short VC number
+c) both (a) and (b)
+d) none of the mentioned
+Answer:b
+80.	Which one of the following routing algorithm can be used for network layer design?
+a) shortest path algorithm
+b) distance vector routing
+c) link state routing
+d) all of the mentioned
+Answer:d
+81.	Multidestination routing
+a) is same as broadcast routing
+b) contains the list of all destinations
+c) data is not sent by packets
+d) none of the mentioned
+Answer:c
+82.	A subset of a network that includes all the routers but contains no loops is called
+a) spanning tree
+b) spider structure
+c) spider tree
+d) none of the mentioned
+Answer:a
+83.	Which one of the following algorithm is not used for congestion control?
+a) traffic aware routing
+b) admission control
+c) load shedding
+d) none of the mentioned
+Answer:d
+84.	The network layer protocol of internet is
+a) ethernet
+b) internet protocol
+c) hypertext transfer protocol
+d) none of the mentioned
+Answer:b
+85.	ICMP is primarily used for
+a) error and diagnostic functions
+b) addressing
+c) forwarding
+d) none of the mentioned
+Answer:a
 
