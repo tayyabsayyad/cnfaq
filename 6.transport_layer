@@ -385,4 +385,222 @@ Datagram Congestion Control Protocol (DCCP)
 Stream Control Transmission Protocol (SCTP)
 Resource Reservation Protocol (RSVP)
 
+47) TCP is a .......... protocol.
+
+A. stream-oriented 
+
+B. message-oriented
+
+C. block-oriented
+
+D. packet-oriented 
+ANSWER:A
+
+48) Which of the following is not the layer of TCP/IP protocol.
+
+A. Physical layer
+
+B. link layer
+
+C. network layer
+
+D. transport layer.
+ANSWER:A
+
+49) TCP groups a number of bytes together into a packet called a ....
+
+A. user datagram
+
+B. segment
+
+C. datagram
+
+D. packet
+ANSWER:B
+
+50) The .......... of TCP/IP protocol is responsible for figuring out how to get data to its destination.
+
+A. application layer
+
+B. link layer
+
+C. network layer
+
+D. transport layer.
+ANSWER:C
+
+51) TCP is a(n) ........... transport protocol.
+
+A. protocol delivery
+B. reliable
+
+C. best-effort delivery
+
+D. effortless delivery
+ANSWER:B
+
+52) ......... is the protocol that hides the underlying physical network by creating a virtual network view.
+
+A. Internet Protocol(IP)
+
+B. Internet Control Message Protocol(ICMP)
+
+C. Address Resolution Protocol(ARP)
+
+D. Bootstrap Protocol(BOOTP)
+ANSWER:A
+
+53) To use the services of UDP, we need ......... socket addresses. 
+
+A. four
+
+B. two
+
+C. three
+
+D. four
+ANSWER:B
+
+54) Which of the following is not the name of Regional Internet Registries(RIR) to administer the network number portion of IP address.
+
+A. American Registry for Internet Numbers(ARIN)
+
+B. Reseaux IP Europeans(RIPE)
+
+C. Europeans Registry for Internet Numbers(ERIN)
+
+D. Asia Pacific Network Information Center(APNIC)
+ANSWER:C
+
+55) UDP packets are called .......
+
+A. user datagrams
+
+B. segments
+
+C. frames
+
+D. packets
+ANSWER:A
+
+56) ............ addresses use 21 bits for the and 8 bits for the portion of the IP address for TCP/IP network.
+
+A. Class A
+
+B. Class B
+
+C. Class C
+
+D. Class D
+
+ANSWER:C
+57) UDP packets have fixed-size header of .......... bytes.
+
+A. 16
+
+B. 8
+
+C. 32
+
+D. 64
+ANSWER:B
+
+58) .......... messages are never sent in response to datagrams with a broadcast or a multicast destination address.
+
+A. ICMP
+
+B. ARP
+
+C. IP
+
+D. BOOTP
+ANSWER:A
+
+59) TCP assigns a sequence number to each segment that is being sent. The sequence number for each segment is number of the ....... byte carried in that segment.
+
+A. first
+
+B. last
+
+C. middle
+
+D. zero
+ANSWER:A
+
+60) .......... is responsible for converting the higher level protocol address (IP addresses) to physical network addresses.
+
+A. Internet Protocol(IP)
+
+B. Internet Control Message Protocol(ICMP)
+
+C. Address Resolution Protocol(ARP)
+
+D. Bootstrap Protocol(BOOTP)
+ANSWER:C
+
+61) UDP and TCP are both ......... layer protocols.
+
+A. data link
+
+B. network
+
+C. transport
+
+D. interface
+ANSWER:C
+
+62) ........... is a process-to-process protocol that adds only port addresses, checksum error control, and length information to the data from upper layer.
+
+A. TCP
+
+B. UDP
+
+C. IP
+
+D. ARP
+ANSWER:B
+
+63) Which of the following functions does UDP perform?
+
+A. Process-to-process communication
+
+B. Host-to-host communication
+
+C. End-to-end reliable data delivery
+
+D. Interface-to-interface communication.
+ANSWER:A
+
+64) A port address in TCP/IP is .........bits long.
+
+A. 32
+
+B. 48
+
+C. 16
+
+D. 64
+ANSWER:C
+
+65) When the IP layer of a receiving host receives a datagram, .....
+
+A. delivery is complete
+
+B. a transport layer protocol takes over
+
+C. a header is added 
+
+D. a session layer protocol takes over
+ANSWER:B
+
+66) TCP/IP is a .......... hierarchical protocol suite developed before the OSI model.
+
+A. seven-layer
+
+B. five-layer
+
+C. six-layer
+
+D. four-layer
+ANSWER:B
 
