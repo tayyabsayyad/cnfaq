@@ -559,3 +559,42 @@ a. Number of Users
 b. Type of transmission medium
 c. Hardware
 d. Software
+
+62. Explain Virtual LAN technology.
+Ans. LAN uses Ethernet which in turn works on shared media. Shared media in Ethernet
+	create one single Broadcast domain and one single Collision domain. Introduction of
+	switches to Ethernet has removed single collision domain issue and each device
+	connected to switch works in its separate collision domain. But even Switches cannot
+	divide a network into separate Broadcast domains.
+
+	Virtual LAN
+	Virtual LAN is a solution to divide a single Broadcast domain into multiple Broadcast
+	domains. Host in one VLAN cannot speak to a host in another. By default, all hosts
+	are placed into the same VLAN.
+	Hosts in one VLAN, even if connected on the same Switch cannot see or speak to other hosts in
+	different VLANs. VLAN is Layer-2 technology which works closely on Ethernet. To
+	route packets between two different VLANs, a Layer-3 device such as Router is
+	required.
+	
+63. Which is the current Internet Model being used? Explain the layers in it.
+Ans. Internet uses TCP/IP protocol suite, also known as Internet suite. This defines
+	Internet Model which contains four layered architecture. OSI Model is general
+	communication model but Internet Model is what the internet uses for all its
+	communication. The internet is independent of its underlying network architecture so
+	is its Model. This model has the following layers:
+	
+	Application Layer: This layer defines the protocol which enables user to
+	interact with the network. For example, FTP, HTTP etc.
+
+	Transport Layer: This layer defines how data should flow between hosts.
+	Major protocol at this layer is Transmission Control Protocol (TCP). This layer
+	ensures data delivered between hosts is in-order and is responsible for endto-end
+	delivery.
+
+	Internet Layer: Internet Protocol (IP) works on this layer. This layer
+	facilitates host addressing and recognition. This layer defines routing.
+
+	Link Layer: This layer provides mechanism of sending and receiving actual
+	data. Unlike its OSI Model counterpart, this layer is independent of underlying
+	network architecture and hardware.
+	
